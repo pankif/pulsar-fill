@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "checked_at": "2026-10-31T13:43:20.305779+00:00",
+  "tests_run": 26,
+  "tests_passed": 25,
+  "tests_skipped": 1,
+  "tests_failed": 0,
+  "skipped_reason": "Private local workbook is not part of the repository",
+  "test_platform": "macOS arm64, Python 3.12.14",
+  "fixtures": "synthetic only",
+  "real_meter_network_access": false,
+  "hardware_write_verified": false,
+  "executed_on_windows": false
+}

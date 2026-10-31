@@ -1,0 +1,10 @@
+# Сохраняем исходные байты и контрольные суммы комплектов на Windows и macOS.
+* -text
+*.exe binary
+*.dll binary
+*.pyd binary
+*.zip binary
+*.cat binary
+*.png binary
+*.gif binary
+*.ico binary

@@ -1,0 +1,35 @@
+# Локальное окружение и временные результаты.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+work/
+*.log
+
+# Данные объекта не публикуются.
+local/
+private/
+inputs/
+plans/
+reports/
+Reports/
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+plan.json
+*-plan.json
+events.jsonl
+results.json
+run.json
+pilot-read-capture.json
+
+# Секреты и локальная авторизация.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
