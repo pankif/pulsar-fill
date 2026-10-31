@@ -1,0 +1,17 @@
+.<Module>: 
+TestAll_Terminal.fmTerminal: GlobalLog, .ctor, TestLicens, GetSVNRevision, dataGridView1_CellContentClick, ViewConnectStatus, FillJournalsGrid, CreateDTable, PrepeaDTable, GetByteCounterString, ViewSendByte, ViewResivByte, ResultReadArhiv, ResultReadJournal, ResultReadCurrent, ResultWriteCurrent, bConnect_Click, bDisconnect_Click, RefreshPropertyconnect, CancelConnect_Click, cBTypeDevice_SelectedIndexChanged, cBTypeArhiv_SelectedIndexChanged, PrepeaParamVals, PrepeaParamArhVals, PrepareParamJournalsVals, bReadConfig_Click, bReadCurrent_Click, bWriteCurrent_Click, bWriteConfig_Click, bReadArhiv_Click, RepaintPinPanel, SetConnectingEnebled, SetReadedEnabled, bStopRead_Click, dGVCurrentData_ColumnHeaderMouseDoubleClick, dGVConfig_ColumnHeaderMouseDoubleClick, dGVArhivParametr_ColumnHeaderMouseDoubleClick, ReportResult_TextChanged, SaveItemLbLog_Click, очиститьToolStripMenuItem_Click, MenuItemCopyLog_Click, MenuItemClearRep_Click, MenuItemSaveRep_Click, MenuItemCopyRepToClipb_Click, bGetAdress_Click, GetTypePulsar, CheckNetAddress, bGetTypePulsar_Click, dGVConfig_CellContentDoubleClick, dGVConfig_KeyDown, bReadLists_Click, ViewRemouteDevs, ViewRemouteDevs, button1_Click, dGVWMBus_ColumnHeaderMouseDoubleClick, breadOneList_Click, tab_SelectedIndexChanged, bResetBD_Click, dgvWMBaseReg_ColumnHeaderMouseDoubleClick, btnWmBusReadReg_Click, bReadArhivWMBUS_Click, bStartTimeCorrect_Click, bStop_Click, runGcButton_Click, rawSendValue_KeyUp, rawSendMode_CheckedChanged, pinCarrier_Paint, refreshPinTimer_Tick, btnReadDriverInfo_Click, btnReadJrnl_Click, JournalsGrid_ColumnHeaderMouseDoubleClick, SaveConnectionSettings, LoadConnectionSettings, fmTerminal_FormClosing, configGrid_EditingControlShowing, configGrid_CellFormatting, configGrid_RowsAdded, Dispose, InitializeComponent, <.ctor>b__30_0, <SetConnectingEnebled>b__68_0
+TestAll_Terminal.ArhivInfo: .ctor, get_NameArhiv, set_NameArhiv, get_ArhivNumbe, set_ArhivNumbe, ToString
+TestAll_Terminal.TestAllStartArgs: .ctor, get_ComPort, get_ComSpeed, get_ComStopBits, get_ComParity, get_ComDataBits, get_DeviceID, get_DeviceAddress, get_AutoConnect, get_ArchiveID
+TestAll_Terminal.Program: Main
+TestAll_Terminal.Properties.Settings: get_Default, .ctor, .cctor
+PlatformTools.TvhStartArgs: .ctor, get_Item, SafeGetInt, SafeGetBool
+PlatformTools.TvhApplication: .ctor
+.PinInfo: .ctor
+.Constants: .ctor
+.<>c__DisplayClass102_0: .ctor, <rawSendValue_KeyUp>b__0, <rawSendValue_KeyUp>b__1, <rawSendValue_KeyUp>b__2, <rawSendValue_KeyUp>b__3
+.<>c__DisplayClass102_1: .ctor, <rawSendValue_KeyUp>b__4
+.<>c__DisplayClass44_0: .ctor, <PrepeaDTable>b__0
+.<>c__DisplayClass68_0: .ctor, <SetConnectingEnebled>b__1
+.<>c__DisplayClass87_0: .ctor, <bReadLists_Click>b__0
+.<>c__DisplayClass97_0: .ctor, <btnWmBusReadReg_Click>b__0, <btnWmBusReadReg_Click>b__1, <btnWmBusReadReg_Click>b__2
+.<>c__DisplayClass98_0: .ctor, <bReadArhivWMBUS_Click>b__0, <bReadArhivWMBUS_Click>b__1, <bReadArhivWMBUS_Click>b__2

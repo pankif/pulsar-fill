@@ -1,0 +1,161 @@
+.<Module>: .cctor, f0659e5905454a5e99b9752afc78b700
+.: , , 
+. : 
+. : 
+.: 
+.: .ctor, ​   , ​   , ​   , ​   , ​   , ​   , ​   
+. : 
+.: 
+.: 
+.: 
+. : .cctor, , , , 
+.: .ctor, , 
+. : .ctor, 
+.: , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: ​   
+. : , , 
+.: ​   , ​   , ​   
+. : .ctor, GetPropertiesSupported, GetProperties
+.: GetEnumerator
+. : .ctor
+.: ​   
+. : .ctor, GetPropertiesSupported, GetProperties
+.: ​   
+. : .cctor, , , , , 
+.: 
+.: .ctor, , , , , , , 
+LocalizedTepl.LocalizedCategoryAttribute: .ctor, GetLocalizedString
+LocalizedTepl.LocalizedDescriptionAttribute: .ctor, get_Description
+LocalizedTepl.LocalizedDisplayNameAttribute: .ctor, get_DisplayName
+SerialTepl.BacNetUDP: .ctor, get_Connected, Close, , , Connect, SetConfig, get_present_value, , 
+.: .ctor, 
+.: 
+.BacNet_Iam_result: .ctor, ToString
+SerialTepl.BacNetUDPInfo: .ctor, get_IpАdr, set_IpАdr, get_port, set_port
+SerialTepl.BaseListStringConvertor`1: .ctor, get_Exclusive, get_Items, GetStandardValuesExclusive, IsValid, GetStandardValuesSupported, GetStandardValues, CanConvertTo, ConvertTo, CanConvertFrom, ConvertFrom
+SerialTepl.Baude: .ctor
+SerialTepl.CategoryConfigNames: .ctor
+SerialTepl.ConfigConnect.ConfigConnect: .ctor, add_OnLog, remove_OnLog, get_TypeConnect, set_TypeConnect, get_ConnectInfo, get_ConnectSerial, Connect, CancelConnecting, Disconnect, , , , get_ConnectEvent, set_ConnectEvent, get_TypeConnectChange, set_TypeConnectChange, ToString, SaveSettings, LoadSettings, 
+.: .ctor, 
+.: .ctor, 
+.LogEvent: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.ConfigConnect.ConfigConnectEditor: .ctor, add_FilterProperties, remove_FilterProperties, GetPropertiesSupported, GetProperties
+.FilterPropertiesHandler: .ctor, Invoke, BeginInvoke, EndInvoke
+.PropertyConfig: .ctor, .ctor, SetValue, GetValue, SetConvertor, get_Converter, get_Category, get_DisplayName, get_IsReadOnly, get_Description, AddValueChanged
+SerialTepl.ConfigConnect.EnTypeConnect: 
+SerialTepl.ConfigConnect.ListStringConvertor: .ctor, .ctor, .ctor, , GetAttributeIsEnum, GetStandardValuesExclusive, IsValid, GetStandardValuesSupported, GetStandardValues, CanConvertTo, ConvertTo, CanConvertFrom, ConvertFrom
+SerialTepl.EParity: 
+SerialTepl.ErrorFindEnd: .ctor
+SerialTepl.FindEnd: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.GSMInfo: .ctor, .ctor, .ctor, .ctor, get_Tel_Number, set_Tel_Number, get_TimeOutAnswer, set_TimeOutAnswer, get_TimeOutAfter, set_TimeOutAfter, get_MaxRepeat, set_MaxRepeat, get_DataBit, set_DataBit
+SerialTepl.Handlers.DefaultRequestHandler: .ctor, .ctor, get_Tag, , get_QueryParameters, set_QueryParameters, TryGetStringParameter, QueryParameterExists, GetStringParameter, TryGetGuidParameter, GetGuidParameter, TryGetIntegerParameter, GetIntegerParameter, TryGetFloatParameter, GetFloatParameter, TryGetBoolParameter, GetBoolParameter, Close, Finish, Write, Write, Write, NotAllowed, NotFound, InternalError, InternalError, Unauthorized, Forbidden, Success, DeserializeJsonBody
+SerialTepl.Handlers.RequestHandler: .ctor, get_SessionTokenId, Get, Post, Put, Delete
+SerialTepl.Http.Attributes.Authentication: .ctor
+SerialTepl.Http.Server: .ctor, .ctor, , , , , , , RegisterHandler, Start, Stop
+.: .ctor, 
+.: .ctor, 
+.: MoveNext, SetStateMachine
+.: MoveNext, SetStateMachine
+.ProcessMarkersDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.Http.Sessions.Manager: .ctor, GetInstance, , CreateNewSession, GetSessionToken, FinishSessionToken, Dispose
+SerialTepl.Http.Sessions.Token: .ctor, , , get_LifeTime, , get_Id, , get_StartedAt, , Prolongation, IsExpired, Finish
+SerialTepl.Http.Uri.UriInfo: .ctor, , get_FirstUriElement, GetParameters, AddUriItem, IsMatch, ExtractParametersValues
+SerialTepl.Http.Uri.UriItem: .ctor, get_Name, set_Name, get_ItemType, set_ItemType
+SerialTepl.Http.Uri.UriType: 
+SerialTepl.IConnectionCancel: get_Cancel, set_Cancel
+SerialTepl.IConnectionStream: ReadStream, WriteStream
+SerialTepl.IConnectorSerial: Connect, get_Connected, Close, get_BefoTime, set_BefoTime, get_AfteTime, set_AfteTime, get_MaxRepeat, set_MaxRepeat, SetConfig, GetConfig, get_InfoSendBytes, set_InfoSendBytes, get_InfoGetBytes, set_InfoGetBytes, get_FindE, set_FindE, SendArray, get_CanRead, ReadBytes, get_TypeConnect, SendArray, set_DTR, set_RTS, get_History, set_History
+SerialTepl.IPinStateNotifier: get_PinStateChanged, set_PinStateChanged, QueryPinState, get_SuppotredPins
+SerialTepl.LoraOrionInfo: .ctor, .ctor, get_Ip_Point, set_Ip_Point
+SerialTepl.MindCSDInfo: .ctor, .ctor, .ctor, .ctor, .ctor, get_Tel_Number, set_Tel_Number, get_TimeOutAnswer, set_TimeOutAnswer, get_TimeOutAfter, set_TimeOutAfter, get_MaxRepeat, set_MaxRepeat, get_DataBit, set_DataBit, get_CAN, set_CAN, get_SpeedCAN, set_SpeedCAN, get_StopbitCAN, set_StopbitCAN, get_ParityCAN, set_ParityCAN, get_DatabitCAN, set_DatabitCAN, get_PasswordMind, set_PasswordMind
+SerialTepl.MindInfo: .ctor, .ctor, .ctor, get_IPEnd, set_IPEnd, get_IP, get_nPort, set_nPort, get_MAC, set_MAC, get_NetMask, set_NetMask, get_Gateway, set_Gateway, get_CAN, set_CAN, get_Speed, set_Speed, get_Stopbit, get_Parity, set_Parity, get_Databit, set_Databit, get_Workmode, set_Workmode, get_Flowcontrol
+SerialTepl.MoxaBaude: .ctor, .cctor, GetBaude
+SerialTepl.NIDD_SCEF_Info: .ctor, get_Port, set_Port, get_Prefix, set_Prefix
+SerialTepl.OPCInfo: .ctor, .ctor, .ctor, .ctor, get_IPEnd, set_IPEnd, get_IPAdress, get_HDA_Name, set_HDA_Name, get_DA_Name, set_DA_Name
+SerialTepl.OPCUAInfo: .ctor, .ctor, .ctor, get_URL, set_URL, get_Username, set_Username, get_Password, set_Password
+SerialTepl.PLCInfo: .ctor, get_RS_addr, set_RS_addr, get_MaxPhysicalNetworkSize, set_MaxPhysicalNetworkSize
+SerialTepl.Pin: 
+SerialTepl.PinState: 
+SerialTepl.PinStateChangedDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.ProxySerialTCP: .ctor, get_InnerClient, set_InnerClient
+SerialTepl.PulsarServerInfo: .ctor, .ctor, get_Port, set_Port
+SerialTepl.PulsarTCPServerNSInfo: .ctor, .ctor, get_Port, set_Port
+SerialTepl.Qualities: .ctor, GetCommentQualities
+SerialTepl.RS232Info: .ctor, .ctor, .ctor, .ctor, .ctor, CopyTo, get_PortName, set_PortName, get_Speed, set_Speed, get_StopBit, set_StopBit, get_Parity2, set_Parity2, get_Parity, set_Parity, get_DataBits, set_DataBits, get_OptoMode, set_OptoMode
+.: .ctor
+.: .ctor, get_Exclusive, get_Values
+.: .cctor, .ctor, 
+.: .ctor
+.: .ctor
+SerialTepl.RadioLinkInfo: .ctor, .ctor, .ctor, CopyTo, get_RadioLinkMode, set_RadioLinkMode, get_PortName, set_PortName, get_Speed, set_Speed, get_StopBit, set_StopBit, get_Parity, set_Parity, get_DataBits, set_DataBits, get_IP_Port, set_IP_Port, get_IP_Address, set_IP_Address, get_Chirpstack_Point, set_Chirpstack_Point, get_Chirpstack_Login, set_Chirpstack_Login, get_Chirpstack_Password, set_Chirpstack_Password, get_Chirpstack_Application, set_Chirpstack_Application
+SerialTepl.RadioModemPulsarInfo: .ctor, .ctor, .ctor, get_ModemNumber, set_ModemNumber
+SerialTepl.RadioUSBInfo: .ctor, .ctor, .ctor, CopyTo, get_PortName, set_PortName, get_Speed, set_Speed, get_StopBit, set_StopBit, get_Parity, set_Parity, get_DataBits, set_DataBits
+SerialTepl.SerialBytes: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.SerialChirpStack: .ctor, get_Current_EUI, set_Current_EUI, get_Connected, Connect, Close, SetConfig, GetConfig, SendArray
+SerialTepl.SerialChirpStackInfo: .ctor, get_Chirpstack_Point, set_Chirpstack_Point, get_Chirpstack_Login, set_Chirpstack_Login, get_Chirpstack_Password, set_Chirpstack_Password, get_Chirpstack_Application, set_Chirpstack_Application
+SerialTepl.SerialGSM: .ctor, get_ResultTryConnect, , , , , Connect, , ClosePort, SendArray, DisconnectGSM, SetConfig, GetConfig
+SerialTepl.SerialHttpLora: .ctor, Connect, IsPortAvailable, ReadStream, WriteStream
+SerialTepl.SerialMindCSD: .ctor, , crc16, crc16, Connect, , Close, SetConfig, GetConfig
+SerialTepl.SerialPort: .ctor, set_DTR, set_RTS, ToString, , get_Connected, FindPortByDriverName, , SafeClose, SetPort, SetPort, Dispose, Close, get_TypeConnect, ReadBytes, get_CanRead, , SendArray, SendArray, Connect, SetConfig, GetConfig, ReadStream, WriteStream, 2r97yjf94jn5cqclrvymxdbk59ga25mu​   , 2r97yjf94jn5cqclrvymxdbk59ga25mu​   
+.: 
+SerialTepl.SerialPortBase: .ctor, get_InfoSendBytes, set_InfoSendBytes, get_InfoGetBytes, set_InfoGetBytes, get_FindE, set_FindE, get_MaxRepeat, set_MaxRepeat, get_BefoTime, set_BefoTime, get_AfteTime, set_AfteTime, set_DTR, set_RTS, , WriteBytesEvent, ReadBytesEvent, Log, get_History, set_History, Connect, get_Connected, Close, SetConfig, GetConfig, SendArray, SendArray, get_TypeConnect, ReadBytes, get_CanRead, get_PinStateChanged, set_PinStateChanged, QueryPinState, get_SuppotredPins, AddSupportedPin, ChangePinState
+SerialTepl.SerialRadioModemPulsar: .ctor, get_ResultTryConnect, , , , , Connect, , SendArray, , SetConfig, GetConfig
+SerialTepl.SerialTCP: .ctor, get_Connected, get_stream, TryReconnect, CloseClient, CloseClient, Connect, Close, SetConfig, GetConfig, get_TypeConnect, get_CanRead, ReadBytes, SendArray, Ping
+.GetConfigEvent: .ctor, Invoke, BeginInvoke, EndInvoke
+.SetConfigEvent: .ctor, Invoke, BeginInvoke, EndInvoke
+SerialTepl.SerialTCPClient: .ctor, .ctor, Connect, TryReconnect, ReadStream, WriteStream
+SerialTepl.SerialTCPClientMoxa: .ctor, Connect, FindEndMoxa, SetConfig, set_DTR, get_DTR, set_RTS, get_RTS, set_RX, get_RX, set_TX, get_TX, set_FCTS, get_FCTS, set_FRTS, get_FRTS, Close
+SerialTepl.SerialTCPMindClient: .ctor, crc16, crc16, Connect, Close, SetConfig
+SerialTepl.SerialTCPRadioLInk: .ctor, Connect, SetConfig, ReadStream, WriteStream
+SerialTepl.SerialTCPServer: .ctor, Connect, TryReconnect, Close, SendArray, SendArray, ReadStream, WriteStream, , , Shutdown, CloseServer
+.: .ctor, 
+SerialTepl.SerialTFTPVzliot: .ctor, , , , SendArray, get_FindE, set_FindE
+SerialTepl.SerialUDP: .ctor, Connect, SetConfig, GetConfig, get_TypeConnect, get_CanRead, ReadBytes, SendArray, Close, get_Connected
+SerialTepl.SimpleListStringConvertor`1: .ctor, get_Values, get_Items
+.: .cctor, .ctor, 
+SerialTepl.StaticListStringConvertor`1: .ctor, get_Exclusive, get_Values
+SerialTepl.TCPInfo: .ctor, .ctor, .ctor, get_IPEnd, set_IPEnd, get_ServerMode, set_ServerMode, get_IPAdr, set_IPAdr, get_nPort, set_nPort, CopyTo
+SerialTepl.TCPInfoMoxa: .ctor, .ctor, .ctor, get_IPEndMoxa, get_nPortMoxa, set_nPortMoxa, get_GetTCPInfoClient, get_GetTCPInfoCommand, get_Speed, set_Speed, get_StopBit, set_StopBit, get_Parity, set_Parity, get_DataBits, set_DataBits
+SerialTepl.TCPPulsarModem4kInfo: .ctor, .ctor, get_TCP, get_RS232
+SerialTepl.TCPServerIDInfo: .ctor, .ctor, get_Port, set_Port, get_ClientID, set_ClientID
+SerialTepl.TeleOffisInfo: .ctor, get_Port, set_Port, get_imei, set_imei
+SerialTepl.TinySerialPort: .ctor, .cctor, , , , , , , , , , , , , , , , , Write, WriteBuffer, Read, DiscardRxBuffer, DiscardTxBuffer, DiscartBuffers, ReadBuffer, SetSignalEventMask, WaitSignalEvents, Dispose, get_PortName, set_PortName, get_Connected, set_Connected, get_TxBufferSize, set_TxBufferSize, get_RxBufferSize, set_RxBufferSize, get_TxTimeout, set_TxTimeout, get_RxTimeout, set_RxTimeout, get_Speed, set_Speed, get_DataBits, set_DataBits, get_Parity, set_Parity, get_StopBits, set_StopBits, get_SignalRTS, set_SignalRTS, get_SignalDTR, set_SignalDTR, get_ModemLines, , 
+.: .ctor, , 
+. : .ctor, 
+. : .ctor, 
+. : , , , , 
+.: .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+. : 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .cctor, , , , , , , , , , , , , , , , ,  ,  ,  ,  ,  ,  , , ,  ,  
+.: .ctor, , , , 
+. : .ctor, 
+. : 
+.ComEvents: 
+.DtrControl: 
+.ModemLine: 
+.ParityType: 
+.RtsControl: 
+.StopBitsType: 
+SerialTepl.enRadioLinkMode: 
+SerialTepl.tftp.Modes: 
+SerialTepl.tftp.Opcodes: 
+SerialTepl.tftp.TFTPUtils: .ctor, CreateRequestPacket

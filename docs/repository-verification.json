@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-31T13:43:20.305779+00:00",
+  "private_object_data_included": false,
+  "private_data_matches": 0,
+  "scanned_nested_zip_contents": true,
+  "files_checked": 4342,
+  "zip_entries_checked": 2758,
+  "gui_tests": {
+    "passed": 35,
+    "skipped": 1,
+    "failed": 0
+  },
+  "cli_tests": {
+    "passed": 25,
+    "skipped": 1,
+    "failed": 0
+  },
+  "excluded": [
+    "original Excel workbooks",
+    "operator plans and connection settings",
+    "original read reports and captures",
+    "old ZIP archives containing object data",
+    "temporary environments and installer binaries"
+  ],
+  "release_integrity_verified": true
+}

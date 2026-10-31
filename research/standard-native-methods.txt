@@ -1,0 +1,480 @@
+158 RVA=00001064 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False ?A0xb5335ed2.??__E?params@HeatmeterStandart@@0QBU_ParamProto@PulsarM@@B@@YMXXZ
+159 RVA=000515E4 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False HeatmeterStandart.FindProto
+160 RVA=00051614 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False HeatmeterStandart.DecodeErrors
+1951 RVA=000AC9F4 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeNumber
+1952 RVA=000ACC20 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeNumber
+1953 RVA=000AEF74 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeDateTime
+1954 RVA=000AEFF8 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeAuto
+1955 RVA=000AF04C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeAuto
+1956 RVA=000ACE88 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodePassword
+1957 RVA=000ACF20 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeText
+1958 RVA=000ACF98 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeVersionInternal
+1959 RVA=000AD01C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeText
+1960 RVA=000AD06C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeVersion_LCD
+1961 RVA=000AD0DC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeVersionExternal
+1962 RVA=000AD158 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeUartSettigns
+1963 RVA=000AD368 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeUartSettigns
+1964 RVA=000AD7A0 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeChannelMask
+1965 RVA=000AD84C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeChannelMask
+1966 RVA=000AF088 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeLegacyAddress
+1967 RVA=000AD8FC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeBitmask
+1968 RVA=000AD9FC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeHexBytes
+1969 RVA=000ADA58 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeLoraNetInfo
+1970 RVA=000ADACC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeLoraEui
+1971 RVA=000ADAE8 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeLoraEui
+1972 RVA=000ADB3C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeLoraFreqPlan
+1973 RVA=000ADBEC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeLoraFreqPlan
+1974 RVA=000ADDFC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeLoraDataRate
+1975 RVA=000ADE58 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeLoraDataRate
+1987 RVA=000AE270 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.RequestRaw
+1988 RVA=000AE2CC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.RequestPulsar
+1995 RVA=000AE700 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeParameter
+1996 RVA=000AE7A0 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeParameter
+1997 RVA=000AE824 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.DecodeParameterGSM
+1998 RVA=000AE90C miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.EncodeParameterGSM
+2000 RVA=000AF190 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.SetParam
+2001 RVA=000B01DC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.SetParams
+2005 RVA=000AF5D8 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.RequestArchive
+2006 RVA=000AF8A4 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False PulsarM.RequestCustomArchive
+2732 RVA=000DB0A0 miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False HeatmeterStandart.__vecDelDtor
+2733 RVA=0004AEBC miForwardRef                               False
+miIL                                        True
+miInternalCall                             False
+miManaged                                   True
+miMaxMethodImplVal                         False
+miNative                                   False
+miNoInlining                               False
+miOPTIL                                    False
+miPreserveSig                              False
+miRuntime                                  False
+miSynchronized                             False
+miUnmanaged                                False HeatmeterStandart.{dtor}

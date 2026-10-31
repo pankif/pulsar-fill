@@ -1,0 +1,510 @@
+.<Module>: .cctor, f0659e5905454a5e99b9752afc78b700
+.: , , , , , , 
+. :   ​ 
+. : .ctor, , , , , 
+. : .ctor, , 
+. : .cctor, , , , , 
+.: 
+.: .ctor, , , , , , , 
+.: .ctor, .ctor, .ctor, , , , 
+. :  ​ 
+. : .ctor,   ​ ,   ​ ,   ​ ,   ​ ,   ​ ,   ​ 
+. : .ctor,   ​ , , , ,   ​ 
+. : 
+.: , , , , , 
+.: .ctor, , 
+.: .ctor, 
+. : 
+. : .ctor, , 
+. : .ctor, .ctor, , , , , , , , , , , , , , , , , CopyTo, get_Count, get_IsSynchronized, get_SyncRoot, GetEnumerator
+.: .ctor,  ​ , MoveNext,  ​ , Dispose
+. : .cctor, , , , 
+.: .ctor, , 
+. : .ctor, 
+.: , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.:  ​ 
+. : .ctor, Dispose, get_CreateParams, , , , , , , , , , , ,  , ,  ,  , OnPaint, , , WndProc
+. : , , 
+. : .ctor, .ctor,   ​ , , , , ,   ​ 
+.: 
+.: .ctor,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+. : .ctor, CanConvertTo, ConvertTo
+. : .ctor, RenderSubItem
+. : .ctor, ,   ​ , , , ,   ​ 
+.: GetEnumerator
+. :   ​ ,   ​ ,   ​ ,   ​ ,   ​ ,   ​ 
+. : .ctor, , , , , 
+. : , , , 
+.:  ​ ,  ​ ,  ​ 
+. : , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+.: .ctor
+. : 
+. : 
+. : 
+. : 
+.: 
+. : 
+. : 
+. : 
+. : .ctor
+.: .ctor
+. : 
+. : 
+. : 
+. : .ctor
+.: 
+. : 
+. : 
+. : 
+.: 
+. : 
+. : 
+. : 
+. : 
+.: 
+. : 
+. : 
+. : 
+.: 
+. : 
+. : 
+. : 
+. : .ctor, , , , , , , , 
+. : .cctor, 
+BrightIdeasSoftware.AbstractDecoration: .ctor, get_ListItem, set_ListItem, get_SubItem, set_SubItem, get_RowBounds, get_CellBounds, Draw
+BrightIdeasSoftware.AbstractDragSource: .ctor, StartDrag, GetAllowedEffects, EndDrag
+BrightIdeasSoftware.AbstractDropSink: .ctor, get_ListView, set_ListView, DrawFeedback, Drop, Enter, Leave, Over, GiveFeedback, QueryContinue, Cleanup
+BrightIdeasSoftware.AbstractListFilter: .ctor, Filter
+BrightIdeasSoftware.AbstractModelFilter: .ctor, Filter
+BrightIdeasSoftware.AbstractOverlay: .ctor, Draw, get_Transparency, set_Transparency
+BrightIdeasSoftware.AbstractRenderer: .ctor, RenderItem, RenderSubItem, HitTest, GetEditRectangle
+BrightIdeasSoftware.AbstractVirtualGroups: .ctor, GetGroups, GetGroupMember, GetGroup, GetIndexWithinGroup, CacheHint
+BrightIdeasSoftware.AbstractVirtualListDataSource: .ctor, GetNthObject, GetObjectCount, GetObjectIndex, PrepareCache, SearchText, Sort, AddObjects, RemoveObjects, SetObjects, UpdateObject, DefaultSearchText, ApplyFilters
+BrightIdeasSoftware.AfterSearchingEventArgs: .ctor, get_StringToFind, get_IndexSelected
+BrightIdeasSoftware.AfterSortingEventArgs: .ctor, .ctor, get_ColumnToGroupBy, get_GroupByOrder, get_ColumnToSort, get_SortOrder, get_SecondaryColumnToSort, get_SecondarySortOrder
+BrightIdeasSoftware.AspectGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.AspectPutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.AspectToStringConverterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.AutoCompleteCellEditor: .ctor
+BrightIdeasSoftware.BarRenderer: .ctor, .ctor, .ctor, .ctor, .ctor, .ctor, get_UseStandardBar, set_UseStandardBar, get_Padding, set_Padding, get_BackgroundColor, set_BackgroundColor, get_FrameColor, set_FrameColor, get_FrameWidth, set_FrameWidth, get_FillColor, set_FillColor, get_GradientStartColor, set_GradientStartColor, get_GradientEndColor, set_GradientEndColor, get_MaximumWidth, set_MaximumWidth, get_MaximumHeight, set_MaximumHeight, get_MinimumValue, set_MinimumValue, get_MaximumValue, set_MaximumValue, get_Pen, set_Pen, get_Brush, set_Brush, get_BackgroundBrush, set_BackgroundBrush, SetGradient, Render, HandleGetEditRectangle
+BrightIdeasSoftware.BaseRenderer: .ctor, get_CanWrap, set_CanWrap, get_CellPadding, set_CellPadding, get_CellVerticalAlignment, set_CellVerticalAlignment, get_EffectiveCellPadding, get_EffectiveCellVerticalAlignment, get_ImageList, set_ImageList, get_Spacing, set_Spacing, get_UseGdiTextRendering, set_UseGdiTextRendering, get_Aspect, set_Aspect, get_Bounds, set_Bounds, get_Column, set_Column, get_DrawItemEvent, set_DrawItemEvent, get_Event, set_Event, get_Font, set_Font, get_ImageListOrDefault, get_IsDrawBackground, get_IsItemSelected, set_IsItemSelected, get_IsPrinting, set_IsPrinting, get_ListItem, set_ListItem, get_ListView, set_ListView, get_OLVSubItem, get_RowObject, set_RowObject, get_SubItem, set_SubItem, get_TextBrush, set_TextBrush, get_UseCustomCheckboxImages, set_UseCustomCheckboxImages, , AlignRectangle, AlignHorizontally, AlignVertically, AlignVertically, CalculateAlignedRectangle, CalculateCheckBoxBounds, CalculateCheckBoxWidth, CalculateImageWidth, CalculateTextWidth, GetBackgroundColor, GetForegroundColor, GetImage, GetImage, GetImageSelector, GetText, GetTextBackgroundColor, RenderItem, RenderSubItem, HitTest, GetEditRectangle, OptionalRender, Render, HandleHitTest, HandleGetEditRectangle, StandardRender, ApplyCellPadding, StandardHitTest, StandardGetEditRectangle, CalculatePaddedAlignedBounds, DrawAlignedImage, DrawAlignedImageAndText, DrawBackground, DrawCheckBox, GetCheckBoxState, get_IsCheckBoxDisabled, get_IsItemHot, DrawImage, DrawImageAndText, DrawImages, DrawText, DrawTextGdi, , get_CellVerticalAlignmentAsTextFormatFlag, get_StringFormatForGdiPlus, DrawTextGdiPlus
+BrightIdeasSoftware.BeforeSearchingEventArgs: .ctor
+BrightIdeasSoftware.BeforeSortingEventArgs: .ctor, .ctor
+BrightIdeasSoftware.BillboardOverlay: .ctor, get_Location, set_Location, Draw
+BrightIdeasSoftware.BooleanCellEditor: .ctor
+BrightIdeasSoftware.BooleanCellEditor2: .ctor, get_Value, set_Value, get_TextAlign, set_TextAlign
+BrightIdeasSoftware.BooleanCheckStateGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.BooleanCheckStatePutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.BorderDecoration: .ctor, .ctor, .ctor, get_BorderPen, set_BorderPen, get_BoundsPadding, set_BoundsPadding, get_CornerRounding, set_CornerRounding, get_FillBrush, set_FillBrush, get_FillGradientFrom, set_FillGradientFrom, get_FillGradientTo, set_FillGradientTo, get_FillGradientMode, set_FillGradientMode, Draw, CalculateBounds, DrawFilledBorder, GetRoundedRect
+BrightIdeasSoftware.CancellableEventArgs: .ctor
+BrightIdeasSoftware.CellBorderDecoration: .ctor, CalculateBounds
+BrightIdeasSoftware.CellClickEventArgs: .ctor, get_ClickCount, set_ClickCount
+BrightIdeasSoftware.CellEditAtEdgeBehaviour: 
+BrightIdeasSoftware.CellEditCharacterBehaviour: 
+BrightIdeasSoftware.CellEditEventArgs: .ctor, get_Column, get_RowObject, get_ListViewItem, get_NewValue, set_NewValue, get_SubItemIndex, get_Value, get_CellBounds, get_AutoDispose, set_AutoDispose
+BrightIdeasSoftware.CellEditEventHandler: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.CellEditKeyEngine: .ctor, SetKeyBehaviour, HandleKey, get_ListView, set_ListView, get_ItemBeingEdited, get_SubItemIndexBeingEdited, get_CellEditKeyMap, set_CellEditKeyMap, get_CellEditKeyAtEdgeBehaviourMap, set_CellEditKeyAtEdgeBehaviourMap, InitializeCellEditKeyMaps, HandleEndEdit, HandleCancelEdit, HandleCustomVerb, HandleRowChange, HandleColumnChange, StartCellEditIfDifferent, GetAdjacentItemOrNull, GetAdjacentItem, get_EditableColumnsInDisplayOrder
+BrightIdeasSoftware.CellEventArgs: .ctor, get_ListView, , get_Model, , get_RowIndex, , get_ColumnIndex, , get_Column, , get_Location, , get_ModifierKeys, , get_Item, , get_SubItem, , get_HitTest, 
+BrightIdeasSoftware.CellOverEventArgs: .ctor
+BrightIdeasSoftware.CellRightClickEventArgs: .ctor
+BrightIdeasSoftware.CellStyle: .ctor, get_Font, set_Font, get_FontStyle, set_FontStyle, get_ForeColor, set_ForeColor, get_BackColor, set_BackColor
+BrightIdeasSoftware.CellToolTipGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.CheckStateGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.CheckStatePutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.CheckStateRenderer: .ctor, Render, HandleGetEditRectangle, HandleHitTest
+BrightIdeasSoftware.Cluster: .ctor, ToString, get_Count, set_Count, get_DisplayLabel, set_DisplayLabel, get_ClusterKey, set_ClusterKey, CompareTo
+BrightIdeasSoftware.ClusteringStrategy: .ctor, .cctor, get_DefaultDisplayLabelFormatSingular, set_DefaultDisplayLabelFormatSingular, get_DefaultDisplayLabelFormatPlural, set_DefaultDisplayLabelFormatPlural, get_Column, set_Column, get_DisplayLabelFormatSingular, set_DisplayLabelFormatSingular, get_DisplayLabelFormatPlural, set_DisplayLabelFormatPlural, GetClusterKey, CreateCluster, GetClusterDisplayLabel, CreateFilter, ApplyDisplayFormat
+BrightIdeasSoftware.ClustersFromGroupsStrategy: .ctor, GetClusterKey, GetClusterDisplayLabel
+BrightIdeasSoftware.ColumnComparer: .ctor, .ctor, Compare, Compare, CompareValues
+BrightIdeasSoftware.ColumnRightClickEventHandler: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.ColumnSelectionForm: .ctor, OpenOn, OpenOn, InitializeForm, Apply, , , , , , , , EnableControls, Dispose, , , , 
+.: .ctor,  ​ 
+BrightIdeasSoftware.ComboBoxItem: .ctor, get_Key, ToString
+BrightIdeasSoftware.CompositeAllFilter: .ctor, FilterObject
+BrightIdeasSoftware.CompositeAnyFilter: .ctor, FilterObject
+BrightIdeasSoftware.CompositeFilter: .ctor, .ctor, get_Filters, set_Filters, Filter, FilterObject
+BrightIdeasSoftware.CreateGroupsEventArgs: .ctor, get_Parameters, get_Groups, set_Groups, get_Canceled, set_Canceled
+BrightIdeasSoftware.DataListView: .ctor, get_AutoGenerateColumns, set_AutoGenerateColumns, get_DataSource, set_DataSource, get_DataMember, set_DataMember, get_Adapter, set_Adapter, AddObjects, RemoveObjects, OnParentBindingContextChanged
+BrightIdeasSoftware.DataSourceAdapter: .ctor, Finalize, Dispose, Dispose, get_AutoGenerateColumns, set_AutoGenerateColumns, get_DataSource, set_DataSource, get_DataMember, set_DataMember, get_ListView, , get_CurrencyManager, set_CurrencyManager, BindListView, UnbindListView, BindDataSource, UnbindDataSource, RebindDataSource, RebindDataSource, InitializeDataSource, SetListContents, CreateColumnsFromSource, ShouldCreateColumn, ConfigureColumn, CreateMissingAspectGettersAndPutters, CurrencyManagerListChanged, HandleListChangedMetadataChanged, HandleListChangedItemMoved, HandleListChangedItemDeleted, HandleListChangedItemAdded, HandleListChangedReset, HandleListChangedItemChanged, HandleCurrencyManagerMetaDataChanged, HandleCurrencyManagerPositionChanged, ChangePosition, HandleListViewSelectedIndexChanged, HandleListViewFreezing, HandleListViewBindingContextChanged
+.: .ctor, 
+.: .ctor, , 
+BrightIdeasSoftware.DataTreeListView: .ctor, get_DataSource, set_DataSource, get_DataMember, set_DataMember, get_KeyAspectName, set_KeyAspectName, get_ParentKeyAspectName, set_ParentKeyAspectName, get_RootKeyValue, set_RootKeyValue, get_RootKeyValueString, set_RootKeyValueString, get_ShowKeyColumns, set_ShowKeyColumns, get_Adapter, set_Adapter
+BrightIdeasSoftware.DateTimeClusteringStrategy: .ctor, .ctor, get_Format, set_Format, get_Portions, set_Portions, GetClusterKey, GetClusterDisplayLabel, DateToString
+BrightIdeasSoftware.DateTimePortion: 
+BrightIdeasSoftware.DescribedTaskRenderer: .ctor, get_TitleFont, set_TitleFont, get_TitleFontOrDefault, get_TitleColor, set_TitleColor, get_TitleColorOrDefault, get_DescriptionFont, set_DescriptionFont, get_DescriptionFontOrDefault, get_DescriptionColor, set_DescriptionColor, get_DescriptionColorOrDefault, get_ImageTextSpace, set_ImageTextSpace, get_DescriptionAspectName, set_DescriptionAspectName, GetDescription, Render, DrawDescribedTask, HandleHitTest
+BrightIdeasSoftware.Design.OLVColumnCollectionEditor: .ctor, CreateCollectionItemType, EditValue, GetDisplayText
+BrightIdeasSoftware.Design.ObjectListViewDesigner: .ctor, Initialize, InitializeNewComponent, Dispose, , PreFilterProperties, PreFilterEvents, PostFilterAttributes, PostFilterEvents, get_ActionLists, get_AssociatedComponents, GetHitTest, WndProc
+.: .ctor, GetCommands
+.: .ctor, GetSortedActionItems, EditValue, SetValue, InvokeColumnsDialog, get_LargeImageList, set_LargeImageList, get_SmallImageList, set_SmallImageList, get_View, set_View
+BrightIdeasSoftware.DropTargetLocation: 
+BrightIdeasSoftware.EditingCellBorderDecoration: .ctor, .ctor, get_UseLightbox, set_UseLightbox, Draw
+BrightIdeasSoftware.EditorCreatorDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.EditorRegistry: .ctor, , Register, Register, RegisterDefault, RegisterFirstChance, GetEditor, CreateEnumEditor
+.: .cctor, .ctor, , 
+.: .ctor, 
+BrightIdeasSoftware.EnumCellEditor: .ctor
+BrightIdeasSoftware.FastDataListView: .ctor, get_AutoGenerateColumns, set_AutoGenerateColumns, get_DataSource, set_DataSource, get_DataMember, set_DataMember, get_Adapter, set_Adapter, CreateDataSourceAdapter
+BrightIdeasSoftware.FastListGroupingStrategy: .ctor, GetGroups, GetGroupMember, GetGroup, GetIndexWithinGroup
+.: .ctor, 
+BrightIdeasSoftware.FastObjectListDataSource: .ctor, GetNthObject, GetObjectCount, GetObjectIndex, SearchText, Sort, AddObjects, RemoveObjects, SetObjects, UpdateObject, ApplyFilters, get_ObjectList, get_FilteredObjectList, RebuildIndexMap, FilterObjects
+BrightIdeasSoftware.FastObjectListView: .ctor, get_FilteredObjects, get_Objects, set_Objects, Unsort
+BrightIdeasSoftware.FilterEventArgs: .ctor
+BrightIdeasSoftware.FilterMenuBuilder: .ctor, .cctor, get_TreatNullAsDataValue, set_TreatNullAsDataValue, get_MaxObjectsToConsider, set_MaxObjectsToConsider, MakeFilterMenu, Cluster, , SortClusters, CreateFilteringMenuItem, , HandleItemChecked, HandleSelectAllItem, ClearAllFilters, EnactFilter
+.: .ctor, , 
+BrightIdeasSoftware.FlagBitSetFilter: .ctor, get_PossibleValues, set_PossibleValues, , DoesValueMatch
+BrightIdeasSoftware.FlagClusteringStrategy: .ctor, .ctor, get_Values, , get_Labels, , , GetClusterKey, GetClusterDisplayLabel, CreateFilter
+BrightIdeasSoftware.FlagRenderer: .ctor, Add, Render, HandleHitTest
+BrightIdeasSoftware.FloatCellEditor: .ctor, get_Value, set_Value
+BrightIdeasSoftware.FormatCellEventArgs: .ctor, get_ColumnIndex, , get_Column, , get_SubItem, , get_CellValue
+BrightIdeasSoftware.FormatRowEventArgs: .ctor, get_ListView, , get_Item, , get_Model, get_RowIndex, , get_DisplayIndex, , get_UseCellFormatEvents, set_UseCellFormatEvents
+BrightIdeasSoftware.FreezeEventArgs: .ctor, get_FreezeLevel, set_FreezeLevel
+BrightIdeasSoftware.Generator: .ctor, get_Instance, set_Instance, GenerateColumns, GenerateColumns, GenerateColumns, GenerateColumns, GenerateColumns, GenerateAndReplaceColumns, GenerateColumns, ReplaceColumns, PostCreateColumns, MakeColumnFromAttribute, MakeColumnFromPropertyInfo, MakeColumnFromPropertyDescriptor, MakeColumn, MakeColumn, DisplayNameToColumnTitle, ConfigurePossibleBooleanColumn, TryGenerateChildrenDelegates, GenerateChildrenDelegates
+.: .cctor, .ctor, , , 
+.: .ctor, , 
+BrightIdeasSoftware.GraphicAdornment: .ctor, get_AdornmentCorner, set_AdornmentCorner, get_Alignment, set_Alignment, get_Offset, set_Offset, get_ReferenceCorner, set_ReferenceCorner, get_Rotation, set_Rotation, get_Transparency, set_Transparency, CalculateAlignedPosition, CreateAlignedRectangle, CreateAlignedRectangle, CalculateCorner, CalculateItemBounds, ApplyRotation, UnapplyRotation
+BrightIdeasSoftware.GroupExpandingCollapsingEventArgs: .ctor, get_Group, get_IsExpanding
+BrightIdeasSoftware.GroupFormatterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.GroupKeyGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.GroupKeyToTitleConverterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.GroupMask: 
+BrightIdeasSoftware.GroupMetricsMask: 
+BrightIdeasSoftware.GroupState: 
+BrightIdeasSoftware.GroupStateChangedEventArgs: .ctor, get_Collapsed, get_Focused, get_Selected, get_Uncollapsed, get_Unfocused, get_Unselected, get_Group, get_OldState, get_NewState
+BrightIdeasSoftware.GroupTaskClickedEventArgs: .ctor, get_Group
+BrightIdeasSoftware.GroupingParameters: .ctor, get_ListView, set_ListView, get_GroupByColumn, set_GroupByColumn, get_GroupByOrder, set_GroupByOrder, get_GroupComparer, set_GroupComparer, get_ItemComparer, set_ItemComparer, get_PrimarySort, set_PrimarySort, get_PrimarySortOrder, set_PrimarySortOrder, get_SecondarySort, set_SecondarySort, get_SecondarySortOrder, set_SecondarySortOrder, get_TitleFormat, set_TitleFormat, get_TitleSingularFormat, set_TitleSingularFormat, get_SortItemsByPrimaryColumn, set_SortItemsByPrimaryColumn
+BrightIdeasSoftware.HeaderCheckBoxChangingEventArgs: .ctor, get_Column, , get_NewCheckState, set_NewCheckState
+BrightIdeasSoftware.HeaderControl: .ctor, get_ColumnIndexUnderCursor, get_Handle, get_HotFontStyle, set_HotFontStyle, GetColumnCheckBoxUnderCursor, get_ClientRectangle, IsPointOverHeaderCheckBox, get_IsCursorOverLockedDivider, , get_ListView, set_ListView, get_MaximumHeight, get_ToolTip, set_ToolTip, get_WordWrap, set_WordWrap, CalculateHeight, , GetCheckBoxBounds, HasCheckBox, HasSortIndicator, HasFilterIndicator, HasNonThemedSortIndicator, GetItemRect, GetHeaderDrawRect, Invalidate, Invalidate, CreateToolTip, WndProc, , HandleLButtonDown, HandleLButtonUp, HandleSetCursor, HandleMouseMove, HandleMouseLeave, HandleNotify, kcnuq95s458qjw93ffcyllr63mgcgl4q ​ , HandleLayout, HandleDestroy, NeedsCustomDraw, , , CustomDrawHeaderCell, , , , DrawUnthemedBackground, DrawThemedBackground, DrawThemedSortIndicator, DrawUnthemedSortIndicator, DrawFilterIndicator, , DrawHeaderImageAndText, , , , CalculateHeaderStyle, CalculateStateStyle, CalculateFont, get_TextFormatFlags, , 
+BrightIdeasSoftware.HeaderDrawingDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.HeaderFormatStyle: .ctor, get_Hot, set_Hot, get_Normal, set_Normal, get_Pressed, set_Pressed, SetFont, SetForeColor, SetBackColor
+BrightIdeasSoftware.HeaderStateStyle: .ctor, get_Font, set_Font, get_ForeColor, set_ForeColor, get_BackColor, set_BackColor, get_FrameColor, set_FrameColor, get_FrameWidth, set_FrameWidth
+BrightIdeasSoftware.HeaderToolTipGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.HighlightTextRenderer: .ctor, .ctor, .ctor, get_CornerRoundness, set_CornerRoundness, get_FillBrush, set_FillBrush, get_Filter, set_Filter, get_FramePen, set_FramePen, get_UseRoundedRectangle, set_UseRoundedRectangle, get_TextToHighlight, set_TextToHighlight, get_StringComparison, set_StringComparison, HandleGetEditRectangle, DrawTextGdi, DrawGdiTextHighlighting, DrawSubstringFrame, DrawTextGdiPlus, DrawGdiPlusTextHighlighting, get_ShouldDrawHighlighting, GetRoundedRect, GetRoundedRect
+BrightIdeasSoftware.HitTestLocation: 
+BrightIdeasSoftware.HitTestLocationEx: 
+BrightIdeasSoftware.HotItemChangedEventArgs: .ctor, get_Handled, set_Handled, get_HotCellHitLocation, , get_HotCellHitLocationEx, q9l5wjzy6k5mnbfwgp46mt7qccep9455 ​ , get_HotColumnIndex, , get_HotRowIndex, , get_HotGroup, , get_OldHotCellHitLocation, , get_OldHotCellHitLocationEx, q9l5wjzy6k5mnbfwgp46mt7qccep9455 ​ , get_OldHotColumnIndex, , get_OldHotRowIndex, , get_OldHotGroup, , ToString
+BrightIdeasSoftware.HotItemStyle: .ctor, get_Overlay, set_Overlay, get_Decoration, set_Decoration
+BrightIdeasSoftware.HyperlinkClickedEventArgs: .ctor, get_Url, set_Url
+BrightIdeasSoftware.HyperlinkEventArgs: .ctor, get_ListView, , get_Model, , get_RowIndex, , get_ColumnIndex, , get_Column, , get_Item, , get_SubItem, , get_Url, , get_Handled, set_Handled
+BrightIdeasSoftware.HyperlinkStyle: .ctor, get_Normal, set_Normal, get_Over, set_Over, get_Visited, set_Visited, get_OverCursor, set_OverCursor
+BrightIdeasSoftware.ICluster: get_Count, set_Count, get_DisplayLabel, set_DisplayLabel, get_ClusterKey, set_ClusterKey
+BrightIdeasSoftware.IClusteringStrategy: get_Column, set_Column, GetClusterKey, CreateCluster, GetClusterDisplayLabel, CreateFilter
+BrightIdeasSoftware.IDecoration: get_ListItem, set_ListItem, get_SubItem, set_SubItem
+BrightIdeasSoftware.IDragSource: StartDrag, GetAllowedEffects, EndDrag
+BrightIdeasSoftware.IDropSink: get_ListView, set_ListView, DrawFeedback, Drop, Enter, GiveFeedback, Leave, Over, QueryContinue
+BrightIdeasSoftware.IFilterableDataSource: ApplyFilters
+BrightIdeasSoftware.IGenerator: GenerateAndReplaceColumns, GenerateColumns
+BrightIdeasSoftware.IItemStyle: get_Font, set_Font, get_FontStyle, set_FontStyle, get_ForeColor, set_ForeColor, get_BackColor, set_BackColor
+BrightIdeasSoftware.IListFilter: Filter
+BrightIdeasSoftware.IModelFilter: Filter
+BrightIdeasSoftware.IOverlay: Draw
+BrightIdeasSoftware.IRenderer: RenderItem, RenderSubItem, HitTest, GetEditRectangle
+BrightIdeasSoftware.ITransparentOverlay: get_Transparency, set_Transparency
+BrightIdeasSoftware.IVirtualGroups: GetGroups, GetGroupMember, GetGroup, GetIndexWithinGroup, CacheHint
+BrightIdeasSoftware.IVirtualListDataSource: GetNthObject, GetObjectCount, GetObjectIndex, PrepareCache, SearchText, Sort, AddObjects, RemoveObjects, SetObjects, UpdateObject
+BrightIdeasSoftware.ImageAdornment: .ctor, get_Image, set_Image, get_ShrinkToWidth, set_ShrinkToWidth, DrawImage, DrawImage, DrawImage, DrawScaledImage, DrawTransparentBitmap
+BrightIdeasSoftware.ImageDecoration: .ctor, .ctor, .ctor, .ctor, .ctor, get_ListItem, set_ListItem, get_SubItem, set_SubItem, Draw
+BrightIdeasSoftware.ImageGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.ImageOverlay: .ctor, get_InsetX, set_InsetX, get_InsetY, set_InsetY, Draw
+BrightIdeasSoftware.ImageRenderer: .ctor, .ctor, Dispose, get_Paused, set_Paused, , get_Tickler, Pause, Unpause, Render, GetImageFromAspect, OnTimer, OnTimerInThread
+.: .ctor, 
+.: .ctor, .ctor, , , 
+BrightIdeasSoftware.ImagesRenderer: .ctor
+BrightIdeasSoftware.IntUpDown: .ctor, get_Value, set_Value
+BrightIdeasSoftware.IsHyperlinkEventArgs: .ctor, get_ListView, , get_Model, , get_Column, , get_Text, , get_IsHyperlink, set_IsHyperlink
+BrightIdeasSoftware.ItemsAddingEventArgs: .ctor
+BrightIdeasSoftware.ItemsChangedEventArgs: .ctor, .ctor, get_OldObjectCount, get_NewObjectCount
+BrightIdeasSoftware.ItemsChangingEventArgs: .ctor, get_OldObjects
+BrightIdeasSoftware.ItemsRemovingEventArgs: .ctor
+BrightIdeasSoftware.LightBoxDecoration: .ctor, Draw
+BrightIdeasSoftware.ListFilter: .ctor, get_Function, set_Function, Filter
+.ListFilterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.MappedImageRenderer: .ctor, .ctor, .ctor, .ctor, Boolean, TriState, Add, Render, RenderCollection, RenderOne
+BrightIdeasSoftware.ModelDropEventArgs: .ctor, get_SourceModels, , get_SourceListView, , get_TargetModel, , RefreshObjects
+BrightIdeasSoftware.ModelFilter: .ctor, get_Predicate, set_Predicate, Filter
+BrightIdeasSoftware.ModelObjectComparer: .ctor, .ctor, Compare, CompareValues
+BrightIdeasSoftware.MultiImageRenderer: .ctor, .ctor, get_ImageIndex, set_ImageIndex, get_ImageName, set_ImageName, get_ImageSelector, set_ImageSelector, get_MaxNumberImages, set_MaxNumberImages, get_MinimumValue, set_MinimumValue, get_MaximumValue, set_MaximumValue, Render, HandleGetEditRectangle
+BrightIdeasSoftware.Munger: .ctor, .ctor, .cctor, PutProperty, get_IgnoreMissingAspects, set_IgnoreMissingAspects, get_AspectName, set_AspectName, GetValue, GetValueEx, PutValue, , , , 
+BrightIdeasSoftware.MungerException: .ctor, get_Munger, get_Target
+BrightIdeasSoftware.OLVChildrenAttribute: .ctor
+BrightIdeasSoftware.OLVColumn: .ctor, .ctor, get_AspectGetter, set_AspectGetter, get_AspectGetterAutoGenerated, set_AspectGetterAutoGenerated, get_AspectName, set_AspectName, get_AspectPutter, set_AspectPutter, get_AspectToStringConverter, set_AspectToStringConverter, get_AspectToStringFormat, set_AspectToStringFormat, get_AutoCompleteEditor, set_AutoCompleteEditor, get_AutoCompleteEditorMode, set_AutoCompleteEditorMode, get_CanBeHidden, get_CellPadding, set_CellPadding, get_CellVerticalAlignment, set_CellVerticalAlignment, get_CheckBoxes, set_CheckBoxes, get_ClusteringStrategy, set_ClusteringStrategy, get_FillsFreeSpace, set_FillsFreeSpace, get_FreeSpaceProportion, set_FreeSpaceProportion, get_Groupable, set_Groupable, get_GroupFormatter, set_GroupFormatter, get_GroupKeyGetter, set_GroupKeyGetter, get_GroupKeyToTitleConverter, set_GroupKeyToTitleConverter, get_GroupWithItemCountFormat, set_GroupWithItemCountFormat, get_GroupWithItemCountFormatOrDefault, get_GroupWithItemCountSingularFormat, set_GroupWithItemCountSingularFormat, get_GroupWithItemCountSingularFormatOrDefault, get_HasFilterIndicator, get_HeaderDrawing, set_HeaderDrawing, get_HeaderFormatStyle, set_HeaderFormatStyle, get_HeaderFont, set_HeaderFont, get_HeaderForeColor, set_HeaderForeColor, get_HeaderImageKey, set_HeaderImageKey, get_HeaderTextAlign, set_HeaderTextAlign, get_HeaderTextAlignAsStringAlignment, get_HasHeaderImage, get_HeaderCheckBox, set_HeaderCheckBox, get_HeaderTriStateCheckBox, set_HeaderTriStateCheckBox, get_HeaderCheckState, set_HeaderCheckState, get_HeaderCheckBoxUpdatesRowCheckBoxes, set_HeaderCheckBoxUpdatesRowCheckBoxes, get_HeaderCheckBoxDisabled, set_HeaderCheckBoxDisabled, get_Hideable, set_Hideable, get_Hyperlink, set_Hyperlink, get_ImageAspectName, set_ImageAspectName, get_ImageGetter, set_ImageGetter, get_IsEditable, set_IsEditable, get_IsFixedWidth, get_IsTileViewColumn, set_IsTileViewColumn, get_IsHeaderVertical, set_IsHeaderVertical, get_IsVisible, set_IsVisible, get_LastDisplayIndex, set_LastDisplayIndex, get_MaximumWidth, set_MaximumWidth, get_MinimumWidth, set_MinimumWidth, get_Renderer, set_Renderer, get_RendererDelegate, set_RendererDelegate, get_Searchable, set_Searchable, get_ShowTextInHeader, set_ShowTextInHeader, get_Sortable, set_Sortable, get_TextAlign, set_TextAlign, get_TextStringAlign, get_ToolTipText, set_ToolTipText, get_TriStateCheckBoxes, set_TriStateCheckBoxes, get_UseInitialLetterForGroup, set_UseInitialLetterForGroup, get_UseFiltering, set_UseFiltering, get_ValueBasedFilter, set_ValueBasedFilter, get_ValuesChosenForFiltering, set_ValuesChosenForFiltering, get_Width, set_Width, get_WordWrap, set_WordWrap, ConvertGroupKeyToTitle, GetCheckState, PutCheckState, GetAspectByName, GetGroupKey, GetImage, GetCheckStateImage, GetStringValue, GetValue, PutAspectByName, PutValue, ValueToString, , get_DataType, set_DataType, add_VisibilityChanged, remove_VisibilityChanged, OnVisibilityChanged, MakeGroupies, MakeGroupies, MakeGroupies, MakeGroupies, MakeGroupies, MakeEqualGroupies
+.: .ctor, , , 
+.: .ctor, , , 
+BrightIdeasSoftware.OLVColumnAttribute: .ctor, .ctor, get_AspectToStringFormat, set_AspectToStringFormat, get_CheckBoxes, set_CheckBoxes, get_DisplayIndex, set_DisplayIndex, get_FillsFreeSpace, set_FillsFreeSpace, get_FreeSpaceProportion, set_FreeSpaceProportion, get_GroupCutoffs, set_GroupCutoffs, get_GroupDescriptions, set_GroupDescriptions, get_GroupWithItemCountFormat, set_GroupWithItemCountFormat, get_GroupWithItemCountSingularFormat, set_GroupWithItemCountSingularFormat, get_Hyperlink, set_Hyperlink, get_ImageAspectName, set_ImageAspectName, get_IsEditable, set_IsEditable, get_IsVisible, set_IsVisible, get_IsTileViewColumn, set_IsTileViewColumn, get_MaximumWidth, set_MaximumWidth, get_MinimumWidth, set_MinimumWidth, get_Name, set_Name, get_TextAlign, set_TextAlign, get_Tag, set_Tag, get_Title, set_Title, get_ToolTipText, set_ToolTipText, get_TriStateCheckBoxes, set_TriStateCheckBoxes, get_UseInitialLetterForGroup, set_UseInitialLetterForGroup, get_Width, set_Width
+BrightIdeasSoftware.OLVDataObject: .ctor, .ctor, get_IncludeHiddenColumns, get_IncludeColumnHeaders, get_ListView, get_ModelObjects, CreateTextFormats, CreateExporter, CreateHtml, 
+BrightIdeasSoftware.OLVExporter: .ctor, .ctor, .ctor, get_IncludeHiddenColumns, set_IncludeHiddenColumns, get_IncludeColumnHeaders, set_IncludeColumnHeaders, get_ListView, set_ListView, get_ModelObjects, set_ModelObjects, ExportTo, Convert, , , 
+.: .ctor, Invoke, BeginInvoke, EndInvoke
+.ExportFormat: 
+BrightIdeasSoftware.OLVGroup: .ctor, .ctor, get_BottomDescription, set_BottomDescription, get_Collapsed, set_Collapsed, get_Collapsible, set_Collapsible, get_Contents, set_Contents, get_Created, get_ExtendedImage, set_ExtendedImage, get_Footer, set_Footer, get_GroupId, get_Header, set_Header, get_HeaderAlignment, set_HeaderAlignment, get_Id, set_Id, get_Items, set_Items, get_Key, set_Key, get_ListView, set_ListView, get_Name, set_Name, get_Focused, set_Focused, get_Selected, set_Selected, get_SubsetTitle, set_SubsetTitle, get_Subtitle, set_Subtitle, get_SortValue, set_SortValue, get_State, set_State, get_StateMask, set_StateMask, get_Subseted, set_Subseted, get_Tag, set_Tag, get_Task, set_Task, get_TitleImage, set_TitleImage, get_TopDescription, set_TopDescription, get_VirtualItemCount, set_VirtualItemCount, get_ListViewGroup, set_ListViewGroup, GetImageIndex, ToString, InsertGroupNewStyle, InsertGroupOldStyle, SetItemsOldStyle, , , GetState, SetState, 
+BrightIdeasSoftware.OLVGroupComparer: .ctor, Compare
+BrightIdeasSoftware.OLVIgnoreAttribute: .ctor
+BrightIdeasSoftware.OLVListItem: .ctor, .ctor, get_Bounds, get_CellPadding, set_CellPadding, get_CellVerticalAlignment, set_CellVerticalAlignment, get_Checked, set_Checked, get_CheckState, set_CheckState, get_HasDecoration, get_Decoration, set_Decoration, get_Decorations, get_Enabled, , get_ImageSelector, set_ImageSelector, get_RowObject, set_RowObject, GetSubItem, GetSubItemBounds
+BrightIdeasSoftware.OLVListSubItem: .ctor, .ctor, get_CellPadding, set_CellPadding, get_CellVerticalAlignment, set_CellVerticalAlignment, get_ModelValue, , get_HasDecoration, get_Decoration, set_Decoration, get_Decorations, get_ImageSelector, set_ImageSelector, get_Url, set_Url
+BrightIdeasSoftware.ObjectListView: .ctor, .cctor, add_AfterSearching, remove_AfterSearching, add_AfterSorting, remove_AfterSorting, add_BeforeSearching, remove_BeforeSearching, add_BeforeSorting, remove_BeforeSorting, add_AfterCreatingGroups, remove_AfterCreatingGroups, add_BeforeCreatingGroups, remove_BeforeCreatingGroups, add_AboutToCreateGroups, remove_AboutToCreateGroups, add_CanDrop, remove_CanDrop, add_CellEditFinishing, remove_CellEditFinishing, add_CellEditStarting, remove_CellEditStarting, add_CellEditValidating, remove_CellEditValidating, add_CellClick, remove_CellClick, add_CellOver, remove_CellOver, add_CellRightClick, remove_CellRightClick, add_CellToolTipShowing, remove_CellToolTipShowing, add_SubItemChecking, remove_SubItemChecking, add_ColumnRightClick, remove_ColumnRightClick, add_Dropped, remove_Dropped, add_Filter, remove_Filter, add_FormatCell, remove_FormatCell, add_Freezing, remove_Freezing, add_FormatRow, remove_FormatRow, add_GroupExpandingCollapsing, remove_GroupExpandingCollapsing, add_GroupStateChanged, remove_GroupStateChanged, add_HeaderCheckBoxChanging, remove_HeaderCheckBoxChanging, add_HeaderToolTipShowing, remove_HeaderToolTipShowing, add_HotItemChanged, remove_HotItemChanged, add_HyperlinkClicked, remove_HyperlinkClicked, add_GroupTaskClicked, remove_GroupTaskClicked, add_IsHyperlink, remove_IsHyperlink, add_ItemsAdding, remove_ItemsAdding, add_ItemsChanged, remove_ItemsChanged, add_ItemsChanging, remove_ItemsChanging, add_ItemsRemoving, remove_ItemsRemoving, add_ModelCanDrop, remove_ModelCanDrop, add_ModelDropped, remove_ModelDropped, add_SelectionChanged, remove_SelectionChanged, add_Scroll, remove_Scroll, OnAboutToCreateGroups, OnBeforeCreatingGroups, OnAfterCreatingGroups, OnAfterSearching, OnAfterSorting, OnBeforeSearching, OnBeforeSorting, OnCanDrop, OnCellClick, OnCellOver, OnCellRightClick, OnCellToolTip, OnSubItemChecking, OnColumnRightClick, OnDropped, OnFilter, OnFormatCell, OnFormatRow, OnFreezing, OnGroupExpandingCollapsing, OnGroupStateChanged, OnHeaderCheckBoxChanging, OnHeaderToolTip, OnHotItemChanged, OnHyperlinkClicked, OnGroupTaskClicked, OnIsHyperlink, OnItemsAdding, OnItemsChanged, OnItemsChanging, OnItemsRemoving, OnModelCanDrop, OnModelDropped, OnSelectionChanged, OnScroll, OnCellEditStarting, OnCellEditorValidating, OnCellEditFinishing, Dispose, get_IsVistaOrLater, get_IsWin7OrLater, get_SmoothingMode, set_SmoothingMode, get_TextRenderingHint, set_TextRenderingHint, get_GroupTitleDefault, set_GroupTitleDefault, EnumerableToArray, EnumerableCount, IsEnumerableEmpty, get_IgnoreMissingAspects, set_IgnoreMissingAspects, get_ShowCellPaddingBounds, set_ShowCellPaddingBounds, get_DefaultDisabledItemStyle, get_AdditionalFilter, set_AdditionalFilter, get_AllColumns, set_AllColumns, get_AlternateRowBackColor, set_AlternateRowBackColor, get_AlternateRowBackColorOrDefault, get_AlwaysGroupByColumn, set_AlwaysGroupByColumn, get_AlwaysGroupBySortOrder, set_AlwaysGroupBySortOrder, get_BaseSmallImageList, set_BaseSmallImageList, get_CellEditActivation, set_CellEditActivation, get_CellEditKeyEngine, set_CellEditKeyEngine, get_CellEditor, get_CellEditTabChangesRows, set_CellEditTabChangesRows, get_CellEditEnterChangesRows, set_CellEditEnterChangesRows, get_CellToolTip, get_CellPadding, set_CellPadding, get_CellVerticalAlignment, set_CellVerticalAlignment, get_CheckBoxes, set_CheckBoxes, get_CheckedObject, set_CheckedObject, get_CheckedObjects, set_CheckedObjects, get_CheckedObjectsEnumerable, set_CheckedObjectsEnumerable, get_Columns, get_ColumnsForTileView, get_ColumnsInDisplayOrder, get_ContentRectangle, get_CopySelectionOnControlC, set_CopySelectionOnControlC, get_CopySelectionOnControlCUsesDragSource, set_CopySelectionOnControlCUsesDragSource, get_Decorations, get_DefaultRenderer, set_DefaultRenderer, get_DisabledItemStyle, set_DisabledItemStyle, get_DisabledObjects, set_DisabledObjects, IsDisabled, DisableObject, DisableObjects, EnableObject, EnableObjects, ClearDisabledObjects, get_DragSource, set_DragSource, get_DropSink, set_DropSink, , , , , get_EmptyListMsg, set_EmptyListMsg, get_EmptyListMsgFont, set_EmptyListMsgFont, get_EmptyListMsgFontOrDefault, get_EmptyListMsgOverlay, set_EmptyListMsgOverlay, get_FilteredObjects, get_FilterMenuBuildStrategy, set_FilterMenuBuildStrategy, get_Groups, get_GroupImageList, set_GroupImageList, get_GroupWithItemCountFormat, set_GroupWithItemCountFormat, get_GroupWithItemCountFormatOrDefault, get_GroupWithItemCountSingularFormat, set_GroupWithItemCountSingularFormat, get_GroupWithItemCountSingularFormatOrDefault, get_HasCollapsibleGroups, set_HasCollapsibleGroups, get_HasEmptyListMsg, get_HasOverlays, get_HeaderControl, get_HeaderFont, set_HeaderFont, get_HeaderFormatStyle, set_HeaderFormatStyle, get_HeaderMaximumHeight, set_HeaderMaximumHeight, get_HeaderUsesThemes, set_HeaderUsesThemes, get_HeaderWordWrap, set_HeaderWordWrap, get_HeaderToolTip, get_HotRowIndex, set_HotRowIndex, get_HotColumnIndex, set_HotColumnIndex, get_HotCellHitLocation, set_HotCellHitLocation, get_HotCellHitLocationEx, set_HotCellHitLocationEx, get_HotGroup, , get_HotItemIndex, get_HotItemStyle, set_HotItemStyle, get_HyperlinkStyle, set_HyperlinkStyle, get_HighlightBackgroundColor, set_HighlightBackgroundColor, get_HighlightBackgroundColorOrDefault, get_HighlightForegroundColor, set_HighlightForegroundColor, get_HighlightForegroundColorOrDefault, get_IncludeHiddenColumnsInDataTransfer, set_IncludeHiddenColumnsInDataTransfer, get_IncludeColumnHeadersInCopy, set_IncludeColumnHeadersInCopy, get_IsCellEditing, get_IsDesignMode, get_IsFiltering, get_IsSearchOnSortColumn, set_IsSearchOnSortColumn, get_IsSimpleDropSink, set_IsSimpleDropSink, get_IsSimpleDragSource, set_IsSimpleDragSource, get_Items, get_ItemRenderer, set_ItemRenderer, get_LastSortColumn, set_LastSortColumn, get_LastSortOrder, set_LastSortOrder, get_ListFilter, set_ListFilter, get_ModelFilter, set_ModelFilter, get_MouseMoveHitTest, , get_OLVGroups, set_OLVGroups, get_CollapsedGroups, set_CollapsedGroups, get_OwnerDrawnHeader, set_OwnerDrawnHeader, get_Objects, set_Objects, get_ObjectsForClustering, get_OverlayImage, set_OverlayImage, get_OverlayText, set_OverlayText, get_OverlayTransparency, set_OverlayTransparency, get_Overlays, get_PersistentCheckBoxes, set_PersistentCheckBoxes, get_CheckStateMap, set_CheckStateMap, get_PrimarySortColumn, set_PrimarySortColumn, get_PrimarySortOrder, set_PrimarySortOrder, get_RenderNonEditableCheckboxesAsDisabled, set_RenderNonEditableCheckboxesAsDisabled, get_RowHeight, set_RowHeight, get_RowHeightEffective, get_RowsPerPage, get_SecondarySortColumn, set_SecondarySortColumn, get_SecondarySortOrder, set_SecondarySortOrder, get_SelectAllOnControlA, set_SelectAllOnControlA, get_SelectColumnsOnRightClick, set_SelectColumnsOnRightClick, get_SelectColumnsOnRightClickBehaviour, set_SelectColumnsOnRightClickBehaviour, get_SelectColumnsMenuStaysOpen, set_SelectColumnsMenuStaysOpen, get_SelectedColumn, set_SelectedColumn, get_SelectedRowDecoration, set_SelectedRowDecoration, get_SelectedColumnTint, set_SelectedColumnTint, get_SelectedIndex, set_SelectedIndex, get_SelectedItem, set_SelectedItem, get_SelectedObject, set_SelectedObject, get_SelectedObjects, set_SelectedObjects, get_ShowCommandMenuOnRightClick, set_ShowCommandMenuOnRightClick, get_ShowFilterMenuOnRightClick, set_ShowFilterMenuOnRightClick, get_ShowGroups, set_ShowGroups, get_ShowSortIndicators, set_ShowSortIndicators, get_ShowImagesOnSubItems, set_ShowImagesOnSubItems, get_ShowItemCountOnGroups, set_ShowItemCountOnGroups, get_ShowHeaderInAllViews, set_ShowHeaderInAllViews, get_SmallImageList, set_SmallImageList, get_SmallImageSize, get_SortGroupItemsByPrimaryColumn, set_SortGroupItemsByPrimaryColumn, get_SpaceBetweenGroups, set_SpaceBetweenGroups, , get_TintSortColumn, set_TintSortColumn, get_TriStateCheckBoxes, set_TriStateCheckBoxes, get_TopItemIndex, set_TopItemIndex, get_TriggerCellOverEventsWhenOverHeader, set_TriggerCellOverEventsWhenOverHeader, get_UpdateSpaceFillingColumnsWhenDraggingColumnDivider, set_UpdateSpaceFillingColumnsWhenDraggingColumnDivider, get_UnfocusedHighlightBackgroundColor, set_UnfocusedHighlightBackgroundColor, get_UnfocusedHighlightBackgroundColorOrDefault, get_UnfocusedHighlightForegroundColor, set_UnfocusedHighlightForegroundColor, get_UnfocusedHighlightForegroundColorOrDefault, get_UseAlternatingBackColors, set_UseAlternatingBackColors, get_UseCellFormatEvents, set_UseCellFormatEvents, get_UseCustomSelectionColors, set_UseCustomSelectionColors, get_UseExplorerTheme, set_UseExplorerTheme, get_UseFiltering, set_UseFiltering, get_UseFilterIndicator, set_UseFilterIndicator, get_UseHotItem, set_UseHotItem, get_UseHyperlinks, set_UseHyperlinks, get_UseOverlays, set_UseOverlays, get_UseSubItemCheckBoxes, set_UseSubItemCheckBoxes, get_UseTranslucentSelection, set_UseTranslucentSelection, get_UseTranslucentHotItem, set_UseTranslucentHotItem, get_View, set_View, set_BooleanCheckStateGetter, set_BooleanCheckStatePutter, get_CanShowGroups, get_CanUseApplicationIdle, set_CanUseApplicationIdle, get_CellToolTipGetter, set_CellToolTipGetter, get_CheckedAspectName, set_CheckedAspectName, get_CheckStateGetter, set_CheckStateGetter, get_CheckStatePutter, set_CheckStatePutter, get_CustomSorter, set_CustomSorter, get_HeaderToolTipGetter, set_HeaderToolTipGetter, get_RowFormatter, set_RowFormatter, AddObject, AddObjects, AutoResizeColumns, AutoSizeColumns, BuildGroups, BuildGroups, , BuildGroups, CollectGroupingParameters, MakeGroups, BuildList, BuildList, ClearCachedInfo, ApplyExtendedStyles, CalculateReasonableTileSize, ChangeToFilteredColumns, ClearObjects, ClearUrlVisited, CopySelectionToClipboard, CopyObjectsToClipboard, ObjectsToHtml, DeselectAll, EnableCustomSelectionColors, GetNextItem, GetLastItemInDisplayOrder, GetNthItemInDisplayOrder, GetDisplayOrderOfItemIndex, GetPreviousItem, InsertObjects, IsSelected, IsUrlVisited, LowLevelScroll, get_LowLevelScrollPosition, MarkUrlVisited, MoveObjects, HitTest, LowLevelHitTest, OlvHitTest, CalculateStandardHitTest, CalculateOwnerDrawnHitTest, PauseAnimations, RebuildColumns, RemoveObject, RemoveObjects, SelectAll, SetNativeBackgroundWatermark, SetNativeBackgroundImage, SetNativeBackgroundTiledImage, SetObjects, SetObjects, UpdateObject, UpdateObjects, UpdateNotificationSubscriptions, get_UseNotifyPropertyChanged, set_UseNotifyPropertyChanged, SubscribeNotifications, UnsubscribeNotifications, , SaveState, RestoreState, HandleApplicationIdle, HandleApplicationIdleResizeColumns, HandleBeginScroll, HandleEndScroll, HandleLinkClick, HandleCellToolTipShowing, , HandleHeaderToolTipShowing, HandleColumnClick, WndProc, HandleChar, HandleContextMenu, HandleCustomDraw, HandleDestroy, HandleFindItem, FindMatchingRow, FindMatchInRange, HandleGroupInfo, HandleKeyDown, , HandleLButtonDown, ProcessLButtonDown, HandleLButtonUp, TriggerGroupExpandCollapse, HandleRButtonDown, ProcessRButtonDown, HandleLButtonDoubleClick, ProcessLButtonDoubleClick, HandleRButtonDoubleClick, ProcessRButtonDoubleClick, HandleMouseMove, HandleReflectNotify, , HandleNotify, CreateCellToolTip, UpdateCellToolTipHandle, HandlePaint, HandlePrePaint, HandlePostPaint, HandleWindowPosChanging, HandleHeaderRightClick, ShowHeaderRightClickMenu, MakeHeaderRightClickMenu, HandleHeaderRightClick, ShowColumnSelectMenu, ShowColumnCommandMenu, get_MenuLabelSortAscending, set_MenuLabelSortAscending, get_MenuLabelSortDescending, set_MenuLabelSortDescending, get_MenuLabelGroupBy, set_MenuLabelGroupBy, get_MenuLabelLockGroupingOn, set_MenuLabelLockGroupingOn, get_MenuLabelUnlockGroupingOn, set_MenuLabelUnlockGroupingOn, get_MenuLabelTurnOffGroups, set_MenuLabelTurnOffGroups, get_MenuLabelUnsort, set_MenuLabelUnsort, get_MenuLabelColumns, set_MenuLabelColumns, get_MenuLabelSelectColumns, set_MenuLabelSelectColumns, MakeColumnCommandMenu, MakeColumnSelectMenu, AddItemsToColumnSelectMenu, , , MakeFilteringMenu, OnColumnReordered, , HandleColumnWidthChanging, HandleColumnWidthChanged, HandleLayout, , ResizeFreeSpaceFillingColumns, ResizeFreeSpaceFillingColumns, CheckAll, CheckHeaderCheckBox, CheckIndeterminateHeaderCheckBox, CheckIndeterminateObject, CheckObject, CheckObjects, CheckSubItem, CheckIndeterminateSubItem, IsChecked, IsCheckedIndeterminate, IsSubItemChecked, GetCheckState, PutCheckState, SetObjectCheckedness, ToggleCheckObject, ToggleHeaderCheckBox, , , , ToggleSubItemCheckBox, UncheckAll, UncheckObject, UncheckObjects, UncheckHeaderCheckBox, UncheckSubItem, GetColumn, GetColumn, GetFilteredColumns, GetItemCount, GetItem, GetModelObject, GetItemAt, GetSubItem, EnsureGroupVisible, EnsureModelVisible, GetSelectedObject, GetSelectedObjects, GetCheckedObject, GetCheckedObjects, IndexOf, RefreshItem, RefreshObject, RefreshObjects, , RefreshSelectedObjects, SelectObject, SelectObject, SelectObjects, get_Frozen, set_Frozen, Freeze, Unfreeze, DoFreeze, DoUnfreeze, get_SelectionEventsSuspended, SuspendSelectionEvents, ResumeSelectionEvents, SuspendSelectionEventsDuring, Sort, Sort, Sort, Sort, Sort, , ShowSortIndicator, ShowSortIndicator, MakeSortIndicatorImages, , Unsort, , CreateGroups, CorrectSubItemColors, FillInValues, , , ForceSubItemImagesExStyle, GetActualImageIndex, GetHeaderToolTip, GetCellToolTip, ModelToItem, PostProcessRows, PostProcessOneRow, PrepareAlternateBackColors, SetAllSubItemImages, SetSubItemImages, SetSubItemImages, SetSubItemImage, TakeOwnershipOfObjects, TriggerFormatRowEvent, Reset, beryem2632lcnlnry7nylh4lv27he8gu ​ , beryem2632lcnlnry7nylh4lv27he8gu ​ , , , , InitializeStateImageList, SetupSubItemCheckBoxes, InitializeSubItemCheckBoxImages, , OnDrawColumnHeader, OnDrawItem, OnDrawSubItem, OnMouseDown, OnMouseLeave, OnMouseMove, , OnMouseUp, ProcessHyperlinkClicked, StandardHyperlinkClickedProcessing, OnRightMouseUp, , OnSelectedIndexChanged, OnHandleCreated, OnControlCreated, ShouldStartCellEdit, ProcessDialogKey, EditModel, EditSubItem, StartCellEdit, CalculateCellEditorBounds, CalculateCellEditorBoundsOwnerDrawn, CalculateCellEditorBoundsStandard, SetControlValue, ConfigureControl, GetControlValue, CellEditor_Validating, CalculateCellBounds, CalculateCellTextBounds, , CalculateColumnVisibleBounds, GetCellEditor, , MakeDefaultCellEditor, ConfigureAutoComplete, ConfigureAutoComplete, CancelCellEdit, PossibleFinishCellEditing, PossibleFinishCellEditing, FinishCellEdit, FinishCellEdit, CleanupCellEdit, ClearHotItem, RefreshHotItem, UpdateHotItem, UpdateHotItem, UpdateHotRow, UpdateHotRow, ApplyRowStyle, ApplyCellStyle, UnapplyHotItem, OnItemDrag, OnDragEnter, OnDragOver, OnDragDrop, OnDragLeave, OnGiveFeedback, OnQueryContinueDrag, AddDecoration, AddOverlay, DrawAllDecorations, HasDecoration, HasOverlay, HideOverlays, InitializeEmptyListMsgOverlay, InitializeStandardOverlays, ShowOverlays, , , RefreshOverlays, RefreshOverlay, RemoveDecoration, RemoveOverlay, CreateColumnFilter, FilterObjects, ResetColumnFiltering, UpdateColumnFiltering, UpdateFiltering, GetPersistentCheckState, SetPersistentCheckState, ClearPersistentCheckState, , , ,  , 
+.: .cctor, .ctor, , , , 
+. : .ctor, 
+. : .ctor, 
+. : .ctor, Dispose
+.: .ctor, 
+. : .ctor, 
+. : .ctor, , , , , , , 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor, 
+.: .ctor, 
+. : .ctor, 
+. : .ctor,   ​ , MoveNext, ,   ​ ,   ​ ,   ​ ,   ​ ,   ​ 
+.CellEditActivateMode: 
+.ColumnSelectBehaviour: 
+.ObjectListViewState: .ctor
+BrightIdeasSoftware.OlvDropEventArgs: .ctor, get_DragEventArgs, , get_DataObject, , get_DropSink, , get_DropTargetIndex, set_DropTargetIndex, get_DropTargetLocation, set_DropTargetLocation, get_DropTargetSubItemIndex, set_DropTargetSubItemIndex, get_DropTargetItem, set_DropTargetItem, get_Effect, set_Effect, get_Handled, set_Handled, get_InfoMessage, set_InfoMessage, get_ListView, , get_MouseLocation, , get_StandardDropActionFromKeys
+BrightIdeasSoftware.OlvListViewHitTestInfo: .ctor, .ctor, , get_Item, , get_SubItem, , get_Location, , get_ListView, , get_RowObject, get_RowIndex, get_ColumnIndex, , get_HeaderDividerIndex, , get_Column, ToString
+.: .ctor
+BrightIdeasSoftware.OneOfFilter: .ctor, .ctor, get_ValueGetter, set_ValueGetter, get_PossibleValues, set_PossibleValues, Filter, DoesValueMatch
+BrightIdeasSoftware.RearrangingDropSink: .ctor, .ctor, OnModelCanDrop, OnModelDropped, RearrangeModels
+BrightIdeasSoftware.RenderDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.RowBorderDecoration: .ctor, get_LeftColumn, set_LeftColumn, get_RightColumn, set_RightColumn, CalculateBounds
+BrightIdeasSoftware.RowFormatterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.RowGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.SimpleDragSource: .ctor, .ctor, get_RefreshAfterDrop, set_RefreshAfterDrop, StartDrag, GetAllowedEffects, EndDrag, CreateDataObject
+BrightIdeasSoftware.SimpleDropSink: .ctor, get_AcceptableLocations, set_AcceptableLocations, get_AcceptExternal, set_AcceptExternal, get_AutoScroll, set_AutoScroll, get_Billboard, set_Billboard, get_CanDropBetween, set_CanDropBetween, get_CanDropOnBackground, set_CanDropOnBackground, get_CanDropOnItem, set_CanDropOnItem, get_CanDropOnSubItem, set_CanDropOnSubItem, get_DropTargetIndex, set_DropTargetIndex, get_DropTargetItem, get_DropTargetLocation, set_DropTargetLocation, get_DropTargetSubItemIndex, set_DropTargetSubItemIndex, get_FeedbackColor, set_FeedbackColor, get_IsAltDown, get_IsAnyModifierDown, get_IsControlDown, get_IsLeftMouseButtonDown, get_IsMiddleMouseButtonDown, get_IsRightMouseButtonDown, get_IsShiftDown, get_KeyState, set_KeyState, get_UseDefaultCursors, set_UseDefaultCursors, add_CanDrop, remove_CanDrop, add_Dropped, remove_Dropped, add_ModelCanDrop, remove_ModelCanDrop, add_ModelDropped, remove_ModelDropped, Cleanup, DrawFeedback, Drop, Enter, GiveFeedback, Over, TriggerDroppedEvent, OnCanDrop, OnDropped, OnModelCanDrop, OnModelDropped, , HandleTimerTick, CalculateDropTarget, CalculateDropAction, CalculateStandardDropActionFromKeys, CheckScrolling, UpdateAfterCanDropEvent, DrawFeedbackBackgroundTarget, DrawFeedbackItemTarget, DrawFeedbackAboveItemTarget, DrawFeedbackBelowItemTarget, GetRoundedRect, CalculateDropTargetRectangle, DrawBetweenLine
+BrightIdeasSoftware.SimpleItemStyle: .ctor, get_Font, set_Font, get_FontStyle, set_FontStyle, get_ForeColor, set_ForeColor, get_BackColor, set_BackColor
+BrightIdeasSoftware.SimpleMunger: .ctor, get_AspectName, GetValue, PutValue, 
+BrightIdeasSoftware.SortDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.SubItemCheckingEventArgs: .ctor, get_Column, get_RowObject, get_ListViewItem, get_CurrentValue, get_NewValue, set_NewValue, get_SubItemIndex
+BrightIdeasSoftware.TailFilter: .ctor, .ctor, get_Count, set_Count, Filter
+BrightIdeasSoftware.TextAdornment: .ctor, get_BackColor, set_BackColor, get_BackgroundBrush, get_BorderColor, set_BorderColor, get_BorderPen, get_BorderWidth, set_BorderWidth, get_CornerRounding, set_CornerRounding, get_Font, set_Font, get_FontOrDefault, get_HasBackground, get_HasBorder, get_MaximumTextWidth, set_MaximumTextWidth, get_StringFormat, set_StringFormat, get_Text, set_Text, get_TextBrush, get_TextColor, set_TextColor, get_Wrap, set_Wrap, DrawText, DrawText, DrawBorderedText, CalculateTextBounds, GetRoundedRect
+BrightIdeasSoftware.TextDecoration: .ctor, .ctor, .ctor, .ctor, .ctor, get_ListItem, set_ListItem, get_SubItem, set_SubItem, Draw
+BrightIdeasSoftware.TextMatchFilter: .ctor, .ctor, .ctor, Regex, Prefix, Contains, get_Columns, set_Columns, get_AdditionalColumns, set_AdditionalColumns, get_ContainsStrings, set_ContainsStrings, get_HasComponents, get_ListView, set_ListView, get_PrefixStrings, set_PrefixStrings, get_RegexOptions, set_RegexOptions, get_RegexStrings, set_RegexStrings, get_StringComparison, set_StringComparison, IterateColumns, Filter, FindAllMatchedRanges, IsIncluded
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.TextBeginsMatchingStrategy: .ctor, MatchesText, FindAllMatchedRanges
+.TextContainsMatchingStrategy: .ctor, MatchesText, FindAllMatchedRanges
+.TextMatchingStrategy: .ctor, get_StringComparison, get_TextFilter, set_TextFilter, get_Text, set_Text, FindAllMatchedRanges, MatchesText
+.TextRegexMatchingStrategy: .ctor, .cctor, get_RegexOptions, get_Regex, set_Regex, get_IsRegexInvalid, MatchesText, FindAllMatchedRanges
+BrightIdeasSoftware.TextOverlay: .ctor, get_InsetX, set_InsetX, get_InsetY, set_InsetY, get_RoundCorneredBorder, set_RoundCorneredBorder, Draw
+BrightIdeasSoftware.TintedColumnDecoration: .ctor, .ctor, get_ColumnToTint, set_ColumnToTint, get_Tint, set_Tint, Draw
+BrightIdeasSoftware.ToolStripCheckedListBox: .ctor, get_CheckedListBoxControl, get_Items, get_CheckedOnClick, set_CheckedOnClick, get_CheckedItems, AddItem, AddItem, GetItemCheckState, SetItemState, CheckAll, UncheckAll, OnSubscribeControlEvents, OnUnsubscribeControlEvents, add_ItemCheck, remove_ItemCheck, 
+BrightIdeasSoftware.ToolTipControl: .ctor, , , get_IsBalloon, set_IsBalloon, get_HasBorder, set_HasBorder, get_BackColor, set_BackColor, get_ForeColor, set_ForeColor, get_Title, set_Title, get_StandardIcon, set_StandardIcon, get_Font, set_Font, get_AutoPopDelay, set_AutoPopDelay, get_InitialDelay, set_InitialDelay, get_ReshowDelay, set_ReshowDelay, , , Create, PushSettings, PopSettings, AddTool, PopToolTip, RemoveToolTip, SetMaxWidth, SetMaxWidth, , HandleNotify, HandleGetDispInfo, , HandleLinkClick, HandlePop, HandleShow, HandleReflectNotify, WndProc, add_Showing, remove_Showing, add_Pop, remove_Pop, OnShowing, OnPop
+.StandardIcons: 
+BrightIdeasSoftware.ToolTipShowingEventArgs: .ctor, get_ToolTipControl, 
+BrightIdeasSoftware.TreeBranchCollapsedEventArgs: .ctor, get_Model, , get_Item, 
+BrightIdeasSoftware.TreeBranchCollapsingEventArgs: .ctor, get_Model, , get_Item, 
+BrightIdeasSoftware.TreeBranchExpandedEventArgs: .ctor, get_Model, , get_Item, 
+BrightIdeasSoftware.TreeBranchExpandingEventArgs: .ctor, get_Model, , get_Item, 
+BrightIdeasSoftware.TreeDataSourceAdapter: .ctor, get_KeyAspectName, set_KeyAspectName, get_ParentKeyAspectName, set_ParentKeyAspectName, get_RootKeyValue, set_RootKeyValue, get_ShowKeyColumns, set_ShowKeyColumns, get_TreeListView, InitializeDataSource, SetListContents, ShouldCreateColumn, HandleListChangedItemChanged, ChangePosition, , , , , , , , 
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext, ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+BrightIdeasSoftware.TreeListView: .ctor, add_Expanding, remove_Expanding, add_Collapsing, remove_Collapsing, add_Expanded, remove_Expanded, add_Collapsed, remove_Collapsed, OnExpanding, OnCollapsing, OnExpanded, OnCollapsed, get_CanExpandGetter, set_CanExpandGetter, get_CanShowGroups, get_ChildrenGetter, set_ChildrenGetter, get_ParentGetter, set_ParentGetter, get_CheckedObjects, set_CheckedObjects, get_ExpandedObjects, set_ExpandedObjects, get_ListFilter, set_ListFilter, get_HierarchicalCheckboxes, set_HierarchicalCheckboxes, get_Objects, set_Objects, get_ObjectsForClustering, get_RevealAfterExpand, set_RevealAfterExpand, get_Roots, set_Roots, EnsureTreeRendererPresent, get_TreeColumnRenderer, set_TreeColumnRenderer, get_TreeFactory, set_TreeFactory, get_UseWaitCursorWhenExpanding, set_UseWaitCursorWhenExpanding, get_TreeModel, set_TreeModel, IsExpanded, Collapse, CollapseAll, ClearObjects, DiscardAllState, Expand, ExpandAll, RebuildAll, RebuildAll, Reveal, RefreshObjects, SetObjectCheckedness, , ToggleExpansion, CanExpand, GetParent, GetChildren, ProcessLButtonDown, MakeListViewItem, RegenerateTree, RecalculateHierarchicalCheckBoxGraph, RecalculateSingleHierarchicalCheckBox, CalculateDistinctAncestors, GetAncestors, HandleApplicationIdle, IsInputKey, OnKeyDown
+.: .ctor, 
+.: .ctor,  ​ , MoveNext, , ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ , MoveNext,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.Branch: .ctor, get_Ancestors, , get_CanExpand, get_ChildBranches, set_ChildBranches, get_Children, set_Children, , get_FilteredChildBranches, get_IsExpanded, set_IsExpanded, get_IsFirstBranch, set_IsFirstBranch, get_IsLastChild, set_IsLastChild, get_IsOnlyBranch, set_IsOnlyBranch, get_Level, get_Model, set_Model, get_NumberVisibleDescendents, get_ParentBranch, set_ParentBranch, get_Tree, set_Tree, get_Visible, ClearCachedInfo, Collapse, Expand, ExpandAll, CollapseAll, FetchChildren, Flatten, FlattenOnto, RefreshChildren, Sort
+.BranchFlags: 
+.BranchComparer: .ctor, Compare
+.CanExpandGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.ChildrenGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.ParentGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.Tree: .ctor, get_CanExpandGetter, set_CanExpandGetter, get_ChildrenGetter, set_ChildrenGetter, get_RootObjects, set_RootObjects, get_TreeView, Collapse, CollapseAll, Expand, ExpandAll, GetBranch, GetVisibleDescendentCount, RebuildChildren, , , InsertChildren, RebuildList, RebuildObjectMap, , AddBranch, RemoveBranch, GetNthObject, GetObjectCount, GetObjectIndex, PrepareCache, SearchText, Sort, GetBranchComparer, AddObjects, RemoveObjects, SetObjects, UpdateObject, ApplyFilters, , 
+.TreeFactoryDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TreeRenderer: .ctor, .cctor, , get_LinePen, set_LinePen, get_TreeListView, get_IsShowLines, set_IsShowLines, DrawRoundedRectangle, Render, DrawExpansionGlyph, get_UseStyles, DrawExpansionGlyphStyled, DrawExpansionGlyphManual, DrawLines, HandleHitTest, HandleGetEditRectangle
+BrightIdeasSoftware.TypedColumn`1: .ctor, get_AspectGetter, set_AspectGetter, get_AspectPutter, set_AspectPutter, get_ImageGetter, set_ImageGetter, get_GroupKeyGetter, set_GroupKeyGetter, GenerateAspectGetter, , , , , , , 
+.: .cctor, .ctor, 
+.TypedAspectGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedAspectPutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedGroupKeyGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedImageGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.TypedObjectListView`1: .ctor, get_CheckedObject, get_CheckedObjects, set_CheckedObjects, get_ListView, set_ListView, get_Objects, set_Objects, get_SelectedObject, set_SelectedObject, get_SelectedObjects, set_SelectedObjects, GetColumn, GetColumn, GetModelObject, get_CheckStateGetter, set_CheckStateGetter, set_BooleanCheckStateGetter, get_CheckStatePutter, set_CheckStatePutter, set_BooleanCheckStatePutter, set_CellToolTipGetter, get_HeaderToolTipGetter, set_HeaderToolTipGetter, GenerateAspectGetters, , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.TypedBooleanCheckStateGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedBooleanCheckStatePutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedCellToolTipGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedCheckStateGetterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+.TypedCheckStatePutterDelegate: .ctor, Invoke, BeginInvoke, EndInvoke
+BrightIdeasSoftware.VirtualListVersion1DataSource: .ctor, get_RowGetter, set_RowGetter, GetNthObject, SearchText
+BrightIdeasSoftware.VirtualObjectListView: .ctor, get_CanShowGroups, get_CheckBoxes, set_CheckBoxes, get_CheckedObjects, set_CheckedObjects, get_CheckedObjectsMustStillExistInList, set_CheckedObjectsMustStillExistInList, get_FilteredObjects, get_GroupingStrategy, set_GroupingStrategy, get_IsFiltering, get_Objects, set_Objects, get_RowGetter, set_RowGetter, get_ShowGroups, set_ShowGroups, get_VirtualListDataSource, set_VirtualListDataSource, get_VirtualListSize, set_VirtualListSize, GetItemCount, GetModelObject, IndexOf, ModelToItem, AddObjects, ClearObjects, EnsureNthGroupVisible, RefreshObjects, RefreshSelectedObjects, RemoveObjects, SelectObject, SelectObjects, SetObjects, GetCheckState, BuildList, ClearCachedInfo, CreateGroups, DisableVirtualGroups, EnableVirtualGroups, GetDisplayOrderOfItemIndex, GetLastItemInDisplayOrder, GetNthItemInDisplayOrder, GetNextItem, GetPreviousItem, MakeGroups, MakeListViewItem, PostProcessRows, PutCheckState, RefreshItem, SetVirtualListSize, TakeOwnershipOfObjects, UpdateFiltering, UpdateVirtualListSize, HandleCacheVirtualItems, HandleRetrieveVirtualItem, HandleSearchForVirtualItem, FindMatchInRange, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor,  ​ , MoveNext,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+PlatformTools.ext.ActiveStatusLogo: .ctor, Dispose, , , , 
+PlatformTools.ext.BaseControl: .ctor, get_InDesignMode
+PlatformTools.ext.Controls.ExtProgressBar: .ctor, Dispose, get_FromColor, set_FromColor, get_ToColor, set_ToColor, get_GradinetKind, set_GradinetKind, get_Minimum, set_Minimum, get_Maximum, set_Maximum, get_Value, set_Value, , , OnResize, OnPaint, 
+.Direction: 
+PlatformTools.ext.Database.ConnectionParameters: .ctor, .ctor, get_Host, set_Host, get_Port, set_Port, get_Login, set_Login, get_Password, set_Password, get_Database, set_Database, get_Item, SetField, CopyFrom, ToString
+PlatformTools.ext.Database.DatabaseCommandException: .ctor, get_OwnerException, 
+PlatformTools.ext.Database.DatabaseConnectException: .ctor
+PlatformTools.ext.Database.DatabaseException: .ctor, .ctor
+PlatformTools.ext.Database.DatabaseProvider: .ctor, CreateConnection, CreateAdapter, CreateParameter, GetParameterName, HandleException, add_ConnectChanged, remove_ConnectChanged, add_BeforeConnect, remove_BeforeConnect, get_Connection, set_Connection, get_Options, , get_Timeouts, , get_Parameters, , get_Connected, set_Connected, get_Connecting, NewDatabase, DropDatabase, Dispose, , Lock, Unlock, Execute, FloatToStr, , , ExecuteSQL, ExecuteSQLScalar, ExecuteSQLTable, ExecuteSQLArray, ExecuteSQLSerialize, ExecuteSQLSerialize, ExecuteProc, ExecuteProcScalar, ExecuteProcTable, ExecuteProcArray, ExecuteProcSerialize, ExecuteProcSerialize
+.: .cctor, .ctor, 
+.: .ctor, 
+.: .ctor, 
+.AdditionParameters: .ctor, get_Item, set_Item, ToString
+.ExceptionStage: 
+.InternalParameters: .ctor, CheckState
+.KnownParamaters: 
+.OptionsParameters: .ctor, SetField, get_TryConnectCount, set_TryConnectCount, get_TryExecuteCount, set_TryExecuteCount, get_AutoConnect, set_AutoConnect
+.TimeoutParameters: .ctor, , get_Connection, set_Connection, get_Command, set_Command, get_Item, set_Item
+PlatformTools.ext.Database.DatabaseStateException: .ctor
+PlatformTools.ext.Database.PostgreSqlProvider: .ctor, .cctor, CreateConnection, CreateAdapter, CreateParameter, HandleException, GetParameterName, Execute, get_DefaultScheme, set_DefaultScheme, GetAvailableDatabases
+PlatformTools.ext.DefaultComparer`1: .ctor, Compare
+PlatformTools.ext.EnumHelper`1: .ctor, Name, GetAttribute, FriendlyName, DefaultName, HasAttribute, Values, CheckFlag
+PlatformTools.ext.ExtConverterAttribute: .ctor, GetConverter
+PlatformTools.ext.ExtGradientPanel: .ctor, get_FromColor, set_FromColor, get_ToColor, set_ToColor, get_GradinetKind, set_GradinetKind, , OnResize, OnPaint
+.Direction: 
+PlatformTools.ext.ExtLogTextBox: .ctor, Log
+.LogColor: 
+PlatformTools.ext.ExtRichTextBox: .ctor, BeginUpdate, EndUpdate, SaveScrollState, SaveScrollState, RestoreScrollState, AppendText, AppendLines, , , 
+.ColorizedLine: 
+PlatformTools.ext.ExtSplitter: .ctor, get_MainColor, set_MainColor, get_FillAlpha, set_FillAlpha, , OnPaint, OnMouseEnter, OnMouseLeave, 
+PlatformTools.ext.ExtTabControl: .ctor, .cctor, , BeginUpdate, EndUpdate, Repaint, AddTab, RemoveTab, RemoveTab, GetTabIndex, GetTabIndex, GetTabIndex, , , get_Item, get_SelectedIndex, set_SelectedIndex, get_EnableAero, set_EnableAero, get_TabCount, get_NewPageButton, get_EnableEffects, set_EnableEffects, add_OnSelectedIndexChanged, remove_OnSelectedIndexChanged, add_OnTabCountChanged, remove_OnTabCountChanged, get_EmptyMessage, set_EmptyMessage, get_TabPadding, set_TabPadding, get_Images, set_Images, , , , , , , , , Dispose, , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , HitTest, get_Bounds, , 
+.: .ctor, 
+.: .ctor, jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , HitTest, get_Bounds
+.: .cctor, .ctor, 
+.TabItem: .ctor, get_Content, set_Content, get_Text, set_Text, get_Icon, set_Icon, get_Index, , jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , HitTest, jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , get_Bounds, get_CloseButton, , 
+.TabObject: .ctor, get_State, set_State, get_Owner, get_OwnerObject, , get_Location, get_Bounds, set_Bounds, get_Initialized, add_OnClick, remove_OnClick, add_OnStateChanged, remove_OnStateChanged, jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , HitTest, jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , jjtbljzg2uzqxru3994ky6pgsag8ecan ​ , , get_Tag, set_Tag
+.TabObjectState: 
+PlatformTools.ext.ExtTypeConverter: .ctor, , SetConverter, SetEditor, SetReadOnly, GetPropertiesSupported, GetProperties
+.BaseProperty: .ctor, SetConverter, SetEditor, SetReadOnly, get_Converter, GetValue, SetValue, get_IsReadOnly, GetEditor, get_Attributes
+.BooleanConverter: .ctor, .cctor, ConvertTo, ConvertFrom
+.DoubleConverter: .ctor, DisplayFix, ConvertTo, ConvertFrom
+.ListStringConvertor: .ctor, .ctor, , GetStandardValuesExclusive, IsValid, GetStandardValuesSupported, GetStandardValues, CanConvertTo, ConvertTo, CanConvertFrom, ConvertFrom
+PlatformTools.ext.ExternalExecuteForm: .ctor, GetCompactedString, , , , , Dispose, , 
+.: .ctor, , 
+PlatformTools.ext.FileSystemHelper: FindInDir, CopyFiles, CopyFiles
+PlatformTools.ext.GraphicHelper: SetPixel, ColorToColorRef, ShiftColor, HsvToColor
+.: .cctor, .ctor, 
+.PixelHandle: .ctor, Release, cjtuxs6n8gyrcpt6g8mc74j7ze3gx8gr ​ 
+PlatformTools.ext.GuiHelper: .cctor, get_MainForm, get_DefaultProgramName, EnableDoubleBuffered, ShowDialog, ShowDialogQuery, RecalculateDataGridViewColumnWidth
+PlatformTools.ext.HexBox.BuiltInContextMenu: .ctor, , , , , , , , get_CopyMenuItemText, set_CopyMenuItemText, get_CutMenuItemText, set_CutMenuItemText, get_PasteMenuItemText, set_PasteMenuItemText, get_SelectAllMenuItemText, set_SelectAllMenuItemText, , , , , get_CutMenuItemImage, set_CutMenuItemImage, get_CopyMenuItemImage, set_CopyMenuItemImage, get_PasteMenuItemImage, set_PasteMenuItemImage, get_SelectAllMenuItemImage, set_SelectAllMenuItemImage
+PlatformTools.ext.HexBox.ByteCollection: .ctor, .ctor, get_Item, set_Item, Add, AddRange, Remove, RemoveRange, InsertRange, GetBytes, Insert, IndexOf, Contains, CopyTo, ToArray
+PlatformTools.ext.HexBox.DefaultByteCharConverter: .ctor, ToChar, ToByte, ToString
+PlatformTools.ext.HexBox.DynamicByteProvider: .ctor, .ctor, , , get_Bytes, HasChanges, ApplyChanges, add_Changed, remove_Changed, add_LengthChanged, remove_LengthChanged, ReadByte, WriteByte, DeleteBytes, InsertBytes, get_Length, SupportsWriteByte, SupportsInsertBytes, SupportsDeleteBytes
+PlatformTools.ext.HexBox.DynamicFileByteProvider: .ctor, .ctor, .ctor, add_LengthChanged, remove_LengthChanged, add_Changed, remove_Changed, ReadByte, WriteByte, InsertBytes, DeleteBytes, get_Length, HasChanges, ApplyChanges, SupportsWriteByte, SupportsInsertBytes, SupportsDeleteBytes, Finalize, Dispose, get_ReadOnly, , , , , , , 
+PlatformTools.ext.HexBox.EbcdicByteCharProvider: .ctor, ToString
+PlatformTools.ext.HexBox.EncodingByteCharProvider: .ctor, ToChar, ToByte, ToString
+PlatformTools.ext.HexBox.FileByteProvider: .ctor, add_Changed, remove_Changed, Finalize, , get_FileName, HasChanges, ApplyChanges, RejectChanges, add_LengthChanged, remove_LengthChanged, ReadByte, get_Length, WriteByte, DeleteBytes, InsertBytes, SupportsWriteByte, SupportsInsertBytes, SupportsDeleteBytes, Dispose
+.: .ctor, , , , 
+PlatformTools.ext.HexBox.FindOptions: .ctor, get_IsValid, set_IsValid, , , , , , , get_MatchCase, set_MatchCase, get_Text, set_Text, get_Hex, set_Hex, get_Type, set_Type, 
+PlatformTools.ext.HexBox.FindType: 
+PlatformTools.ext.HexBox.HexBox: .ctor, add_InsertActiveChanged, remove_InsertActiveChanged, add_ReadOnlyChanged, remove_ReadOnlyChanged, add_ByteProviderChanged, remove_ByteProviderChanged, add_SelectionStartChanged, remove_SelectionStartChanged, add_SelectionLengthChanged, remove_SelectionLengthChanged, add_LineInfoVisibleChanged, remove_LineInfoVisibleChanged, add_ColumnInfoVisibleChanged, remove_ColumnInfoVisibleChanged, add_GroupSeparatorVisibleChanged, remove_GroupSeparatorVisibleChanged, add_StringViewVisibleChanged, remove_StringViewVisibleChanged, add_BorderStyleChanged, remove_BorderStyleChanged, add_GroupSizeChanged, remove_GroupSizeChanged, add_BytesPerLineChanged, remove_BytesPerLineChanged, add_UseFixedBytesPerLineChanged, remove_UseFixedBytesPerLineChanged, add_VScrollBarVisibleChanged, remove_VScrollBarVisibleChanged, add_HexCasingChanged, remove_HexCasingChanged, add_HorizontalByteCountChanged, remove_HorizontalByteCountChanged, add_VerticalByteCountChanged, remove_VerticalByteCountChanged, add_CurrentLineChanged, remove_CurrentLineChanged, add_CurrentPositionInLineChanged, remove_CurrentPositionInLineChanged, add_Copied, remove_Copied, add_CopiedHex, remove_CopiedHex, add_CharSizeChanged, remove_CharSizeChanged, add_RequiredWidthChanged, remove_RequiredWidthChanged, , , , , , , , , , , , , , , ScrollByteIntoView, ScrollByteIntoView, , CanSelectAll, SelectAll, Select, ,  ,  ,  ,  ,  ,  , , , , PreProcessMessage, , Find, AbortFind, get_CurrentFindingPosition, , Copy, CanCopy, Cut, CanCut, Paste, CanPaste, CanPasteHex, PasteHex, CopyHex, OnPaintBackground, OnPaint, , , , , , , , , , , ,  ,  , , , , , , get_BackColor, set_BackColor, get_Font, set_Font, get_Text, set_Text, get_RightToLeft, set_RightToLeft, get_BackColorDisabled, set_BackColorDisabled, get_ReadOnly, set_ReadOnly, get_BytesPerLine, set_BytesPerLine, get_GroupSize, set_GroupSize, get_UseFixedBytesPerLine, set_UseFixedBytesPerLine, get_VScrollBarVisible, set_VScrollBarVisible, get_ByteProvider, set_ByteProvider, get_GroupSeparatorVisible, set_GroupSeparatorVisible, get_ColumnInfoVisible, set_ColumnInfoVisible, get_LineInfoVisible, set_LineInfoVisible, get_LineInfoOffset, set_LineInfoOffset, get_BorderStyle, set_BorderStyle, get_StringViewVisible, set_StringViewVisible, get_HexCasing, set_HexCasing, get_SelectionStart, set_SelectionStart, get_SelectionLength, set_SelectionLength, get_InfoForeColor, set_InfoForeColor, get_SelectionBackColor, set_SelectionBackColor, get_SelectionForeColor, set_SelectionForeColor, get_ShadowSelectionVisible, set_ShadowSelectionVisible, get_ShadowSelectionColor, set_ShadowSelectionColor, get_CharSize, , get_RequiredWidth, , get_HorizontalByteCount, get_VerticalByteCount, get_CurrentLine, get_CurrentPositionInLine, get_InsertActive, set_InsertActive, get_BuiltInContextMenu, get_ByteCharConverter, set_ByteCharConverter, get_LastUnknownAddress, ,  , , , , , , , , , ,  ,  , OnInsertActiveChanged, OnReadOnlyChanged, OnByteProviderChanged, OnSelectionStartChanged, OnSelectionLengthChanged, OnLineInfoVisibleChanged, OnColumnInfoVisibleChanged, OnGroupSeparatorVisibleChanged, OnStringViewVisibleChanged, OnBorderStyleChanged, OnUseFixedBytesPerLineChanged, OnGroupSizeChanged, OnBytesPerLineChanged, OnVScrollBarVisibleChanged, OnHexCasingChanged, OnHorizontalByteCountChanged, OnVerticalByteCountChanged, OnCurrentLineChanged, OnCurrentPositionInLineChanged, OnCopied, OnCopiedHex, OnMouseDown, OnMouseWheel, OnResize, OnGotFocus, OnLostFocus, , DefaultSetup, ScaleControl,  
+.:  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor,  ​ ,  ​ , , , ,  ​ , , ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​  ,  ​ , ,  ​ ,  ​  , , ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor, Invoke, BeginInvoke, EndInvoke
+.: .ctor,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+PlatformTools.ext.HexBox.HexCasing: 
+PlatformTools.ext.HexBox.IByteCharConverter: ToChar, ToByte
+PlatformTools.ext.HexBox.IByteProvider: ReadByte, WriteByte, InsertBytes, DeleteBytes, get_Length, add_LengthChanged, remove_LengthChanged, HasChanges, ApplyChanges, add_Changed, remove_Changed, SupportsWriteByte, SupportsInsertBytes, SupportsDeleteBytes
+PlatformTools.ext.HidDevice: .ctor, get_ProductString, , get_SerialNumberString, , get_DevicePath, , get_Vid, , get_Pid, , get_Version, , GetDevices, , , , , 
+PlatformTools.ext.ITask: Execute, Executed, get_Priority
+PlatformTools.ext.ITaskProgress: get_ProgressMaximum, get_ProgressCurrent, add_ProgressNotify, remove_ProgressNotify
+PlatformTools.ext.ITaskQueueFeature: QueueAdded, QueueRemoved
+PlatformTools.ext.ITaskRepeatFeature: IsRepeat
+PlatformTools.ext.InterruptProcessException: .ctor
+PlatformTools.ext.LiteSharedTools: GetExternalDatabaseParams, SetExternalDatabaseParams, GetShellElevate, SetShellElevate
+.DatabaseState: 
+PlatformTools.ext.LoadingForm: .ctor, get_ActionName, set_ActionName, Show, , Dispose, 
+.: .ctor, , 
+PlatformTools.ext.MarkerModel: .ctor, .cctor, SelectVersion, get_Root, get_Devices
+.: .ctor, , 
+.: .cctor, .ctor, GetConverter
+.Band: .ctor, get_Parent, set_Parent, get_Versions
+.BaseItem: .ctor, GetElementTypes
+.Device: .ctor, get_Model, set_Model, get_Parent, set_Parent, get_Wideband, get_Narrowband, Load, Save, ToString
+.Group: .ctor
+.GroupableItem: .ctor, get_Groups, get_Parameters
+.NamedItem: .ctor, get_Name, set_Name, get_Parent, set_Parent, Load, Save, ToString
+.Narrowband: .ctor, ToString
+.Parameter: .ctor, get_Index, set_Index, Load, Save, ToString
+.RootItem: .ctor, get_Parent, set_Parent, get_Devices
+.Version: .ctor, get_Index, set_Index, get_Parent, set_Parent, Load, Save, ToString
+.Wideband: .ctor, ToString
+PlatformTools.ext.MarkerModelEditor: .ctor, Dispose, , get_Model, set_Model, , , , , , , 
+.: .cctor, .ctor, , , , 
+PlatformTools.ext.MarkerModelViewer: .ctor, get_IsNarrowband, set_IsNarrowband, , , , , Display, Display, Dispose, 
+.: .cctor, .ctor, , , , , , , , , 
+.: .ctor, 
+.: .ctor, , 
+.: 
+.: .ctor, 
+.: .ctor, DrawExpansionGlyph, DrawImageAndText
+PlatformTools.ext.NativeMethods: .cctor, CreateFile, CloseHandle, SetPixel, SendMessage, ReleaseCapture, GetForegroundWindow, SetScrollInfo, GetScrollInfo, BitBlt, GetFocus, SetFocus, SetupDiGetClassDevs, SetupDiEnumDeviceInterfaces, SetupDiDestroyDeviceInfoList, HidD_GetHidGuid, HidD_GetAttributes, HidD_GetProductString, , SetupDiGetDeviceInterfaceDetail, SetupDiGetDeviceInterfaceDetail, GetSystemMenu, AppendMenu, InsertMenu, DefaultCaptureCaption, get_IsXP
+.DeviceInterfaceData: 
+.DeviceInterfaceDetailData: 
+.HIDD_ATTRIBUTES: 
+.SCROLLINFO: 
+.ScrollBarDirection: 
+.ScrollInfoMask: 
+PlatformTools.ext.OpacityEx: .cctor, , FadeIn, FadeOut
+.: .ctor, 
+.: .ctor, , , , , , , 
+.: .ctor, , 
+PlatformTools.ext.ProcessHelper: SetupQuitHook, Quit, Terminate, Restart, ExecuteProgram, ExecuteProgramAsync, ExecuteProgram, Invoke, get_IsPrimaryThread, ThreadIdle, Sleep
+.: .ctor, , 
+.: .ctor, 
+PlatformTools.ext.ReflectionHelper: GetAllPublicConstantValues
+.: .cctor, .ctor, , 
+PlatformTools.ext.SelectDatabasePanel: .ctor, .cctor, add_RequestReady, remove_RequestReady, add_RequestCanceled, remove_RequestCanceled, get_Host, set_Host, get_Port, set_Port, get_Login, set_Login, get_Password, set_Password, get_Database, set_Database, get_CancelVisible, set_CancelVisible, Reset, GetConnectionParams, SetConnectionParams, , , , , , , , Dispose, 
+.: .ctor, , , 
+.CacheName: 
+PlatformTools.ext.SmoothEffect: .ctor, get_Completed, Cancel
+.: .ctor, 
+.: 
+PlatformTools.ext.StringHelper: GetMagicFileName, ToTrafficString, GetNumEnding, LowerFirstChar, ExceptionToString, ConditionToString, NetworkAddressToString
+PlatformTools.ext.SysMenuForm: .ctor, GetSysMenuCommands, OnHandleCreated, WndProc
+.SysMenuCommand: .ctor
+PlatformTools.ext.TabControlSwitcher: .ctor, , RefreshCachedPages, HideAll, get_Item, set_Item
+PlatformTools.ext.TaskProgressEventArgs: .ctor
+PlatformTools.ext.TaskProgressEventHandler: .ctor, Invoke, BeginInvoke, EndInvoke
+PlatformTools.ext.TaskQueue: .ctor, InternalStart, , AppendTask, ContainsTask, CancelTask, CancelAllTasks, WakeupAllTasks, Suspend, get_Count, , , get_Active, Suspended
+.: .cctor, .ctor, 
+.: .ctor, , 
+.: .ctor, 
+PlatformTools.ext.TaskQueueWrapper: .ctor, get_Active, Suspended
+PlatformTools.ext.TaskResult: 
+PlatformTools.ext.TaskWrapper: .ctor, kkz7jel6g45pcvvheszxmcuexuycnjle ​ , kkz7jel6g45pcvvheszxmcuexuycnjle ​ , kkz7jel6g45pcvvheszxmcuexuycnjle ​ , get_Priority, set_Priority
+PlatformTools.ext.UiBackgroundProcess: .ctor, .ctor, DoBeforeRun, DoAfterRun, , Invoke, DelayExecute, 
+.: .ctor, 
+.: .ctor, , , , 
+PlatformTools.ext.UiBaseProcess: .ctor, .ctor, .ctor, get_IsAlive, get_ErrorMessage, , Run, BeforeStopRequest, BeforeRun, AfterRun, DoBeforeRun, DoAfterRun, , Start, AbortSelf, Stop, Join, 
+PlatformTools.ext.UiCircleProgressBar: .ctor, , PaintOn, PaintOn, get_Size, set_Size, get_FrameTime, set_FrameTime, get_MaxValue, set_MaxValue, get_Value, set_Value, get_BackgroundColor, set_BackgroundColor, get_BackColor, set_BackColor, get_ForeColor, set_ForeColor, get_Image, get_PrecentFont, set_PrecentFont
+PlatformTools.ext.UiPureProcess: .ctor, .ctor, .ctor, DoBeforeRun, DoAfterRun
+PlatformTools.ext.VistaAeroGlass: , , , , , , , , , get_DwmSupported, get_DwmCompositionEnabled, DwmExtendFrame, DrawText
+.: 
+.: 
+.: 
+.: .ctor
+.: 
+.: .ctor, .ctor, , ToString
+.: 
+.TextStyle: 
+PlatformTools.ext.VistaSecurity: get_Supported, SetButtonIconUAC, IsAdmin, RestartElevated
+PlatformTools.ext.VistaTaskbar: SetState, SetValue
+.:  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ ,  ​ 
+.: .ctor
+.States: 
+PlatformTools.ext.XmlSettings: .ctor, InitializeDocument, BeforeSave, AfterLoad, ResolvePath, , , , , get_RootNodeName, set_RootNodeName, get_Item, set_Item, get_FileName, set_FileName, get_Loaded, Save, GetKeyBool, GetKeyInt, GetKeyFloat, GetKeyDouble, GetKeyString, GetKeyRaw, GetKeyReadStream, GetKeyWriteStream, DeserializeObject, DeserializeObject, SetKeyValue
+.: .cctor, .ctor, 
+.: .ctor, .ctor, Close

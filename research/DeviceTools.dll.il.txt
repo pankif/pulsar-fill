@@ -1,0 +1,5142 @@
+
+METHOD 000001 TOKEN 06000001 .<Module>::.cctor
+  0001 call             06000002 .<Module>::f0659e5905454a5e99b9752afc78b700
+  0006 call             06000005 .::
+  000B ret              
+
+METHOD 000002 TOKEN 06000002 .<Module>::f0659e5905454a5e99b9752afc78b700
+  0001 ret              
+
+METHOD 000003 TOKEN 06000003 .::
+  000C ldc.i4           -707448257
+  0011 call             06000013 . ::
+  0016 call             0A000014 System.Globalization.CultureInfo::get_InvariantCulture
+  001B ldc.i4           128
+  0020 call             0A000015 System.DateTime::Parse
+  0025 stloc.0          
+  0026 call             0A000016 System.DateTime::get_UtcNow
+  002B stloc.1          
+  002C ldloc.1          
+  002D ldloc.0          
+  002E call             0A000017 System.DateTime::op_GreaterThan
+  0033 brtrue.s         77
+  0035 ldloc.1          
+  0036 ldloca.s         local(0x0000)
+  0038 ldc.r8           -21.0
+  0041 call             0A000018 System.DateTime::AddDays
+  0046 call             0A000019 System.DateTime::op_LessThan
+  004B brfalse.s        122
+  004D ldtoken          02000006 . 
+  0052 call             0A00001A System.Type::GetTypeFromHandle
+  0057 callvirt         0A00001B System.Type::get_Assembly
+  005C callvirt         0A00001C System.Reflection.Assembly::GetName
+  0061 callvirt         0A00001D System.Reflection.AssemblyName::get_Name
+  0066 stloc.2          
+  0067 ldc.i4           -707448292
+  006C call             06000013 . ::
+  0071 ldloc.2          
+  0072 call             0A00001E System.String::Format
+  0077 pop              
+  0078 ldc.i4.1         
+  0079 ret              
+  007A ldc.i4.1         
+  007B ret              
+
+METHOD 000004 TOKEN 06000004 .::
+  0001 ldc.i4.1         
+  0002 call             06000003 .::
+  0007 ret              
+
+METHOD 000005 TOKEN 06000005 .::
+  0001 ldc.i4.1         
+  0002 call             06000003 .::
+  0007 pop              
+  0008 ret              
+
+METHOD 000006 TOKEN 06000006 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ldarg.0          
+  0008 ldarg.1          
+  0009 stfld            04000001 .::
+  000E ldarg.0          
+  000F call             0A000020 System.Threading.Thread::get_CurrentThread
+  0014 callvirt         0A000021 System.Threading.Thread::get_ManagedThreadId
+  0019 stfld            04000003 .::
+  001E ret              
+
+METHOD 000007 TOKEN 06000007 .::   
+  0001 ret              
+
+METHOD 000008 TOKEN 06000008 .::   
+  000C ldarg.0          
+  000D ldfld            04000001 .::
+  0012 stloc.0          
+  0013 ldloc.0          
+  0014 switch           [67, 94, 128, 162, 189, 216, 243, 277, 304, 339]
+  0041 ldc.i4.0         
+  0042 ret              
+  0043 ldarg.0          
+  0044 ldc.i4.m1        
+  0045 stfld            04000001 .::
+  004A ldarg.0          
+  004B ldc.i4           2131205764
+  0050 stfld            04000002 .::
+  0055 ldarg.0          
+  0056 ldc.i4.1         
+  0057 stfld            04000001 .::
+  005C ldc.i4.1         
+  005D ret              
+  005E ldarg.0          
+  005F ldc.i4.m1        
+  0060 stfld            04000001 .::
+  0065 ldarg.0          
+  0066 ldarg.0          
+  0067 ldfld            04000004 .::
+  006C ldc.i4           -542957767
+  0071 xor              
+  0072 stfld            04000002 .::
+  0077 ldarg.0          
+  0078 ldc.i4.2         
+  0079 stfld            04000001 .::
+  007E ldc.i4.1         
+  007F ret              
+  0080 ldarg.0          
+  0081 ldc.i4.m1        
+  0082 stfld            04000001 .::
+  0087 ldarg.0          
+  0088 ldarg.0          
+  0089 ldfld            04000004 .::
+  008E ldc.i4           1762467218
+  0093 xor              
+  0094 stfld            04000002 .::
+  0099 ldarg.0          
+  009A ldc.i4.3         
+  009B stfld            04000001 .::
+  00A0 ldc.i4.1         
+  00A1 ret              
+  00A2 ldarg.0          
+  00A3 ldc.i4.m1        
+  00A4 stfld            04000001 .::
+  00A9 ldarg.0          
+  00AA ldc.i4           -300000115
+  00AF stfld            04000002 .::
+  00B4 ldarg.0          
+  00B5 ldc.i4.4         
+  00B6 stfld            04000001 .::
+  00BB ldc.i4.1         
+  00BC ret              
+  00BD ldarg.0          
+  00BE ldc.i4.m1        
+  00BF stfld            04000001 .::
+  00C4 ldarg.0          
+  00C5 ldc.i4           -317073458
+  00CA stfld            04000002 .::
+  00CF ldarg.0          
+  00D0 ldc.i4.5         
+  00D1 stfld            04000001 .::
+  00D6 ldc.i4.1         
+  00D7 ret              
+  00D8 ldarg.0          
+  00D9 ldc.i4.m1        
+  00DA stfld            04000001 .::
+  00DF ldarg.0          
+  00E0 ldc.i4           1201411035
+  00E5 stfld            04000002 .::
+  00EA ldarg.0          
+  00EB ldc.i4.6         
+  00EC stfld            04000001 .::
+  00F1 ldc.i4.1         
+  00F2 ret              
+  00F3 ldarg.0          
+  00F4 ldc.i4.m1        
+  00F5 stfld            04000001 .::
+  00FA ldarg.0          
+  00FB ldarg.0          
+  00FC ldfld            04000004 .::
+  0101 ldc.i4           -542957767
+  0106 xor              
+  0107 stfld            04000002 .::
+  010C ldarg.0          
+  010D ldc.i4.7         
+  010E stfld            04000001 .::
+  0113 ldc.i4.1         
+  0114 ret              
+  0115 ldarg.0          
+  0116 ldc.i4.m1        
+  0117 stfld            04000001 .::
+  011C ldarg.0          
+  011D ldc.i4           1183826435
+  0122 stfld            04000002 .::
+  0127 ldarg.0          
+  0128 ldc.i4.8         
+  0129 stfld            04000001 .::
+  012E ldc.i4.1         
+  012F ret              
+  0130 ldarg.0          
+  0131 ldc.i4.m1        
+  0132 stfld            04000001 .::
+  0137 ldarg.0          
+  0138 ldarg.0          
+  0139 ldfld            04000004 .::
+  013E ldc.i4           -542957767
+  0143 xor              
+  0144 stfld            04000002 .::
+  0149 ldarg.0          
+  014A ldc.i4.s         9
+  014C stfld            04000001 .::
+  0151 ldc.i4.1         
+  0152 ret              
+  0153 ldarg.0          
+  0154 ldc.i4.m1        
+  0155 stfld            04000001 .::
+  015A ldc.i4.0         
+  015B ret              
+
+METHOD 000009 TOKEN 06000009 .::   
+  0001 ldarg.0          
+  0002 ldfld            04000002 .::
+  0007 ret              
+
+METHOD 000010 TOKEN 0600000A .::   
+  0001 newobj           0A000022 System.NotSupportedException::.ctor
+  0006 throw            
+
+METHOD 000011 TOKEN 0600000B .::   
+  0001 ldarg.0          
+  0002 ldfld            04000002 .::
+  0007 box              01000042 System.Int32
+  000C ret              
+
+METHOD 000012 TOKEN 0600000C .::   
+  000C ldarg.0          
+  000D ldfld            04000001 .::
+  0012 ldc.i4.s         -2
+  0014 bne.un.s         51
+  0016 ldarg.0          
+  0017 ldfld            04000003 .::
+  001C call             0A000020 System.Threading.Thread::get_CurrentThread
+  0021 callvirt         0A000021 System.Threading.Thread::get_ManagedThreadId
+  0026 bne.un.s         51
+  0028 ldarg.0          
+  0029 ldc.i4.0         
+  002A stfld            04000001 .::
+  002F ldarg.0          
+  0030 stloc.0          
+  0031 br.s             58
+  0033 ldc.i4.0         
+  0034 newobj           06000006 .::.ctor
+  0039 stloc.0          
+  003A ldloc.0          
+  003B ldarg.0          
+  003C ldfld            04000005 .::
+  0041 stfld            04000004 .::
+  0046 ldloc.0          
+  0047 ret              
+
+METHOD 000013 TOKEN 0600000D .::   
+  0001 ldarg.0          
+  0002 call             0600000C .::   
+  0007 ret              
+
+METHOD 000014 TOKEN 0600000E . ::
+  000C ldc.i4           -707448344
+  0011 call             06000013 . ::
+  0016 call             0A000014 System.Globalization.CultureInfo::get_InvariantCulture
+  001B ldc.i4           128
+  0020 call             0A000015 System.DateTime::Parse
+  0025 stloc.0          
+  0026 call             0A000016 System.DateTime::get_UtcNow
+  002B stloc.1          
+  002C ldloc.1          
+  002D ldloc.0          
+  002E call             0A000017 System.DateTime::op_GreaterThan
+  0033 brtrue.s         77
+  0035 ldloc.1          
+  0036 ldloca.s         local(0x0000)
+  0038 ldc.r8           -12345671000.0
+  0041 call             0A000018 System.DateTime::AddDays
+  0046 call             0A000019 System.DateTime::op_LessThan
+  004B brfalse.s        122
+  004D ldtoken          02000006 . 
+  0052 call             0A00001A System.Type::GetTypeFromHandle
+  0057 callvirt         0A00001B System.Type::get_Assembly
+  005C callvirt         0A00001C System.Reflection.Assembly::GetName
+  0061 callvirt         0A00001D System.Reflection.AssemblyName::get_Name
+  0066 stloc.2          
+  0067 ldc.i4           -707448292
+  006C call             06000013 . ::
+  0071 ldloc.2          
+  0072 call             0A00001E System.String::Format
+  0077 pop              
+  0078 ldc.i4.1         
+  0079 ret              
+  007A ldc.i4.1         
+  007B ret              
+
+METHOD 000015 TOKEN 0600000F . ::
+  0001 ldc.i4.0         
+  0002 call             0600000E . ::
+  0007 ret              
+
+METHOD 000016 TOKEN 06000010 . ::
+  0001 ldc.i4.1         
+  0002 call             0600000E . ::
+  0007 pop              
+  0008 ret              
+
+METHOD 000018 TOKEN 06000012 . ::.cctor
+  000C ldc.i4           -1289262512
+  0011 stloc.0          
+  0012 ldloc.0          
+  0013 ldc.i4           859766714
+  0018 add              
+  0019 stloc.1          
+  001A newobj           0A000023 <dnfile.mdtable.TypeSpecRow object at 0x106796ff0>::.ctor
+  001F stsfld           0400000C . ::
+  0024 ldc.i4.s         16
+  0026 ldsfld           04000008 . :: 
+  002B or               
+  002C stsfld           04000008 . :: 
+  0031 ldsfld           0400000E . :: 
+  0036 ldloc.0          
+  0037 ldc.i4           708445182
+  003C xor              
+  003D ldloc.1          
+  003E add              
+  003F not              
+  0040 neg              
+  0041 not              
+  0042 neg              
+  0043 not              
+  0044 neg              
+  0045 not              
+  0046 not              
+  0047 neg              
+  0048 not              
+  0049 neg              
+  004A add              
+  004B stsfld           0400000E . :: 
+  0050 ret              
+
+METHOD 000019 TOKEN 06000013 . ::
+  000C ldsfld           0400000C . ::
+  0011 ldarg.0          
+  0012 ldloca.s         local(0x0000)
+  0014 callvirt         0A000024 <dnfile.mdtable.TypeSpecRow object at 0x106796ff0>::TryGetValue
+  0019 brfalse.s        29
+  001B ldloc.0          
+  001C ret              
+  001D ldarg.0          
+  001E ldc.i4.1         
+  001F call             06000014 . ::
+  0024 ret              
+
+METHOD 000020 TOKEN 06000014 . ::
+  000C ldc.i4           -875431722
+  0011 stloc.0          
+  0012 ldc.i4           555515152
+  0017 ldloc.0          
+  0018 xor              
+  0019 stloc.1          
+  001A ldnull           
+  001B stloc.s          local(0x0005)
+  001D br.s             49
+  001F ldsfld           0400000C . ::
+  0024 ldarg.0          
+  0025 ldloca.s         local(0x0005)
+  0027 callvirt         0A000024 <dnfile.mdtable.TypeSpecRow object at 0x106796ff0>::TryGetValue
+  002C brfalse.s        49
+  002E ldloc.s          local(0x0005)
+  0030 ret              
+  0031 ldc.i4.0         
+  0032 stloc.s          local(0x0034)
+  0034 ldsfld           0400000C . ::
+  0039 stloc.s          local(0x0029)
+  003B ldloc.s          local(0x0029)
+  003D ldloca.s         local(0x0034)
+  003F call             0A000025 System.Threading.Monitor::Enter
+  0044 ldsfld           0400000A . ::
+  0049 brtrue           744
+  004E call             0A000026 System.Reflection.Assembly::GetExecutingAssembly
+  0053 stloc.s          local(0x0025)
+  0055 call             0A000027 System.Reflection.Assembly::GetCallingAssembly
+  005A stloc.s          local(0x0022)
+  005C ldsfld           0400000B . ::
+  0061 ldc.i4           -1229450978
+  0066 ldloc.0          
+  0067 sub              
+  0068 ldloc.1          
+  0069 sub              
+  006A or               
+  006B stsfld           0400000B . ::
+  0070 ldloc.s          local(0x0025)
+  0072 newobj           0A000028 System.Text.StringBuilder::.ctor
+  0077 stloc.s          local(0x0006)
+  0079 ldloc.0          
+  007A ldc.i4           18570523
+  007F xor              
+  0080 ldloc.1          
+  0081 xor              
+  0082 stloc.3          
+  0083 ldloc.s          local(0x0006)
+  0085 ldloc.3          
+  0086 conv.u2          
+  0087 call             0A000029 System.Text.StringBuilder::Append
+  008C ldloc.3          
+  008D ldc.i4.s         16
+  008F shr              
+  0090 conv.u2          
+  0091 call             0A000029 System.Text.StringBuilder::Append
+  0096 pop              
+  0097 ldloc.0          
+  0098 ldc.i4           1768071531
+  009D add              
+  009E ldloc.1          
+  009F add              
+  00A0 stloc.3          
+  00A1 ldloc.s          local(0x0006)
+  00A3 ldloc.3          
+  00A4 conv.u2          
+  00A5 call             0A000029 System.Text.StringBuilder::Append
+  00AA ldloc.3          
+  00AB ldc.i4.s         16
+  00AD shr              
+  00AE conv.u2          
+  00AF call             0A000029 System.Text.StringBuilder::Append
+  00B4 pop              
+  00B5 ldc.i4           -693592413
+  00BA ldloc.0          
+  00BB sub              
+  00BC ldloc.1          
+  00BD sub              
+  00BE stloc.3          
+  00BF ldloc.s          local(0x0006)
+  00C1 ldloc.3          
+  00C2 conv.u2          
+  00C3 call             0A000029 System.Text.StringBuilder::Append
+  00C8 ldloc.3          
+  00C9 ldc.i4.s         16
+  00CB shr              
+  00CC conv.u2          
+  00CD call             0A000029 System.Text.StringBuilder::Append
+  00D2 pop              
+  00D3 ldloc.0          
+  00D4 ldc.i4           -17650449
+  00D9 add              
+  00DA ldloc.1          
+  00DB xor              
+  00DC stloc.3          
+  00DD ldloc.s          local(0x0006)
+  00DF ldloc.3          
+  00E0 ldc.i4.s         16
+  00E2 shr              
+  00E3 conv.u2          
+  00E4 call             0A000029 System.Text.StringBuilder::Append
+  00E9 ldloc.3          
+  00EA conv.u2          
+  00EB call             0A000029 System.Text.StringBuilder::Append
+  00F0 pop              
+  00F1 ldc.i4           -519793901
+  00F6 ldloc.0          
+  00F7 sub              
+  00F8 ldloc.1          
+  00F9 add              
+  00FA stloc.3          
+  00FB ldloc.s          local(0x0006)
+  00FD ldloc.3          
+  00FE conv.u2          
+  00FF call             0A000029 System.Text.StringBuilder::Append
+  0104 pop              
+  0105 ldloc.s          local(0x0006)
+  0107 call             0A00002A System.Text.StringBuilder::ToString
+  010C callvirt         0A00002B System.Reflection.Assembly::GetManifestResourceStream
+  0111 stloc.s          local(0x0031)
+  0113 ldloc.s          local(0x0031)
+  0115 newobj           06000018 .::.ctor
+  011A stsfld           0400000A . ::
+  011F ldsfld           0400000A . ::
+  0124 callvirt         0600001A .::
+  0129 ldloc.0          
+  012A ldc.i4           555535110
+  012F xor              
+  0130 ldloc.1          
+  0131 sub              
+  0132 not              
+  0133 neg              
+  0134 not              
+  0135 neg              
+  0136 not              
+  0137 not              
+  0138 neg              
+  0139 neg              
+  013A not              
+  013B conv.i2          
+  013C xor              
+  013D conv.i2          
+  013E stloc.s          local(0x0027)
+  0140 ldloc.s          local(0x0027)
+  0142 brtrue.s         364
+  0144 ldsfld           0400000A . ::
+  0149 callvirt         0600001A .::
+  014E ldc.i4           -1231041250
+  0153 ldloc.0          
+  0154 sub              
+  0155 ldloc.1          
+  0156 xor              
+  0157 not              
+  0158 neg              
+  0159 not              
+  015A not              
+  015B neg              
+  015C neg              
+  015D not              
+  015E neg              
+  015F not              
+  0160 neg              
+  0161 not              
+  0162 conv.i2          
+  0163 xor              
+  0164 conv.i2          
+  0165 stsfld           0400000D . ::
+  016A br.s             381
+  016C ldsfld           0400000A . ::
+  0171 ldloc.s          local(0x0027)
+  0173 callvirt         0600001F .::
+  0178 stsfld           04000006 . ::
+  017D ldloc.s          local(0x0025)
+  017F stloc.s          local(0x0022)
+  0181 ldloc.s          local(0x0022)
+  0183 call             06000015 . ::
+  0188 stloc.s          local(0x002A)
+  018A ldloc.s          local(0x002A)
+  018C call             06000016 . ::
+  0191 stsfld           04000007 . ::
+  0196 ldsfld           0400000E . :: 
+  019B stloc.2          
+  019C ldloc.2          
+  019D ldloc.0          
+  019E ldc.i4           -1872161685
+  01A3 add              
+  01A4 ldloc.1          
+  01A5 add              
+  01A6 xor              
+  01A7 stloc.2          
+  01A8 ldc.i4.0         
+  01A9 stsfld           0400000E . :: 
+  01AE call             06000024 . ::
+  01B3 stloc.s          local(0x002F)
+  01B5 ldloc.2          
+  01B6 ldloc.s          local(0x002F)
+  01B8 conv.u4          
+  01B9 xor              
+  01BA stloc.2          
+  01BB ldloc.2          
+  01BC ldc.i4           -135866670
+  01C1 ldloc.0          
+  01C2 sub              
+  01C3 ldloc.1          
+  01C4 sub              
+  01C5 xor              
+  01C6 stloc.2          
+  01C7 ldloc.2          
+  01C8 stloc.s          local(0x002D)
+  01CA ldloc.s          local(0x002D)
+  01CC stloc.s          local(0x000F)
+  01CE ldc.i4.0         
+  01CF stloc.s          local(0x0019)
+  01D1 ldloc.s          local(0x000F)
+  01D3 stloc.s          local(0x0036)
+  01D5 ldloc.0          
+  01D6 ldc.i4           1231061346
+  01DB add              
+  01DC ldloc.1          
+  01DD or               
+  01DE newobj           06000006 .::.ctor
+  01E3 dup              
+  01E4 ldloc.s          local(0x0036)
+  01E6 stfld            04000005 .::
+  01EB callvirt         0A000003 <dnfile.mdtable.TypeSpecRow object at 0x106796f60>::GetEnumerator
+  01F0 stloc.s          local(0x0011)
+  01F2 br.s             530
+  01F4 ldloc.s          local(0x0011)
+  01F6 callvirt         0A000002 <dnfile.mdtable.TypeSpecRow object at 0x106796ea0>::   
+  01FB stloc.s          local(0x0039)
+  01FD ldloc.s          local(0x000F)
+  01FF ldloc.s          local(0x0019)
+  0201 ldloc.s          local(0x0039)
+  0203 sub              
+  0204 ldc.i4.2         
+  0205 shl              
+  0206 xor              
+  0207 stloc.s          local(0x000F)
+  0209 ldloc.s          local(0x0019)
+  020B ldloc.s          local(0x000F)
+  020D ldc.i4.3         
+  020E shr              
+  020F add              
+  0210 stloc.s          local(0x0019)
+  0212 ldloc.s          local(0x0011)
+  0214 callvirt         06000020 .::   
+  0219 brtrue.s         500
+  021B leave.s          553
+  021D ldloc.s          local(0x0011)
+  021F brfalse.s        552
+  0221 ldloc.s          local(0x0011)
+  0223 callvirt         0600003B .::   
+  0228 endfinally       
+  0229 ldloc.s          local(0x000F)
+  022B stloc.s          local(0x002B)
+  022D ldloc.s          local(0x002B)
+  022F ldc.i4           465360619
+  0234 ldloc.0          
+  0235 sub              
+  0236 ldloc.1          
+  0237 xor              
+  0238 sub              
+  0239 ldloc.0          
+  023A ldc.i4           1740723391
+  023F xor              
+  0240 ldloc.1          
+  0241 add              
+  0242 xor              
+  0243 stloc.s          local(0x0033)
+  0245 ldloc.0          
+  0246 ldc.i4           519807389
+  024B add              
+  024C ldloc.1          
+  024D sub              
+  024E ldloc.s          local(0x0033)
+  0250 mul              
+  0251 ldloc.0          
+  0252 ldc.i4           -586665743
+  0257 xor              
+  0258 ldloc.1          
+  0259 add              
+  025A rem              
+  025B stloc.s          local(0x002E)
+  025D ldloc.2          
+  025E ldloc.0          
+  025F ldc.i4           520517154
+  0264 add              
+  0265 ldloc.1          
+  0266 sub              
+  0267 ldc.i4           -519801889
+  026C ldloc.0          
+  026D sub              
+  026E ldloc.1          
+  026F xor              
+  0270 not              
+  0271 neg              
+  0272 not              
+  0273 not              
+  0274 neg              
+  0275 not              
+  0276 neg              
+  0277 not              
+  0278 neg              
+  0279 add              
+  027A xor              
+  027B stloc.2          
+  027C ldloc.2          
+  027D ldc.i4           740036045
+  0282 ldloc.0          
+  0283 xor              
+  0284 ldloc.1          
+  0285 add              
+  0286 not              
+  0287 not              
+  0288 neg              
+  0289 neg              
+  028A not              
+  028B not              
+  028C neg              
+  028D neg              
+  028E not              
+  028F neg              
+  0290 not              
+  0291 xor              
+  0292 stloc.2          
+  0293 ldloc.2          
+  0294 ldloc.s          local(0x002E)
+  0296 add              
+  0297 stloc.2          
+  0298 ldsfld           0400000B . ::
+  029D ldc.i4           -962626034
+  02A2 ldloc.0          
+  02A3 sub              
+  02A4 ldloc.1          
+  02A5 sub              
+  02A6 and              
+  02A7 ldc.i4           555509652
+  02AC ldloc.0          
+  02AD xor              
+  02AE ldloc.1          
+  02AF xor              
+  02B0 xor              
+  02B1 stsfld           0400000B . ::
+  02B6 ldloc.2          
+  02B7 stsfld           04000009 . ::
+  02BC ldsfld           04000008 . :: 
+  02C1 ldc.i4           -519802112
+  02C6 ldloc.0          
+  02C7 sub              
+  02C8 ldloc.1          
+  02C9 add              
+  02CA not              
+  02CB neg              
+  02CC not              
+  02CD not              
+  02CE neg              
+  02CF not              
+  02D0 neg              
+  02D1 not              
+  02D2 neg              
+  02D3 neg              
+  02D4 not              
+  02D5 and              
+  02D6 brtrue.s         750
+  02D8 ldc.i4           519779750
+  02DD ldloc.0          
+  02DE add              
+  02DF ldloc.1          
+  02E0 xor              
+  02E1 stsfld           0400000B . ::
+  02E6 br.s             750
+  02E8 ldsfld           04000009 . ::
+  02ED stloc.2          
+  02EE ldsfld           0400000B . ::
+  02F3 ldc.i4           -519758134
+  02F8 ldloc.0          
+  02F9 sub              
+  02FA ldloc.1          
+  02FB add              
+  02FC bne.un.s         824
+  02FE ldc.i4.3         
+  02FF newarr           01000024 System.Char
+  0304 stloc.s          local(0x0014)
+  0306 ldloc.s          local(0x0014)
+  0308 ldc.i4.0         
+  0309 ldloc.0          
+  030A ldc.i4           555515592
+  030F xor              
+  0310 ldloc.1          
+  0311 sub              
+  0312 stelem.i2        
+  0313 ldloc.s          local(0x0014)
+  0315 ldc.i4.1         
+  0316 ldc.i4.s         48
+  0318 stelem.i2        
+  0319 ldloc.s          local(0x0014)
+  031B ldc.i4.2         
+  031C ldc.i4           519802056
+  0321 ldloc.0          
+  0322 add              
+  0323 ldloc.1          
+  0324 xor              
+  0325 stelem.i2        
+  0326 ldloc.s          local(0x0014)
+  0328 newobj           0A00002C System.String::.ctor
+  032D stloc.s          local(0x0005)
+  032F ldloc.s          local(0x0005)
+  0331 stloc.s          local(0x0038)
+  0333 leave            1844
+  0338 ldarg.0          
+  0339 ldc.i4           -320373275
+  033E ldloc.0          
+  033F xor              
+  0340 ldloc.1          
+  0341 sub              
+  0342 xor              
+  0343 ldloc.2          
+  0344 xor              
+  0345 stloc.s          local(0x000D)
+  0347 ldloc.s          local(0x000D)
+  0349 ldloc.0          
+  034A ldc.i4           -60537628
+  034F add              
+  0350 ldloc.1          
+  0351 xor              
+  0352 xor              
+  0353 stloc.s          local(0x000D)
+  0355 ldsfld           0400000A . ::
+  035A callvirt         06000019 .::
+  035F ldloc.s          local(0x000D)
+  0361 conv.i8          
+  0362 callvirt         0A00002D System.IO.Stream::set_Position
+  0367 ldsfld           04000006 . ::
+  036C brfalse.s        887
+  036E ldsfld           04000006 . ::
+  0373 stloc.s          local(0x0010)
+  0375 br.s             1002
+  0377 ldsfld           0400000D . ::
+  037C ldc.i4.m1        
+  037D bne.un.s         923
+  037F ldsfld           0400000A . ::
+  0384 callvirt         0600001A .::
+  0389 ldloc.0          
+  038A ldc.i4           555533365
+  038F xor              
+  0390 ldloc.1          
+  0391 sub              
+  0392 xor              
+  0393 ldloc.s          local(0x000D)
+  0395 xor              
+  0396 conv.i2          
+  0397 stloc.s          local(0x001E)
+  0399 br.s             930
+  039B ldsfld           0400000D . ::
+  03A0 stloc.s          local(0x001E)
+  03A2 ldloc.s          local(0x001E)
+  03A4 brtrue.s         939
+  03A6 ldnull           
+  03A7 stloc.s          local(0x0010)
+  03A9 br.s             1002
+  03AB ldsfld           0400000A . ::
+  03B0 ldloc.s          local(0x001E)
+  03B2 callvirt         0600001F .::
+  03B7 stloc.s          local(0x0010)
+  03B9 ldc.i4.0         
+  03BA stloc.s          local(0x000B)
+  03BC br.s             994
+  03BE ldloc.s          local(0x0010)
+  03C0 ldloc.s          local(0x000B)
+  03C2 ldelema          01000023 System.Byte
+  03C7 dup              
+  03C8 ldind.u1         
+  03C9 ldsfld           04000009 . ::
+  03CE ldc.i4.3         
+  03CF ldloc.s          local(0x000B)
+  03D1 and              
+  03D2 ldc.i4.3         
+  03D3 shl              
+  03D4 ldc.i4.s         31
+  03D6 and              
+  03D7 shr              
+  03D8 conv.u1          
+  03D9 xor              
+  03DA conv.u1          
+  03DB stind.i1         
+  03DC ldloc.s          local(0x000B)
+  03DE ldc.i4.1         
+  03DF add              
+  03E0 stloc.s          local(0x000B)
+  03E2 ldloc.s          local(0x000B)
+  03E4 ldloc.s          local(0x0010)
+  03E6 ldlen            
+  03E7 conv.i4          
+  03E8 bne.un.s         958
+  03EA ldsfld           0400000A . ::
+  03EF callvirt         0600001B .::
+  03F4 ldloc.s          local(0x000D)
+  03F6 xor              
+  03F7 ldc.i4           -388435407
+  03FC ldloc.0          
+  03FD sub              
+  03FE ldloc.1          
+  03FF add              
+  0400 not              
+  0401 not              
+  0402 neg              
+  0403 neg              
+  0404 not              
+  0405 not              
+  0406 neg              
+  0407 neg              
+  0408 not              
+  0409 neg              
+  040A not              
+  040B xor              
+  040C ldloc.2          
+  040D xor              
+  040E stloc.s          local(0x0007)
+  0410 ldloc.s          local(0x0007)
+  0412 ldc.i4           -555515154
+  0417 ldloc.0          
+  0418 xor              
+  0419 ldloc.1          
+  041A or               
+  041B bne.un.s         1120
+  041D ldsfld           0400000A . ::
+  0422 ldc.i4.4         
+  0423 callvirt         0600001F .::
+  0428 stloc.s          local(0x0013)
+  042A ldc.i4           -558367247
+  042F ldloc.0          
+  0430 sub              
+  0431 ldloc.1          
+  0432 xor              
+  0433 ldloc.2          
+  0434 xor              
+  0435 starg            argument(0x0000)
+  0439 ldloc.s          local(0x0013)
+  043B ldc.i4.2         
+  043C ldelem.u1        
+  043D ldloc.s          local(0x0013)
+  043F ldc.i4.3         
+  0440 ldelem.u1        
+  0441 ldc.i4.s         16
+  0443 shl              
+  0444 or               
+  0445 ldloc.s          local(0x0013)
+  0447 ldc.i4.0         
+  0448 ldelem.u1        
+  0449 ldc.i4.8         
+  044A shl              
+  044B or               
+  044C ldloc.s          local(0x0013)
+  044E ldc.i4.1         
+  044F ldelem.u1        
+  0450 ldc.i4.s         24
+  0452 shl              
+  0453 or               
+  0454 ldarg.0          
+  0455 neg              
+  0456 xor              
+  0457 starg            argument(0x0000)
+  045B leave            31
+  0460 ldsfld           0400000B . ::
+  0465 stloc.s          local(0x0020)
+  0467 ldloc.0          
+  0468 ldc.i4           521409910
+  046D add              
+  046E ldloc.1          
+  046F sub              
+  0470 stloc.s          local(0x0018)
+  0472 ldloc.s          local(0x0007)
+  0474 stloc.s          local(0x001D)
+  0476 ldloc.s          local(0x0020)
+  0478 ldc.i4.s         12
+  047A sub              
+  047B stloc.s          local(0x0009)
+  047D ldloc.s          local(0x0007)
+  047F ldloc.0          
+  0480 ldc.i4           -287079697
+  0485 xor              
+  0486 ldloc.1          
+  0487 add              
+  0488 and              
+  0489 stloc.s          local(0x0007)
+  048B ldsfld           0400000A . ::
+  0490 ldloc.s          local(0x0007)
+  0492 callvirt         0600001F .::
+  0497 stloc.s          local(0x0004)
+  0499 ldsfld           04000007 . ::
+  049E stloc.s          local(0x0021)
+  04A0 leave.s          1198
+  04A2 ldloc.s          local(0x0034)
+  04A4 brfalse.s        1197
+  04A6 ldloc.s          local(0x0029)
+  04A8 call             0A00002E System.Threading.Monitor::Exit
+  04AD endfinally       
+  04AE ldloc.s          local(0x001D)
+  04B0 ldloc.0          
+  04B1 ldc.i4           -17068816
+  04B6 add              
+  04B7 ldloc.1          
+  04B8 xor              
+  04B9 and              
+  04BA ldc.i4.0         
+  04BB cgt.un           
+  04BD stloc.s          local(0x0037)
+  04BF ldloc.s          local(0x001D)
+  04C1 ldloc.0          
+  04C2 ldc.i4           -1629256980
+  04C7 xor              
+  04C8 ldloc.1          
+  04C9 add              
+  04CA and              
+  04CB ldc.i4.0         
+  04CC cgt.un           
+  04CE stloc.s          local(0x0035)
+  04D0 ldloc.s          local(0x001D)
+  04D2 ldc.i4           916422300
+  04D7 ldloc.0          
+  04D8 sub              
+  04D9 ldloc.1          
+  04DA sub              
+  04DB and              
+  04DC ldc.i4.0         
+  04DD cgt.un           
+  04DF stloc.s          local(0x0030)
+  04E1 ldloc.s          local(0x0010)
+  04E3 ldloc.s          local(0x0004)
+  04E5 stloc.s          local(0x0012)
+  04E7 stloc.s          local(0x001A)
+  04E9 ldloc.s          local(0x001A)
+  04EB ldc.i4.1         
+  04EC ldelem.u1        
+  04ED stloc.s          local(0x0024)
+  04EF ldloc.s          local(0x0012)
+  04F1 ldlen            
+  04F2 conv.i4          
+  04F3 stloc.s          local(0x0026)
+  04F5 ldloc.s          local(0x0026)
+  04F7 ldc.i4.s         11
+  04F9 add              
+  04FA ldc.i4.7         
+  04FB ldloc.s          local(0x0024)
+  04FD add              
+  04FE xor              
+  04FF conv.u1          
+  0500 stloc.s          local(0x001B)
+  0502 ldloc.s          local(0x001A)
+  0504 ldc.i4.0         
+  0505 ldelem.u1        
+  0506 ldloc.s          local(0x001A)
+  0508 ldc.i4.2         
+  0509 ldelem.u1        
+  050A ldc.i4.8         
+  050B shl              
+  050C or               
+  050D ldloc.s          local(0x001B)
+  050F ldc.i4.3         
+  0510 shl              
+  0511 add              
+  0512 stloc.s          local(0x001C)
+  0514 ldc.i4.0         
+  0515 stloc.s          local(0x0016)
+  0517 ldc.i4.0         
+  0518 stloc.s          local(0x000A)
+  051A br.s             1394
+  051C ldloc.s          local(0x000A)
+  051E ldc.i4.1         
+  051F and              
+  0520 brtrue.s         1346
+  0522 ldloc.s          local(0x001C)
+  0524 ldloc.0          
+  0525 ldc.i4           -555464991
+  052A xor              
+  052B ldloc.1          
+  052C add              
+  052D mul              
+  052E ldc.i4           -1229122597
+  0533 ldloc.0          
+  0534 sub              
+  0535 ldloc.1          
+  0536 xor              
+  0537 add              
+  0538 stloc.s          local(0x001C)
+  053A ldloc.s          local(0x001C)
+  053C ldc.i4.s         16
+  053E shr.un           
+  053F conv.u2          
+  0540 stloc.s          local(0x0016)
+  0542 ldloc.s          local(0x0016)
+  0544 conv.u1          
+  0545 stloc.s          local(0x0032)
+  0547 ldloc.s          local(0x0016)
+  0549 ldc.i4.8         
+  054A shr              
+  054B conv.u2          
+  054C stloc.s          local(0x0016)
+  054E ldloc.s          local(0x0012)
+  0550 ldloc.s          local(0x000A)
+  0552 ldelem.u1        
+  0553 stloc.s          local(0x001F)
+  0555 ldloc.s          local(0x0012)
+  0557 ldloc.s          local(0x000A)
+  0559 ldloc.s          local(0x0024)
+  055B ldloc.s          local(0x001F)
+  055D xor              
+  055E ldc.i4.3         
+  055F ldloc.s          local(0x001B)
+  0561 add              
+  0562 xor              
+  0563 ldloc.s          local(0x0032)
+  0565 xor              
+  0566 conv.u1          
+  0567 stelem.i1        
+  0568 ldloc.s          local(0x001F)
+  056A stloc.s          local(0x001B)
+  056C ldloc.s          local(0x000A)
+  056E ldc.i4.1         
+  056F add              
+  0570 stloc.s          local(0x000A)
+  0572 ldloc.s          local(0x000A)
+  0574 ldloc.s          local(0x0026)
+  0576 blt.s            1308
+  0578 ldloc.s          local(0x0012)
+  057A stloc.s          local(0x0004)
+  057C ldloc.s          local(0x0021)
+  057E ldnull           
+  057F cgt.un           
+  0581 ldloc.s          local(0x0020)
+  0583 ldloc.s          local(0x0018)
+  0585 ceq              
+  0587 ldc.i4.0         
+  0588 ceq              
+  058A beq.s            1472
+  058C ldc.i4.0         
+  058D stloc.s          local(0x0008)
+  058F br.s             1466
+  0591 ldloc.s          local(0x0021)
+  0593 ldc.i4.7         
+  0594 ldloc.s          local(0x0008)
+  0596 and              
+  0597 ldelem.u1        
+  0598 stloc.s          local(0x0017)
+  059A ldloc.s          local(0x0017)
+  059C ldc.i4.3         
+  059D shl              
+  059E ldloc.s          local(0x0017)
+  05A0 ldc.i4.5         
+  05A1 shr              
+  05A2 or               
+  05A3 conv.u1          
+  05A4 stloc.s          local(0x0017)
+  05A6 ldloc.s          local(0x0004)
+  05A8 ldloc.s          local(0x0008)
+  05AA ldloc.s          local(0x0004)
+  05AC ldloc.s          local(0x0008)
+  05AE ldelem.u1        
+  05AF ldloc.s          local(0x0017)
+  05B1 xor              
+  05B2 conv.u1          
+  05B3 stelem.i1        
+  05B4 ldc.i4.1         
+  05B5 ldloc.s          local(0x0008)
+  05B7 add              
+  05B8 stloc.s          local(0x0008)
+  05BA ldloc.s          local(0x0008)
+  05BC ldloc.s          local(0x0007)
+  05BE blt.s            1425
+  05C0 ldloc.s          local(0x0035)
+  05C2 brtrue.s         1486
+  05C4 ldloc.s          local(0x0004)
+  05C6 stloc.s          local(0x000C)
+  05C8 ldloc.s          local(0x0007)
+  05CA stloc.s          local(0x0015)
+  05CC br.s             1534
+  05CE ldloc.s          local(0x0004)
+  05D0 ldc.i4.2         
+  05D1 ldelem.u1        
+  05D2 ldloc.s          local(0x0004)
+  05D4 ldc.i4.0         
+  05D5 ldelem.u1        
+  05D6 ldc.i4.s         16
+  05D8 shl              
+  05D9 or               
+  05DA ldloc.s          local(0x0004)
+  05DC ldc.i4.3         
+  05DD ldelem.u1        
+  05DE ldc.i4.8         
+  05DF shl              
+  05E0 or               
+  05E1 ldloc.s          local(0x0004)
+  05E3 ldc.i4.1         
+  05E4 ldelem.u1        
+  05E5 ldc.i4.s         24
+  05E7 shl              
+  05E8 or               
+  05E9 stloc.s          local(0x0015)
+  05EB ldloc.s          local(0x0015)
+  05ED newarr           01000023 System.Byte
+  05F2 stloc.s          local(0x000C)
+  05F4 ldloc.s          local(0x0004)
+  05F6 ldc.i4.4         
+  05F7 ldloc.s          local(0x000C)
+  05F9 call             06000017 . ::
+  05FE ldloc.s          local(0x0037)
+  0600 brfalse.s        1594
+  0602 ldloc.s          local(0x0009)
+  0604 ldloc.s          local(0x0018)
+  0606 ldc.i4.s         12
+  0608 sub              
+  0609 bne.un.s         1594
+  060B ldloc.s          local(0x0015)
+  060D newarr           01000024 System.Char
+  0612 stloc.s          local(0x0028)
+  0614 ldc.i4.0         
+  0615 stloc.s          local(0x000E)
+  0617 br.s             1577
+  0619 ldloc.s          local(0x0028)
+  061B ldloc.s          local(0x000E)
+  061D ldloc.s          local(0x000C)
+  061F ldloc.s          local(0x000E)
+  0621 ldelem.u1        
+  0622 stelem.i2        
+  0623 ldc.i4.1         
+  0624 ldloc.s          local(0x000E)
+  0626 add              
+  0627 stloc.s          local(0x000E)
+  0629 ldloc.s          local(0x000E)
+  062B ldloc.s          local(0x0015)
+  062D blt.s            1561
+  062F ldloc.s          local(0x0028)
+  0631 newobj           0A00002C System.String::.ctor
+  0636 stloc.s          local(0x0005)
+  0638 br.s             1613
+  063A call             0A00002F System.Text.Encoding::get_Unicode
+  063F ldloc.s          local(0x000C)
+  0641 ldc.i4.0         
+  0642 ldloc.s          local(0x000C)
+  0644 ldlen            
+  0645 conv.i4          
+  0646 callvirt         0A000030 System.Text.Encoding::GetString
+  064B stloc.s          local(0x0005)
+  064D ldloc.s          local(0x0009)
+  064F ldc.i4           -555515281
+  0654 ldloc.0          
+  0655 xor              
+  0656 ldloc.1          
+  0657 add              
+  0658 ldc.i4.3         
+  0659 ldloc.s          local(0x0009)
+  065B and              
+  065C add              
+  065D ldc.i4.5         
+  065E shl              
+  065F add              
+  0660 stloc.s          local(0x0009)
+  0662 ldloc.s          local(0x0009)
+  0664 ldloc.s          local(0x0018)
+  0666 ldc.i4.s         12
+  0668 sub              
+  0669 ldc.i4           -1231061221
+  066E ldloc.0          
+  066F sub              
+  0670 ldloc.1          
+  0671 sub              
+  0672 ldloc.s          local(0x0018)
+  0674 ldc.i4.s         12
+  0676 sub              
+  0677 ldc.i4.3         
+  0678 and              
+  0679 add              
+  067A ldc.i4.5         
+  067B shl              
+  067C add              
+  067D beq.s            1735
+  067F ldloc.s          local(0x0007)
+  0681 ldarg.0          
+  0682 add              
+  0683 ldloc.0          
+  0684 ldc.i4           1231997916
+  0689 add              
+  068A ldloc.1          
+  068B add              
+  068C xor              
+  068D ldloc.s          local(0x0009)
+  068F ldc.i4           -1231062623
+  0694 ldloc.0          
+  0695 sub              
+  0696 ldloc.1          
+  0697 xor              
+  0698 and              
+  0699 xor              
+  069A stloc.s          local(0x003A)
+  069C ldloca.s         local(0x003A)
+  069E newobj           0A000028 System.Text.StringBuilder::.ctor
+  06A3 stloc.s          local(0x0006)
+  06A5 ldc.i4           519802184
+  06AA ldloc.0          
+  06AB add              
+  06AC ldloc.1          
+  06AD sub              
+  06AE stloc.3          
+  06AF ldloc.s          local(0x0006)
+  06B1 ldloc.3          
+  06B2 conv.u1          
+  06B3 call             0A000029 System.Text.StringBuilder::Append
+  06B8 pop              
+  06B9 ldloc.s          local(0x0006)
+  06BB call             0A00002A System.Text.StringBuilder::ToString
+  06C0 call             0A000031 System.Int32::ToString
+  06C5 stloc.s          local(0x0005)
+  06C7 ldloc.s          local(0x0030)
+  06C9 ldc.i4.0         
+  06CA ceq              
+  06CC ldarg.1          
+  06CD and              
+  06CE brfalse.s        1841
+  06D0 ldloc.s          local(0x0005)
+  06D2 call             0A000032 System.String::Intern
+  06D7 stloc.s          local(0x0005)
+  06D9 ldsfld           0400000C . ::
+  06DE ldarg.0          
+  06DF ldloc.s          local(0x0005)
+  06E1 callvirt         0A000033 <dnfile.mdtable.TypeSpecRow object at 0x106796ff0>::set_Item
+  06E6 ldsfld           0400000C . ::
+  06EB callvirt         0A000034 <dnfile.mdtable.TypeSpecRow object at 0x106796ff0>::get_Count
+  06F0 ldc.i4.s         30
+  06F2 bne.un.s         1841
+  06F4 ldsfld           0400000C . ::
+  06F9 stloc.s          local(0x0023)
+  06FB ldc.i4.0         
+  06FC stloc.s          local(0x002C)
+  06FE ldloc.s          local(0x0023)
+  0700 ldloca.s         local(0x002C)
+  0702 call             0A000025 System.Threading.Monitor::Enter
+  0707 ldsfld           0400000A . ::
+  070C callvirt         0600001E .::
+  0711 ldnull           
+  0712 stsfld           0400000A . ::
+  0717 ldnull           
+  0718 stsfld           04000006 . ::
+  071D ldnull           
+  071E stsfld           04000007 . ::
+  0723 leave.s          1841
+  0725 ldloc.s          local(0x002C)
+  0727 brfalse.s        1840
+  0729 ldloc.s          local(0x0023)
+  072B call             0A00002E System.Threading.Monitor::Exit
+  0730 endfinally       
+  0731 ldloc.s          local(0x0005)
+  0733 ret              
+  0734 ldloc.s          local(0x0038)
+  0736 ret              
+
+METHOD 000021 TOKEN 06000015 . ::
+  000C ldarg.0          
+  000D callvirt         0A00001C System.Reflection.Assembly::GetName
+  0012 stloc.0          
+  0013 leave.s          36
+  0015 pop              
+  0016 ldarg.0          
+  0017 callvirt         0A000035 System.Reflection.Assembly::get_FullName
+  001C newobj           0A000036 System.Reflection.AssemblyName::.ctor
+  0021 stloc.0          
+  0022 leave.s          36
+  0024 ldloc.0          
+  0025 ret              
+
+METHOD 000022 TOKEN 06000016 . ::
+  000C ldarg.0          
+  000D callvirt         0A000037 System.Reflection.AssemblyName::GetPublicKeyToken
+  0012 stloc.0          
+  0013 ldloc.0          
+  0014 brfalse.s        28
+  0016 ldloc.0          
+  0017 ldlen            
+  0018 brtrue.s         28
+  001A ldnull           
+  001B stloc.0          
+  001C ldloc.0          
+  001D ret              
+
+METHOD 000023 TOKEN 06000017 . ::
+  000C ldc.i4.0         
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.3          
+  0010 ldc.i4           128
+  0015 stloc.1          
+  0016 ldarg.2          
+  0017 ldlen            
+  0018 conv.i4          
+  0019 stloc.s          local(0x0004)
+  001B br.s             152
+  001D ldloc.1          
+  001E ldc.i4.1         
+  001F shl              
+  0020 dup              
+  0021 stloc.1          
+  0022 ldc.i4           256
+  0027 bne.un.s         54
+  0029 ldc.i4.1         
+  002A stloc.1          
+  002B ldarg.0          
+  002C ldarg.1          
+  002D dup              
+  002E ldc.i4.1         
+  002F add              
+  0030 starg            argument(0x0001)
+  0034 ldelem.u1        
+  0035 stloc.3          
+  0036 ldloc.3          
+  0037 ldloc.1          
+  0038 and              
+  0039 brfalse.s        135
+  003B ldarg.0          
+  003C ldarg.1          
+  003D ldelem.u1        
+  003E ldc.i4.2         
+  003F shr              
+  0040 ldc.i4.3         
+  0041 add              
+  0042 stloc.s          local(0x0005)
+  0044 ldarg.0          
+  0045 ldarg.1          
+  0046 ldelem.u1        
+  0047 ldc.i4.8         
+  0048 shl              
+  0049 ldarg.0          
+  004A ldarg.1          
+  004B ldc.i4.1         
+  004C add              
+  004D ldelem.u1        
+  004E or               
+  004F ldc.i4           1023
+  0054 and              
+  0055 stloc.s          local(0x0006)
+  0057 ldarg.1          
+  0058 ldc.i4.2         
+  0059 add              
+  005A starg            argument(0x0001)
+  005E ldloc.0          
+  005F ldloc.s          local(0x0006)
+  0061 sub              
+  0062 stloc.2          
+  0063 ldloc.2          
+  0064 ldc.i4.0         
+  0065 bge.s            118
+  0067 ret              
+  0068 ldarg.2          
+  0069 ldloc.0          
+  006A dup              
+  006B ldc.i4.1         
+  006C add              
+  006D stloc.0          
+  006E ldarg.2          
+  006F ldloc.2          
+  0070 dup              
+  0071 ldc.i4.1         
+  0072 add              
+  0073 stloc.2          
+  0074 ldelem.u1        
+  0075 stelem.i1        
+  0076 ldloc.s          local(0x0005)
+  0078 ldc.i4.1         
+  0079 sub              
+  007A dup              
+  007B stloc.s          local(0x0005)
+  007D ldc.i4.0         
+  007E blt.s            152
+  0080 ldloc.0          
+  0081 ldloc.s          local(0x0004)
+  0083 blt.s            104
+  0085 br.s             152
+  0087 ldarg.2          
+  0088 ldloc.0          
+  0089 dup              
+  008A ldc.i4.1         
+  008B add              
+  008C stloc.0          
+  008D ldarg.0          
+  008E ldarg.1          
+  008F dup              
+  0090 ldc.i4.1         
+  0091 add              
+  0092 starg            argument(0x0001)
+  0096 ldelem.u1        
+  0097 stelem.i1        
+  0098 ldloc.0          
+  0099 ldloc.s          local(0x0004)
+  009B blt              29
+  00A0 ret              
+
+METHOD 000024 TOKEN 06000018 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ldarg.0          
+  0008 ldarg.1          
+  0009 stfld            04000010 .::
+  000E ldarg.0          
+  000F ldc.i4.4         
+  0010 newarr           01000023 System.Byte
+  0015 stfld            04000011 .::
+  001A ret              
+
+METHOD 000025 TOKEN 06000019 .::
+  0001 ldarg.0          
+  0002 ldfld            04000010 .::
+  0007 ret              
+
+METHOD 000026 TOKEN 0600001A .::
+  0001 ldarg.0          
+  0002 ldc.i4.2         
+  0003 call             0600001D .::
+  0008 ldarg.0          
+  0009 ldfld            04000011 .::
+  000E ldc.i4.0         
+  000F ldelem.u1        
+  0010 ldarg.0          
+  0011 ldfld            04000011 .::
+  0016 ldc.i4.1         
+  0017 ldelem.u1        
+  0018 ldc.i4.8         
+  0019 shl              
+  001A or               
+  001B conv.i2          
+  001C ret              
+
+METHOD 000027 TOKEN 0600001B .::
+  0001 ldarg.0          
+  0002 ldc.i4.4         
+  0003 call             0600001D .::
+  0008 ldarg.0          
+  0009 ldfld            04000011 .::
+  000E ldc.i4.0         
+  000F ldelem.u1        
+  0010 ldarg.0          
+  0011 ldfld            04000011 .::
+  0016 ldc.i4.1         
+  0017 ldelem.u1        
+  0018 ldc.i4.8         
+  0019 shl              
+  001A or               
+  001B ldarg.0          
+  001C ldfld            04000011 .::
+  0021 ldc.i4.2         
+  0022 ldelem.u1        
+  0023 ldc.i4.s         16
+  0025 shl              
+  0026 or               
+  0027 ldarg.0          
+  0028 ldfld            04000011 .::
+  002D ldc.i4.3         
+  002E ldelem.u1        
+  002F ldc.i4.s         24
+  0031 shl              
+  0032 or               
+  0033 ret              
+
+METHOD 000028 TOKEN 0600001C .::
+  0001 newobj           0A000038 System.IO.EndOfStreamException::.ctor
+  0006 throw            
+
+METHOD 000029 TOKEN 0600001D .::
+  000C ldc.i4.0         
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.1          
+  0010 ldarg.1          
+  0011 ldc.i4.1         
+  0012 bne.un.s         52
+  0014 ldarg.0          
+  0015 ldfld            04000010 .::
+  001A callvirt         0A000039 System.IO.Stream::ReadByte
+  001F stloc.1          
+  0020 ldloc.1          
+  0021 ldc.i4.m1        
+  0022 bne.un.s         41
+  0024 call             0600001C .::
+  0029 ldarg.0          
+  002A ldfld            04000011 .::
+  002F ldc.i4.0         
+  0030 ldloc.1          
+  0031 conv.u1          
+  0032 stelem.i1        
+  0033 ret              
+  0034 ldarg.0          
+  0035 ldfld            04000010 .::
+  003A ldarg.0          
+  003B ldfld            04000011 .::
+  0040 ldloc.0          
+  0041 ldarg.1          
+  0042 ldloc.0          
+  0043 sub              
+  0044 callvirt         0A00003A System.IO.Stream::Read
+  0049 stloc.1          
+  004A ldloc.1          
+  004B brtrue.s         82
+  004D call             0600001C .::
+  0052 ldloc.0          
+  0053 ldloc.1          
+  0054 add              
+  0055 stloc.0          
+  0056 ldloc.0          
+  0057 ldarg.1          
+  0058 blt.s            52
+  005A ret              
+
+METHOD 000030 TOKEN 0600001E .::
+  000C ldarg.0          
+  000D ldfld            04000010 .::
+  0012 stloc.0          
+  0013 ldarg.0          
+  0014 ldnull           
+  0015 stfld            04000010 .::
+  001A ldloc.0          
+  001B brfalse.s        35
+  001D ldloc.0          
+  001E callvirt         0A00003B System.IO.Stream::Close
+  0023 ldarg.0          
+  0024 ldnull           
+  0025 stfld            04000011 .::
+  002A ret              
+
+METHOD 000031 TOKEN 0600001F .::
+  000C ldarg.1          
+  000D ldc.i4.0         
+  000E bge.s            22
+  0010 newobj           0A00003C System.ArgumentOutOfRangeException::.ctor
+  0015 throw            
+  0016 ldarg.1          
+  0017 newarr           01000023 System.Byte
+  001C stloc.0          
+  001D ldc.i4.0         
+  001E stloc.1          
+  001F ldarg.0          
+  0020 ldfld            04000010 .::
+  0025 ldloc.0          
+  0026 ldloc.1          
+  0027 ldarg.1          
+  0028 callvirt         0A00003A System.IO.Stream::Read
+  002D stloc.2          
+  002E ldloc.2          
+  002F brfalse.s        64
+  0031 ldloc.1          
+  0032 ldloc.2          
+  0033 add              
+  0034 stloc.1          
+  0035 ldarg.1          
+  0036 ldloc.2          
+  0037 sub              
+  0038 starg            argument(0x0001)
+  003C ldarg.1          
+  003D ldc.i4.0         
+  003E bgt.s            31
+  0040 ldloc.1          
+  0041 ldloc.0          
+  0042 ldlen            
+  0043 conv.i4          
+  0044 beq.s            89
+  0046 ldloc.1          
+  0047 newarr           01000023 System.Byte
+  004C stloc.3          
+  004D ldloc.0          
+  004E ldc.i4.0         
+  004F ldloc.3          
+  0050 ldc.i4.0         
+  0051 ldloc.1          
+  0052 call             0A00003D System.Buffer::BlockCopy
+  0057 ldloc.3          
+  0058 stloc.0          
+  0059 ldloc.0          
+  005A ret              
+
+METHOD 000035 TOKEN 06000023 . ::.cctor
+  0001 newobj           06000028 .::.ctor
+  0006 stsfld           04000012 . ::
+  000B ret              
+
+METHOD 000036 TOKEN 06000024 . ::
+  000C call             0A000027 System.Reflection.Assembly::GetCallingAssembly
+  0011 ldtoken          0200000C . 
+  0016 call             0A00001A System.Type::GetTypeFromHandle
+  001B callvirt         0A00001B System.Type::get_Assembly
+  0020 bne.un.s         41
+  0022 call             06000025 . ::
+  0027 brtrue.s         44
+  0029 ldc.i4.0         
+  002A conv.i8          
+  002B ret              
+  002C ldsfld           04000012 . ::
+  0031 dup              
+  0032 stloc.s          local(0x000B)
+  0034 call             0A00003E System.Threading.Monitor::Enter
+  0039 ldsfld           04000012 . ::
+  003E callvirt         06000029 .::
+  0043 stloc.2          
+  0044 ldloc.2          
+  0045 ldc.i4.0         
+  0046 conv.i8          
+  0047 bne.un           388
+  004C call             0A000026 System.Reflection.Assembly::GetExecutingAssembly
+  0051 stloc.s          local(0x0008)
+  0053 newobj           0A00003F <dnfile.mdtable.TypeSpecRow object at 0x106797080>::.ctor
+  0058 stloc.1          
+  0059 ldloc.s          local(0x0008)
+  005B callvirt         0A00001C System.Reflection.Assembly::GetName
+  0060 stloc.s          local(0x0007)
+  0062 leave.s          117
+  0064 pop              
+  0065 ldloc.s          local(0x0008)
+  0067 callvirt         0A000035 System.Reflection.Assembly::get_FullName
+  006C newobj           0A000036 System.Reflection.AssemblyName::.ctor
+  0071 stloc.s          local(0x0007)
+  0073 leave.s          117
+  0075 ldloc.s          local(0x0007)
+  0077 callvirt         0A000037 System.Reflection.AssemblyName::GetPublicKeyToken
+  007C stloc.3          
+  007D ldloc.3          
+  007E brfalse.s        135
+  0080 ldloc.3          
+  0081 ldlen            
+  0082 conv.i4          
+  0083 brtrue.s         135
+  0085 ldnull           
+  0086 stloc.3          
+  0087 ldloc.3          
+  0088 brfalse.s        145
+  008A ldloc.1          
+  008B ldloc.3          
+  008C callvirt         0A000040 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::AddRange
+  0091 ldloc.1          
+  0092 call             0A00002F System.Text.Encoding::get_Unicode
+  0097 ldloc.s          local(0x0007)
+  0099 callvirt         0A00001D System.Reflection.AssemblyName::get_Name
+  009E callvirt         0A000041 System.Text.Encoding::GetBytes
+  00A3 callvirt         0A000040 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::AddRange
+  00A8 ldtoken          0200000C . 
+  00AD call             0A00001A System.Type::GetTypeFromHandle
+  00B2 call             06000027 . ::
+  00B7 stloc.s          local(0x0005)
+  00B9 call             06000031 .::
+  00BE stloc.s          local(0x0006)
+  00C0 ldloc.1          
+  00C1 ldloc.s          local(0x0005)
+  00C3 ldc.i4.s         24
+  00C5 shr              
+  00C6 conv.u1          
+  00C7 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  00CC ldloc.1          
+  00CD ldloc.s          local(0x0006)
+  00CF ldc.i4.s         16
+  00D1 shr              
+  00D2 conv.u1          
+  00D3 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  00D8 ldloc.1          
+  00D9 ldloc.s          local(0x0005)
+  00DB ldc.i4.8         
+  00DC shr              
+  00DD conv.u1          
+  00DE callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  00E3 ldloc.1          
+  00E4 ldloc.s          local(0x0006)
+  00E6 conv.u1          
+  00E7 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  00EC ldloc.1          
+  00ED ldloc.s          local(0x0005)
+  00EF ldc.i4.s         16
+  00F1 shr              
+  00F2 conv.u1          
+  00F3 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  00F8 ldloc.1          
+  00F9 ldloc.s          local(0x0006)
+  00FB ldc.i4.8         
+  00FC shr              
+  00FD conv.u1          
+  00FE callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  0103 ldloc.1          
+  0104 ldloc.s          local(0x0005)
+  0106 conv.u1          
+  0107 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  010C ldloc.1          
+  010D ldloc.s          local(0x0006)
+  010F ldc.i4.s         24
+  0111 shr              
+  0112 conv.u1          
+  0113 callvirt         0A000042 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::Add
+  0118 ldloc.1          
+  0119 callvirt         0A000043 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::get_Count
+  011E stloc.s          local(0x0009)
+  0120 ldc.i4.0         
+  0121 conv.i8          
+  0122 stloc.0          
+  0123 ldc.i4.0         
+  0124 stloc.s          local(0x0004)
+  0126 br.s             337
+  0128 ldloc.0          
+  0129 ldloc.1          
+  012A ldloc.s          local(0x0004)
+  012C callvirt         0A000044 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::get_Item
+  0131 conv.u8          
+  0132 add              
+  0133 stloc.0          
+  0134 ldloc.0          
+  0135 ldloc.0          
+  0136 ldc.i4.s         20
+  0138 shl              
+  0139 add              
+  013A stloc.0          
+  013B ldloc.0          
+  013C ldloc.0          
+  013D ldc.i4.s         12
+  013F shr.un           
+  0140 xor              
+  0141 stloc.0          
+  0142 ldloc.1          
+  0143 ldloc.s          local(0x0004)
+  0145 ldc.i4.0         
+  0146 callvirt         0A000045 <dnfile.mdtable.TypeSpecRow object at 0x106797080>::set_Item
+  014B ldloc.s          local(0x0004)
+  014D ldc.i4.1         
+  014E add              
+  014F stloc.s          local(0x0004)
+  0151 ldloc.s          local(0x0004)
+  0153 ldloc.s          local(0x0009)
+  0155 bne.un.s         296
+  0157 ldloc.0          
+  0158 ldloc.0          
+  0159 ldc.i4.6         
+  015A shl              
+  015B add              
+  015C stloc.0          
+  015D ldloc.0          
+  015E ldloc.0          
+  015F ldc.i4.s         22
+  0161 shr.un           
+  0162 xor              
+  0163 stloc.0          
+  0164 ldloc.0          
+  0165 ldloc.0          
+  0166 ldc.i4.s         30
+  0168 shl              
+  0169 add              
+  016A stloc.0          
+  016B ldloc.0          
+  016C stloc.2          
+  016D ldloc.2          
+  016E ldc.i8           -5756215178337166811
+  0177 xor              
+  0178 stloc.2          
+  0179 ldsfld           04000012 . ::
+  017E ldloc.2          
+  017F callvirt         0600002A .::
+  0184 ldloc.2          
+  0185 stloc.s          local(0x000A)
+  0187 leave.s          401
+  0189 ldloc.s          local(0x000B)
+  018B call             0A00002E System.Threading.Monitor::Exit
+  0190 endfinally       
+  0191 ldloc.s          local(0x000A)
+  0193 ret              
+
+METHOD 000037 TOKEN 06000025 . ::
+  0001 call             06000026 . ::
+  0006 brtrue.s         10
+  0008 ldc.i4.0         
+  0009 ret              
+  000A ldc.i4.1         
+  000B ret              
+
+METHOD 000038 TOKEN 06000026 . ::
+  000C newobj           0A000046 System.Diagnostics.StackTrace::.ctor
+  0011 stloc.0          
+  0012 ldloc.0          
+  0013 ldc.i4.3         
+  0014 callvirt         0A000047 System.Diagnostics.StackTrace::GetFrame
+  0019 stloc.1          
+  001A ldloc.1          
+  001B brfalse.s        37
+  001D ldloc.1          
+  001E callvirt         0A000048 System.Diagnostics.StackFrame::GetMethod
+  0023 br.s             38
+  0025 ldnull           
+  0026 stloc.2          
+  0027 ldloc.2          
+  0028 brfalse.s        50
+  002A ldloc.2          
+  002B callvirt         0A000049 System.Reflection.MemberInfo::get_DeclaringType
+  0030 br.s             51
+  0032 ldnull           
+  0033 stloc.3          
+  0034 ldloc.3          
+  0035 ldtoken          0100005F System.RuntimeMethodHandle
+  003A call             0A00001A System.Type::GetTypeFromHandle
+  003F bne.un.s         67
+  0041 ldc.i4.0         
+  0042 ret              
+  0043 ldloc.3          
+  0044 brtrue.s         72
+  0046 ldc.i4.0         
+  0047 ret              
+  0048 ldloc.3          
+  0049 callvirt         0A00001B System.Type::get_Assembly
+  004E ldtoken          0200000C . 
+  0053 call             0A00001A System.Type::GetTypeFromHandle
+  0058 callvirt         0A00001B System.Type::get_Assembly
+  005D beq.s            97
+  005F ldc.i4.0         
+  0060 ret              
+  0061 ldc.i4.1         
+  0062 ret              
+
+METHOD 000039 TOKEN 06000027 . ::
+  0001 ldarg.0          
+  0002 callvirt         0A00004A System.Reflection.MemberInfo::get_MetadataToken
+  0007 ret              
+
+METHOD 000040 TOKEN 06000028 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ldarg.0          
+  0008 ldc.i4.0         
+  0009 conv.i8          
+  000A call             0600002A .::
+  000F ret              
+
+METHOD 000041 TOKEN 06000029 .::
+  000C call             0A000027 System.Reflection.Assembly::GetCallingAssembly
+  0011 ldtoken          0200000D .
+  0016 call             0A00001A System.Type::GetTypeFromHandle
+  001B callvirt         0A00001B System.Type::get_Assembly
+  0020 beq.s            41
+  0022 ldc.i4           2918384
+  0027 conv.i8          
+  0028 ret              
+  0029 call             06000025 . ::
+  002E brtrue.s         55
+  0030 ldc.i4           2918384
+  0035 conv.i8          
+  0036 ret              
+  0037 ldc.i4.4         
+  0038 newarr           01000042 System.Int32
+  003D stloc.0          
+  003E ldloc.0          
+  003F ldc.i4.3         
+  0040 ldc.i4           -515216924
+  0045 not              
+  0046 neg              
+  0047 not              
+  0048 neg              
+  0049 not              
+  004A not              
+  004B neg              
+  004C neg              
+  004D not              
+  004E not              
+  004F neg              
+  0050 stelem.i4        
+  0051 ldloc.0          
+  0052 ldc.i4.1         
+  0053 ldc.i4           -839019535
+  0058 not              
+  0059 not              
+  005A neg              
+  005B neg              
+  005C not              
+  005D not              
+  005E neg              
+  005F not              
+  0060 neg              
+  0061 stelem.i4        
+  0062 ldloc.0          
+  0063 ldc.i4.2         
+  0064 ldc.i4           1231253242
+  0069 not              
+  006A neg              
+  006B not              
+  006C neg              
+  006D not              
+  006E not              
+  006F neg              
+  0070 neg              
+  0071 not              
+  0072 stelem.i4        
+  0073 ldloc.0          
+  0074 ldc.i4.0         
+  0075 ldc.i4           1969359607
+  007A not              
+  007B not              
+  007C neg              
+  007D neg              
+  007E not              
+  007F not              
+  0080 neg              
+  0081 neg              
+  0082 not              
+  0083 not              
+  0084 neg              
+  0085 stelem.i4        
+  0086 ldarg.0          
+  0087 ldfld            04000013 .::
+  008C stloc.1          
+  008D ldarg.0          
+  008E ldfld            04000014 .::
+  0093 stloc.2          
+  0094 ldc.i4           1640531528
+  0099 not              
+  009A neg              
+  009B not              
+  009C not              
+  009D neg              
+  009E not              
+  009F neg              
+  00A0 not              
+  00A1 neg              
+  00A2 stloc.s          local(0x0007)
+  00A4 ldc.i4           957401313
+  00A9 not              
+  00AA not              
+  00AB neg              
+  00AC not              
+  00AD neg              
+  00AE neg              
+  00AF not              
+  00B0 not              
+  00B1 neg              
+  00B2 stloc.3          
+  00B3 ldc.i4.0         
+  00B4 stloc.s          local(0x0005)
+  00B6 br.s             238
+  00B8 ldloc.2          
+  00B9 ldloc.1          
+  00BA ldc.i4.4         
+  00BB shl              
+  00BC ldloc.1          
+  00BD ldc.i4.5         
+  00BE shr              
+  00BF xor              
+  00C0 ldloc.1          
+  00C1 add              
+  00C2 ldloc.3          
+  00C3 ldloc.0          
+  00C4 ldloc.3          
+  00C5 ldc.i4.s         11
+  00C7 shr              
+  00C8 ldc.i4.3         
+  00C9 and              
+  00CA ldelem.i4        
+  00CB add              
+  00CC xor              
+  00CD sub              
+  00CE stloc.2          
+  00CF ldloc.3          
+  00D0 ldloc.s          local(0x0007)
+  00D2 sub              
+  00D3 stloc.3          
+  00D4 ldloc.1          
+  00D5 ldloc.2          
+  00D6 ldc.i4.4         
+  00D7 shl              
+  00D8 ldloc.2          
+  00D9 ldc.i4.5         
+  00DA shr              
+  00DB xor              
+  00DC ldloc.2          
+  00DD add              
+  00DE ldloc.3          
+  00DF ldloc.0          
+  00E0 ldloc.3          
+  00E1 ldc.i4.3         
+  00E2 and              
+  00E3 ldelem.i4        
+  00E4 add              
+  00E5 xor              
+  00E6 sub              
+  00E7 stloc.1          
+  00E8 ldloc.s          local(0x0005)
+  00EA ldc.i4.1         
+  00EB add              
+  00EC stloc.s          local(0x0005)
+  00EE ldloc.s          local(0x0005)
+  00F0 ldc.i4.s         32
+  00F2 bne.un.s         184
+  00F4 ldc.i4.0         
+  00F5 stloc.s          local(0x0004)
+  00F7 br.s             260
+  00F9 ldloc.0          
+  00FA ldloc.s          local(0x0004)
+  00FC ldc.i4.0         
+  00FD stelem.i4        
+  00FE ldloc.s          local(0x0004)
+  0100 ldc.i4.1         
+  0101 add              
+  0102 stloc.s          local(0x0004)
+  0104 ldloc.s          local(0x0004)
+  0106 ldc.i4.4         
+  0107 bne.un.s         249
+  0109 ldloc.2          
+  010A conv.i8          
+  010B ldc.i4.s         32
+  010D shl              
+  010E stloc.s          local(0x0006)
+  0110 ldloc.s          local(0x0006)
+  0112 ldloc.1          
+  0113 conv.u8          
+  0114 or               
+  0115 stloc.s          local(0x0006)
+  0117 ldloc.s          local(0x0006)
+  0119 ret              
+
+METHOD 000042 TOKEN 0600002A .::
+  000C call             0A000027 System.Reflection.Assembly::GetCallingAssembly
+  0011 ldtoken          0200000D .
+  0016 call             0A00001A System.Type::GetTypeFromHandle
+  001B callvirt         0A00001B System.Type::get_Assembly
+  0020 beq.s            35
+  0022 ret              
+  0023 call             06000025 . ::
+  0028 brtrue.s         43
+  002A ret              
+  002B ldc.i4.4         
+  002C newarr           01000042 System.Int32
+  0031 stloc.0          
+  0032 ldloc.0          
+  0033 ldc.i4.1         
+  0034 ldc.i4           -839019540
+  0039 not              
+  003A neg              
+  003B not              
+  003C neg              
+  003D not              
+  003E neg              
+  003F not              
+  0040 not              
+  0041 neg              
+  0042 neg              
+  0043 not              
+  0044 stelem.i4        
+  0045 ldloc.0          
+  0046 ldc.i4.0         
+  0047 ldc.i4           1969359607
+  004C not              
+  004D not              
+  004E neg              
+  004F neg              
+  0050 not              
+  0051 not              
+  0052 neg              
+  0053 not              
+  0054 neg              
+  0055 neg              
+  0056 not              
+  0057 stelem.i4        
+  0058 ldloc.0          
+  0059 ldc.i4.2         
+  005A ldc.i4           1231253243
+  005F not              
+  0060 not              
+  0061 neg              
+  0062 neg              
+  0063 not              
+  0064 not              
+  0065 neg              
+  0066 neg              
+  0067 not              
+  0068 neg              
+  0069 not              
+  006A stelem.i4        
+  006B ldloc.0          
+  006C ldc.i4.3         
+  006D ldc.i4           -515216925
+  0072 not              
+  0073 neg              
+  0074 not              
+  0075 neg              
+  0076 not              
+  0077 not              
+  0078 neg              
+  0079 neg              
+  007A not              
+  007B stelem.i4        
+  007C ldc.i4           1640531523
+  0081 not              
+  0082 neg              
+  0083 not              
+  0084 neg              
+  0085 not              
+  0086 neg              
+  0087 not              
+  0088 neg              
+  0089 not              
+  008A not              
+  008B neg              
+  008C stloc.s          local(0x0006)
+  008E ldarg.1          
+  008F conv.i4          
+  0090 stloc.1          
+  0091 ldarg.1          
+  0092 ldc.i4.s         32
+  0094 shr              
+  0095 conv.i4          
+  0096 stloc.2          
+  0097 ldc.i4.0         
+  0098 stloc.3          
+  0099 ldc.i4.0         
+  009A stloc.s          local(0x0005)
+  009C br.s             212
+  009E ldloc.1          
+  009F ldloc.2          
+  00A0 ldc.i4.4         
+  00A1 shl              
+  00A2 ldloc.2          
+  00A3 ldc.i4.5         
+  00A4 shr              
+  00A5 xor              
+  00A6 ldloc.2          
+  00A7 add              
+  00A8 ldloc.3          
+  00A9 ldloc.0          
+  00AA ldloc.3          
+  00AB ldc.i4.3         
+  00AC and              
+  00AD ldelem.i4        
+  00AE add              
+  00AF xor              
+  00B0 add              
+  00B1 stloc.1          
+  00B2 ldloc.3          
+  00B3 ldloc.s          local(0x0006)
+  00B5 add              
+  00B6 stloc.3          
+  00B7 ldloc.2          
+  00B8 ldloc.1          
+  00B9 ldc.i4.4         
+  00BA shl              
+  00BB ldloc.1          
+  00BC ldc.i4.5         
+  00BD shr              
+  00BE xor              
+  00BF ldloc.1          
+  00C0 add              
+  00C1 ldloc.3          
+  00C2 ldloc.0          
+  00C3 ldloc.3          
+  00C4 ldc.i4.s         11
+  00C6 shr              
+  00C7 ldc.i4.3         
+  00C8 and              
+  00C9 ldelem.i4        
+  00CA add              
+  00CB xor              
+  00CC add              
+  00CD stloc.2          
+  00CE ldloc.s          local(0x0005)
+  00D0 ldc.i4.1         
+  00D1 add              
+  00D2 stloc.s          local(0x0005)
+  00D4 ldloc.s          local(0x0005)
+  00D6 ldc.i4.s         32
+  00D8 bne.un.s         158
+  00DA ldc.i4.0         
+  00DB stloc.s          local(0x0004)
+  00DD br.s             234
+  00DF ldloc.0          
+  00E0 ldloc.s          local(0x0004)
+  00E2 ldc.i4.0         
+  00E3 stelem.i4        
+  00E4 ldloc.s          local(0x0004)
+  00E6 ldc.i4.1         
+  00E7 add              
+  00E8 stloc.s          local(0x0004)
+  00EA ldloc.s          local(0x0004)
+  00EC ldc.i4.4         
+  00ED bne.un.s         223
+  00EF ldarg.0          
+  00F0 ldloc.1          
+  00F1 stfld            04000013 .::
+  00F6 ldarg.0          
+  00F7 ldloc.2          
+  00F8 stfld            04000014 .::
+  00FD ret              
+
+METHOD 000043 TOKEN 0600002B . ::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000044 TOKEN 0600002C . ::
+  000C ldtoken          0200000E . 
+  0011 call             0A00001A System.Type::GetTypeFromHandle
+  0016 call             06000027 . ::
+  001B ldtoken          02000014 .
+  0020 call             0A00001A System.Type::GetTypeFromHandle
+  0025 call             06000027 . ::
+  002A ldtoken          02000010 .
+  002F call             0A00001A System.Type::GetTypeFromHandle
+  0034 call             06000027 . ::
+  0039 call             0600002E .::
+  003E ldtoken          02000012 .
+  0043 call             0A00001A System.Type::GetTypeFromHandle
+  0048 call             06000027 . ::
+  004D ldc.i4           -1748854183
+  0052 not              
+  0053 neg              
+  0054 not              
+  0055 neg              
+  0056 not              
+  0057 neg              
+  0058 not              
+  0059 not              
+  005A neg              
+  005B not              
+  005C neg              
+  005D xor              
+  005E call             06000039 .::
+  0063 call             0600002F .::
+  0068 call             0600002F .::
+  006D call             0600002D .::
+  0072 ret              
+
+METHOD 000045 TOKEN 0600002D .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 ldc.i4           316944160
+  0008 not              
+  0009 not              
+  000A neg              
+  000B neg              
+  000C not              
+  000D not              
+  000E neg              
+  000F not              
+  0010 neg              
+  0011 sub              
+  0012 xor              
+  0013 ret              
+
+METHOD 000046 TOKEN 0600002E .::
+  0001 ldarg.0          
+  0002 ldc.i4           1761781598
+  0007 not              
+  0008 not              
+  0009 neg              
+  000A not              
+  000B neg              
+  000C not              
+  000D neg              
+  000E neg              
+  000F not              
+  0010 not              
+  0011 neg              
+  0012 sub              
+  0013 ldarg.1          
+  0014 ldc.i4           -795267039
+  0019 not              
+  001A neg              
+  001B not              
+  001C not              
+  001D neg              
+  001E not              
+  001F neg              
+  0020 neg              
+  0021 not              
+  0022 not              
+  0023 neg              
+  0024 add              
+  0025 xor              
+  0026 ret              
+
+METHOD 000047 TOKEN 0600002F .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 ldc.i4           -839952613
+  0008 not              
+  0009 neg              
+  000A not              
+  000B neg              
+  000C not              
+  000D not              
+  000E neg              
+  000F not              
+  0010 neg              
+  0011 not              
+  0012 neg              
+  0013 sub              
+  0014 ldarg.0          
+  0015 ldarg.1          
+  0016 sub              
+  0017 xor              
+  0018 xor              
+  0019 ret              
+
+METHOD 000048 TOKEN 06000030 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000049 TOKEN 06000031 .::
+  000C ldtoken          02000011 .
+  0011 call             0A00001A System.Type::GetTypeFromHandle
+  0016 call             06000027 . ::
+  001B ldtoken          02000010 .
+  0020 call             0A00001A System.Type::GetTypeFromHandle
+  0025 call             06000027 . ::
+  002A ldtoken          02000014 .
+  002F call             0A00001A System.Type::GetTypeFromHandle
+  0034 call             06000027 . ::
+  0039 call             0600002F .::
+  003E call             0600002E .::
+  0043 call             0600002C . ::
+  0048 call             0600002F .::
+  004D ret              
+
+METHOD 000050 TOKEN 06000032 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000051 TOKEN 06000033 .::
+  000C ldtoken          02000012 .
+  0011 call             0A00001A System.Type::GetTypeFromHandle
+  0016 call             06000027 . ::
+  001B ldtoken          02000013 .
+  0020 call             0A00001A System.Type::GetTypeFromHandle
+  0025 call             06000027 . ::
+  002A ldtoken          02000011 .
+  002F call             0A00001A System.Type::GetTypeFromHandle
+  0034 call             06000027 . ::
+  0039 ldtoken          0200000E . 
+  003E call             0A00001A System.Type::GetTypeFromHandle
+  0043 call             06000027 . ::
+  0048 call             06000037 .::
+  004D call             0600002F .::
+  0052 call             0600002E .::
+  0057 xor              
+  0058 call             0600002D .::
+  005D ret              
+
+METHOD 000052 TOKEN 06000034 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000053 TOKEN 06000035 .::
+  000C call             06000033 .::
+  0011 ldc.i4           -527758444
+  0016 not              
+  0017 not              
+  0018 neg              
+  0019 not              
+  001A neg              
+  001B not              
+  001C neg              
+  001D neg              
+  001E not              
+  001F not              
+  0020 neg              
+  0021 xor              
+  0022 ldtoken          02000013 .
+  0027 call             0A00001A System.Type::GetTypeFromHandle
+  002C call             06000027 . ::
+  0031 call             0600002D .::
+  0036 ldtoken          02000010 .
+  003B call             0A00001A System.Type::GetTypeFromHandle
+  0040 call             06000027 . ::
+  0045 ldtoken          0200000E . 
+  004A call             0A00001A System.Type::GetTypeFromHandle
+  004F call             06000027 . ::
+  0054 xor              
+  0055 ldc.i4           -511100927
+  005A not              
+  005B neg              
+  005C not              
+  005D neg              
+  005E not              
+  005F not              
+  0060 neg              
+  0061 neg              
+  0062 not              
+  0063 call             0600002E .::
+  0068 call             0600002F .::
+  006D ret              
+
+METHOD 000054 TOKEN 06000036 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000055 TOKEN 06000037 .::
+  000C ldtoken          02000013 .
+  0011 call             0A00001A System.Type::GetTypeFromHandle
+  0016 call             06000027 . ::
+  001B ldtoken          02000010 .
+  0020 call             0A00001A System.Type::GetTypeFromHandle
+  0025 call             06000027 . ::
+  002A ldtoken          02000011 .
+  002F call             0A00001A System.Type::GetTypeFromHandle
+  0034 call             06000027 . ::
+  0039 ldtoken          02000012 .
+  003E call             0A00001A System.Type::GetTypeFromHandle
+  0043 call             06000027 . ::
+  0048 ldtoken          02000014 .
+  004D call             0A00001A System.Type::GetTypeFromHandle
+  0052 call             06000027 . ::
+  0057 ldtoken          0200000E . 
+  005C call             0A00001A System.Type::GetTypeFromHandle
+  0061 call             06000027 . ::
+  0066 call             0600002D .::
+  006B call             0600002F .::
+  0070 call             0600002E .::
+  0075 call             0600002D .::
+  007A call             0600002F .::
+  007F ret              
+
+METHOD 000056 TOKEN 06000038 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000057 TOKEN 06000039 .::
+  0001 call             06000035 .::
+  0006 ldtoken          02000014 .
+  000B call             0A00001A System.Type::GetTypeFromHandle
+  0010 call             06000027 . ::
+  0015 call             06000033 .::
+  001A call             0600002D .::
+  001F call             0600002E .::
+  0024 ldtoken          0200000E . 
+  0029 call             0A00001A System.Type::GetTypeFromHandle
+  002E call             06000027 . ::
+  0033 call             0600002E .::
+  0038 ret              
+
+METHOD 000061 TOKEN 0600003D DeviceTools.DeviceInitializer::.cctor
+  000C ldc.i4.2         
+  000D newarr           01000042 System.Int32
+  0012 dup              
+  0013 ldc.i4.0         
+  0014 ldc.i4           177
+  0019 stelem.i4        
+  001A dup              
+  001B ldc.i4.1         
+  001C ldc.i4.s         116
+  001E stelem.i4        
+  001F stsfld           04000015 DeviceTools.DeviceInitializer::
+  0024 ldc.i4.2         
+  0025 newarr           01000042 System.Int32
+  002A dup              
+  002B ldc.i4.0         
+  002C ldc.i4           177
+  0031 stelem.i4        
+  0032 dup              
+  0033 ldc.i4.1         
+  0034 ldc.i4.s         116
+  0036 stelem.i4        
+  0037 stsfld           04000016 DeviceTools.DeviceInitializer::
+  003C ldc.i4           -707448042
+  0041 call             06000013 . ::
+  0046 call             0600007B DeviceWork.NativeAssemlyResolver::AddAssembly
+  004B call             0600003E DeviceTools.DeviceInitializer::
+  0050 ret              
+
+METHOD 000062 TOKEN 0600003E DeviceTools.DeviceInitializer::
+  0001 newobj           0A00004B nDeviceCPPExtract.OSAL::.ctor
+  0006 pop              
+  0007 ret              
+
+METHOD 000063 TOKEN 0600003F DeviceTools.DeviceInitializer::Load
+  0001 ret              
+
+METHOD 000064 TOKEN 06000040 DeviceTools.DeviceInitializer::Init
+  000C ldarg.1          
+  000D brfalse.s        129
+  000F ldarg.1          
+  0010 callvirt         0A00004C SerialTepl.IConnectorSerial::GetConfig
+  0015 stloc.s          local(0x0004)
+  0017 ldloc.s          local(0x0004)
+  0019 brfalse.s        129
+  001B ldloc.s          local(0x0004)
+  001D callvirt         0A00004D System.Object::GetType
+  0022 ldtoken          01000019 SerialTepl.RS232Info
+  0027 call             0A00001A System.Type::GetTypeFromHandle
+  002C call             0A00004E System.Type::op_Equality
+  0031 brfalse.s        129
+  0033 ldc.i4.0         
+  0034 stloc.2          
+  0035 ldsfld           04000016 DeviceTools.DeviceInitializer::
+  003A stloc.3          
+  003B ldc.i4.0         
+  003C stloc.1          
+  003D br.s             77
+  003F ldloc.3          
+  0040 ldloc.1          
+  0041 ldelem.i4        
+  0042 ldarg.0          
+  0043 bne.un.s         73
+  0045 ldc.i4.1         
+  0046 stloc.2          
+  0047 br.s             83
+  0049 ldloc.1          
+  004A ldc.i4.1         
+  004B add              
+  004C stloc.1          
+  004D ldloc.1          
+  004E ldloc.3          
+  004F ldlen            
+  0050 conv.i4          
+  0051 blt.s            63
+  0053 ldarg.1          
+  0054 ldloc.2          
+  0055 callvirt         0A00004F SerialTepl.IConnectorSerial::set_RTS
+  005A ldc.i4.1         
+  005B stloc.2          
+  005C ldsfld           04000015 DeviceTools.DeviceInitializer::
+  0061 stloc.3          
+  0062 ldc.i4.0         
+  0063 stloc.1          
+  0064 br.s             116
+  0066 ldloc.3          
+  0067 ldloc.1          
+  0068 ldelem.i4        
+  0069 ldarg.0          
+  006A bne.un.s         112
+  006C ldc.i4.0         
+  006D stloc.2          
+  006E br.s             122
+  0070 ldloc.1          
+  0071 ldc.i4.1         
+  0072 add              
+  0073 stloc.1          
+  0074 ldloc.1          
+  0075 ldloc.3          
+  0076 ldlen            
+  0077 conv.i4          
+  0078 blt.s            102
+  007A ldarg.1          
+  007B ldloc.2          
+  007C callvirt         0A000050 SerialTepl.IConnectorSerial::set_DTR
+  0081 ldnull           
+  0082 stloc.0          
+  0083 ldarg.0          
+  0084 ldc.i4           163
+  0089 bgt              450
+  008E ldarg.0          
+  008F ldc.i4.s         120
+  0091 bgt              308
+  0096 ldarg.0          
+  0097 ldc.i4.s         35
+  0099 bgt.s            259
+  009B ldarg.0          
+  009C ldc.i4           -309
+  00A1 beq              1188
+  00A6 ldarg.0          
+  00A7 ldc.i4.1         
+  00A8 sub              
+  00A9 switch           [936, 936, 936, 936, 936, 1204, 1204, 1204, 1002, 1204, 1204, 947, 1204, 947, 1204, 1204, 1013, 1024]
+  00F6 ldarg.0          
+  00F7 ldc.i4.s         35
+  00F9 beq              1026
+  00FE br               1204
+  0103 ldarg.0          
+  0104 ldc.i4.s         112
+  0106 bgt.s            287
+  0108 ldarg.0          
+  0109 ldc.i4.s         98
+  010B sub              
+  010C ldc.i4.5         
+  010D ble.un           947
+  0112 ldarg.0          
+  0113 ldc.i4.s         112
+  0115 beq              958
+  011A br               1204
+  011F ldarg.0          
+  0120 ldc.i4.s         114
+  0122 beq              947
+  0127 ldarg.0          
+  0128 ldc.i4.s         120
+  012A beq              947
+  012F br               1204
+  0134 ldarg.0          
+  0135 ldc.i4           132
+  013A bgt.s            351
+  013C ldarg.0          
+  013D ldc.i4.s         121
+  013F beq              1037
+  0144 ldarg.0          
+  0145 ldc.i4           131
+  014A beq              1048
+  014F ldarg.0          
+  0150 ldc.i4           132
+  0155 beq              947
+  015A br               1204
+  015F ldarg.0          
+  0160 ldc.i4           145
+  0165 bgt.s            386
+  0167 ldarg.0          
+  0168 ldc.i4           136
+  016D beq              1109
+  0172 ldarg.0          
+  0173 ldc.i4           145
+  0178 beq              947
+  017D br               1204
+  0182 ldarg.0          
+  0183 ldc.i4           148
+  0188 sub              
+  0189 switch           [947, 1204, 1059, 1204, 1204, 947, 947, 1204, 1070]
+  01B2 ldarg.0          
+  01B3 ldc.i4           163
+  01B8 beq              1081
+  01BD br               1204
+  01C2 ldarg.0          
+  01C3 ldc.i4           260
+  01C8 bgt              699
+  01CD ldarg.0          
+  01CE ldc.i4           198
+  01D3 bgt              616
+  01D8 ldarg.0          
+  01D9 ldc.i4           166
+  01DE beq              947
+  01E3 ldarg.0          
+  01E4 ldc.i4           171
+  01E9 sub              
+  01EA switch           [947, 947, 1026, 1204, 1204, 1204, 1204, 1204, 947, 947, 1204, 1204, 1204, 1095, 1081, 1204, 969, 1095, 1095]
+  023B ldarg.0          
+  023C ldc.i4           192
+  0241 sub              
+  0242 switch           [947, 1204, 1204, 1204, 991, 947, 947]
+  0263 br               1204
+  0268 ldarg.0          
+  0269 ldc.i4           230
+  026E bgt.s            672
+  0270 ldarg.0          
+  0271 ldc.i4           205
+  0276 beq              947
+  027B ldarg.0          
+  027C ldc.i4           226
+  0281 sub              
+  0282 switch           [947, 947, 980, 1204, 1109]
+  029B br               1204
+  02A0 ldarg.0          
+  02A1 ldc.i4           252
+  02A6 beq              947
+  02AB ldarg.0          
+  02AC ldc.i4           260
+  02B1 beq              947
+  02B6 br               1204
+  02BB ldarg.0          
+  02BC ldc.i4           275
+  02C1 bgt.s            771
+  02C3 ldarg.0          
+  02C4 ldc.i4           266
+  02C9 bgt.s            742
+  02CB ldarg.0          
+  02CC ldc.i4           264
+  02D1 beq              947
+  02D6 ldarg.0          
+  02D7 ldc.i4           266
+  02DC beq              947
+  02E1 br               1204
+  02E6 ldarg.0          
+  02E7 ldc.i4           271
+  02EC sub              
+  02ED ldc.i4.1         
+  02EE ble.un           947
+  02F3 ldarg.0          
+  02F4 ldc.i4           275
+  02F9 beq              947
+  02FE br               1204
+  0303 ldarg.0          
+  0304 ldc.i4           313
+  0309 bgt              912
+  030E ldarg.0          
+  030F ldc.i4           279
+  0314 sub              
+  0315 ldc.i4.1         
+  0316 ble.un           947
+  031B ldarg.0          
+  031C ldc.i4           289
+  0321 sub              
+  0322 switch           [947, 947, 1204, 1204, 1204, 1204, 947, 1204, 947, 1123, 947, 1137, 1204, 1204, 1204, 1151, 1165, 1204, 1204, 947, 1204, 1204, 947, 1179, 947]
+  038B br               1204
+  0390 ldarg.0          
+  0391 ldc.i4           317
+  0396 beq.s            947
+  0398 ldarg.0          
+  0399 ldc.i4           457
+  039E beq              1196
+  03A3 br               1204
+  03A8 newobj           0A000051 PulsarWork.Pulsar::.ctor
+  03AD stloc.0          
+  03AE br               1212
+  03B3 newobj           0A000052 PulsarWork.PulsarM::.ctor
+  03B8 stloc.0          
+  03B9 br               1212
+  03BE newobj           0A000053 PulsarWork.Pulsar256_M::.ctor
+  03C3 stloc.0          
+  03C4 br               1212
+  03C9 newobj           0A000054 PulsarWork.Pulsar_2_8_NS::.ctor
+  03CE stloc.0          
+  03CF br               1212
+  03D4 newobj           0A000055 DeviceWork.ModemPulsar4K::.ctor
+  03D9 stloc.0          
+  03DA br               1212
+  03DF newobj           0A000056 PulsarWork.PulsarRadioUSB::.ctor
+  03E4 stloc.0          
+  03E5 br               1212
+  03EA newobj           0A000057 Set561Work.Set561::.ctor
+  03EF stloc.0          
+  03F0 br               1212
+  03F5 newobj           0A000058 SE3.SE3::.ctor
+  03FA stloc.0          
+  03FB br               1212
+  0400 ldnull           
+  0401 ret              
+  0402 newobj           0A000059 Gamma.Gamma::.ctor
+  0407 stloc.0          
+  0408 br               1212
+  040D newobj           0A00005A VisTWork.VisT::.ctor
+  0412 stloc.0          
+  0413 br               1212
+  0418 newobj           0A00005B Multical.Multical601::.ctor
+  041D stloc.0          
+  041E br               1212
+  0423 newobj           0A00005C Multical66.Multical66::.ctor
+  0428 stloc.0          
+  0429 br               1212
+  042E newobj           0A00005D DeviceWork.DemoDevice::.ctor
+  0433 stloc.0          
+  0434 br               1212
+  0439 ldc.i4           163
+  043E ldarg.1          
+  043F newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  0444 stloc.0          
+  0445 br.s             1212
+  0447 ldc.i4           184
+  044C ldarg.1          
+  044D newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  0452 stloc.0          
+  0453 br.s             1212
+  0455 ldc.i4           136
+  045A ldarg.1          
+  045B newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  0460 stloc.0          
+  0461 br.s             1212
+  0463 ldc.i4           298
+  0468 ldarg.1          
+  0469 newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  046E stloc.0          
+  046F br.s             1212
+  0471 ldc.i4           300
+  0476 ldarg.1          
+  0477 newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  047C stloc.0          
+  047D br.s             1212
+  047F ldc.i4           304
+  0484 ldarg.1          
+  0485 newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  048A stloc.0          
+  048B br.s             1212
+  048D ldc.i4           305
+  0492 ldarg.1          
+  0493 newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  0498 stloc.0          
+  0499 br.s             1212
+  049B ldarg.0          
+  049C newobj           0A00005F PulsarWork.NarrowbandTransmitter::.ctor
+  04A1 stloc.0          
+  04A2 br.s             1212
+  04A4 newobj           0A000060 PulsarWork.NarrowbandReceiver::.ctor
+  04A9 stloc.0          
+  04AA br.s             1212
+  04AC newobj           0A000061 DeviceWork.Drivers.BacNet.BacNetDevice::.ctor
+  04B1 stloc.0          
+  04B2 br.s             1212
+  04B4 ldarg.0          
+  04B5 ldarg.1          
+  04B6 newobj           0A00005E nDeviceCPPExtract.DeviceCPPExtract::.ctor
+  04BB stloc.0          
+  04BC ldarg.1          
+  04BD isinst           0100001A SerialTepl.SerialChirpStack
+  04C2 brfalse.s        1234
+  04C4 ldloc.0          
+  04C5 newobj           06000041 DeviceTools.LoraWanWrapper::.ctor
+  04CA dup              
+  04CB ldarg.1          
+  04CC callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  04D1 ret              
+  04D2 ldloc.0          
+  04D3 ret              
+
+METHOD 000065 TOKEN 06000041 DeviceTools.LoraWanWrapper::.ctor
+  0001 ldarg.0          
+  0002 call             0A000063 DeviceWork.DeviceBase::.ctor
+  0007 ldarg.0          
+  0008 ldarg.1          
+  0009 stfld            04000018 DeviceTools.LoraWanWrapper::
+  000E ret              
+
+METHOD 000066 TOKEN 06000042 DeviceTools.LoraWanWrapper::.cctor
+  0001 ldc.i4           -707447937
+  0006 call             06000013 . ::
+  000B stsfld           04000017 DeviceTools.LoraWanWrapper::EUI_separator
+  0010 ret              
+
+METHOD 000067 TOKEN 06000043 DeviceTools.LoraWanWrapper::
+  0001 ldarg.0          
+  0002 callvirt         0A000064 DeviceWork.DeviceBase::get_ComPort
+  0007 castclass        0100001A SerialTepl.SerialChirpStack
+  000C ret              
+
+METHOD 000068 TOKEN 06000044 DeviceTools.LoraWanWrapper::GetCurrPar
+  000C ldarg.1          
+  000D ldsfld           04000017 DeviceTools.LoraWanWrapper::EUI_separator
+  0012 callvirt         0A000065 System.String::IndexOf
+  0017 stloc.0          
+  0018 ldloc.0          
+  0019 ldc.i4.0         
+  001A bge.s            52
+  001C newobj           0A000066 DeviceWork.ParametrValue::.ctor
+  0021 dup              
+  0022 call             0A000067 System.DateTime::get_Now
+  0027 stfld            0A000068 DeviceWork.ParametrValue::Time
+  002C dup              
+  002D ldc.i4.4         
+  002E stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0033 ret              
+  0034 ldarg.0          
+  0035 call             06000043 DeviceTools.LoraWanWrapper::
+  003A ldarg.1          
+  003B ldloc.0          
+  003C ldc.i4.1         
+  003D add              
+  003E callvirt         0A00006A System.String::Substring
+  0043 callvirt         0A00006B SerialTepl.SerialChirpStack::set_Current_EUI
+  0048 ldarg.1          
+  0049 ldc.i4.0         
+  004A ldloc.0          
+  004B callvirt         0A00006C System.String::Substring
+  0050 starg.s          argument(0x0001)
+  0052 ldarg.0          
+  0053 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0058 ldarg.1          
+  0059 ldarg.2          
+  005A ldarg.3          
+  005B ldarg.s          argument(0x0004)
+  005D ldarg.s          argument(0x0005)
+  005F callvirt         0A00006D DeviceWork.DeviceBase::GetCurrPar
+  0064 ret              
+
+METHOD 000069 TOKEN 06000045 DeviceTools.LoraWanWrapper::GetCurrPars
+  000C ldarg.1          
+  000D ldc.i4.0         
+  000E ldelem.ref       
+  000F ldfld            0A00006E DeviceWork.ParamVal::NameP1
+  0014 ldsfld           04000017 DeviceTools.LoraWanWrapper::EUI_separator
+  0019 callvirt         0A000065 System.String::IndexOf
+  001E stloc.0          
+  001F ldloc.0          
+  0020 ldc.i4.0         
+  0021 bge.s            85
+  0023 newobj           0A000066 DeviceWork.ParametrValue::.ctor
+  0028 dup              
+  0029 call             0A000067 System.DateTime::get_Now
+  002E stfld            0A000068 DeviceWork.ParametrValue::Time
+  0033 dup              
+  0034 ldc.i4.4         
+  0035 stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  003A stloc.1          
+  003B ldarg.1          
+  003C stloc.2          
+  003D ldc.i4.0         
+  003E stloc.3          
+  003F br.s             78
+  0041 ldloc.2          
+  0042 ldloc.3          
+  0043 ldelem.ref       
+  0044 ldloc.1          
+  0045 stfld            0A00006F DeviceWork.ParamVal::val
+  004A ldloc.3          
+  004B ldc.i4.1         
+  004C add              
+  004D stloc.3          
+  004E ldloc.3          
+  004F ldloc.2          
+  0050 ldlen            
+  0051 conv.i4          
+  0052 blt.s            65
+  0054 ret              
+  0055 ldarg.0          
+  0056 call             06000043 DeviceTools.LoraWanWrapper::
+  005B ldarg.1          
+  005C ldc.i4.0         
+  005D ldelem.ref       
+  005E ldfld            0A00006E DeviceWork.ParamVal::NameP1
+  0063 ldloc.0          
+  0064 ldc.i4.1         
+  0065 add              
+  0066 callvirt         0A00006A System.String::Substring
+  006B callvirt         0A00006B SerialTepl.SerialChirpStack::set_Current_EUI
+  0070 ldarg.1          
+  0071 stloc.2          
+  0072 ldc.i4.0         
+  0073 stloc.3          
+  0074 br.s             143
+  0076 ldloc.2          
+  0077 ldloc.3          
+  0078 ldelem.ref       
+  0079 dup              
+  007A ldfld            0A00006E DeviceWork.ParamVal::NameP1
+  007F ldc.i4.0         
+  0080 ldloc.0          
+  0081 callvirt         0A00006C System.String::Substring
+  0086 stfld            0A00006E DeviceWork.ParamVal::NameP1
+  008B ldloc.3          
+  008C ldc.i4.1         
+  008D add              
+  008E stloc.3          
+  008F ldloc.3          
+  0090 ldloc.2          
+  0091 ldlen            
+  0092 conv.i4          
+  0093 blt.s            118
+  0095 ldarg.0          
+  0096 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  009B ldarg.1          
+  009C callvirt         0A000070 DeviceWork.DeviceBase::GetCurrPars
+  00A1 ret              
+
+METHOD 000070 TOKEN 06000046 DeviceTools.LoraWanWrapper::FindE
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 ldarg.1          
+  0008 ldarg.2          
+  0009 callvirt         0A000071 DeviceWork.DeviceBase::FindE
+  000E ret              
+
+METHOD 000071 TOKEN 06000047 DeviceTools.LoraWanWrapper::get_ComPort
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 callvirt         0A000064 DeviceWork.DeviceBase::get_ComPort
+  000C ret              
+
+METHOD 000072 TOKEN 06000048 DeviceTools.LoraWanWrapper::set_ComPort
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 ldarg.1          
+  0008 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  000D ret              
+
+METHOD 000073 TOKEN 06000049 DeviceTools.LoraWanWrapper::GetInfo
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 ldarg.1          
+  0008 callvirt         0A000072 DeviceWork.DeviceBase::GetInfo
+  000D ret              
+
+METHOD 000074 TOKEN 0600004A DeviceTools.LoraWanWrapper::get_Model
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 callvirt         0A000073 DeviceWork.DeviceBase::get_Model
+  000C ret              
+
+METHOD 000075 TOKEN 0600004B DeviceTools.LoraWanWrapper::set_Model
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 ldarg.1          
+  0008 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  000D ret              
+
+METHOD 000076 TOKEN 0600004C DeviceTools.LoraWanWrapper::ParsePacket
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 ldarg.1          
+  0008 callvirt         0A000075 DeviceWork.DeviceBase::ParsePacket
+  000D ret              
+
+METHOD 000077 TOKEN 0600004D DeviceTools.LoraWanWrapper::ToString
+  0001 ldarg.0          
+  0002 ldfld            04000018 DeviceTools.LoraWanWrapper::
+  0007 callvirt         0A000076 System.Object::ToString
+  000C ret              
+
+METHOD 000078 TOKEN 0600004E DeviceTools.NativeMemoryInfo::.ctor
+  000C ldarg.0          
+  000D call             0A00001F System.Object::.ctor
+  0012 call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0017 callvirt         0A000078 nDeviceCPPExtract.OSAL::get_MemoryState
+  001C stloc.0          
+  001D ldarg.0          
+  001E ldloc.0          
+  001F ldfld            0A000079 .MemoryStateInfo::Size
+  0024 ldloc.0          
+  0025 ldfld            0A00007A .MemoryStateInfo::Free
+  002A sub              
+  002B call             0600005B DeviceTools.NativeMemoryInfo::
+  0030 ldarg.0          
+  0031 ldloc.0          
+  0032 ldfld            0A00007B .MemoryStateInfo::Description
+  0037 call             06000057 DeviceTools.NativeMemoryInfo::
+  003C ldarg.0          
+  003D ldloc.0          
+  003E ldfld            0A000079 .MemoryStateInfo::Size
+  0043 call             06000059 DeviceTools.NativeMemoryInfo::
+  0048 ldarg.0          
+  0049 ldloc.0          
+  004A ldfld            0A00007A .MemoryStateInfo::Free
+  004F call             0600005D DeviceTools.NativeMemoryInfo::
+  0054 ret              
+
+METHOD 000079 TOKEN 0600004F DeviceTools.NativeMemoryInfo::.cctor
+  0001 call             0600003F DeviceTools.DeviceInitializer::Load
+  0006 ret              
+
+METHOD 000080 TOKEN 06000050 DeviceTools.NativeMemoryInfo::StartSpy
+  0001 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0006 brtrue.s         18
+  0008 newobj           0600005E .::.ctor
+  000D stsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0012 ret              
+
+METHOD 000081 TOKEN 06000051 DeviceTools.NativeMemoryInfo::StopSpy
+  0001 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0006 brtrue.s         9
+  0008 ret              
+  0009 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  000E callvirt         06000066 .::Dispose
+  0013 ldnull           
+  0014 stsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0019 ret              
+
+METHOD 000082 TOKEN 06000052 DeviceTools.NativeMemoryInfo::PrintSpyDump
+  000C ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0011 brtrue.s         35
+  0013 ldc.i4           -707447945
+  0018 call             06000013 . ::
+  001D newobj           0A00007C System.InvalidOperationException::.ctor
+  0022 throw            
+  0023 newobj           0A000028 System.Text.StringBuilder::.ctor
+  0028 stloc.0          
+  0029 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  002E callvirt         06000061 .::
+  0033 callvirt         0A00007D <dnfile.mdtable.TypeSpecRow object at 0x106797110>::GetEnumerator
+  0038 stloc.1          
+  0039 br.s             154
+  003B ldloc.1          
+  003C callvirt         0A00007E <dnfile.mdtable.TypeSpecRow object at 0x1067971a0>::get_Current
+  0041 stloc.2          
+  0042 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0047 ldloc.2          
+  0048 callvirt         06000062 .::
+  004D stloc.3          
+  004E ldloc.3          
+  004F callvirt         0600006A .::
+  0054 brtrue.s         154
+  0056 ldloc.0          
+  0057 ldc.i4           -707447980
+  005C call             06000013 . ::
+  0061 ldc.i4.4         
+  0062 newarr           01000048 System.Object
+  0067 dup              
+  0068 ldc.i4.0         
+  0069 ldloc.2          
+  006A box              01000042 System.Int32
+  006F stelem.ref       
+  0070 dup              
+  0071 ldc.i4.1         
+  0072 ldloc.3          
+  0073 ldfld            04000021 .::
+  0078 box              01000042 System.Int32
+  007D stelem.ref       
+  007E dup              
+  007F ldc.i4.2         
+  0080 ldloc.3          
+  0081 callvirt         06000068 .::
+  0086 box              01000042 System.Int32
+  008B stelem.ref       
+  008C dup              
+  008D ldc.i4.3         
+  008E call             0A00007F System.Environment::get_NewLine
+  0093 stelem.ref       
+  0094 callvirt         0A000080 System.Text.StringBuilder::AppendFormat
+  0099 pop              
+  009A ldloc.1          
+  009B callvirt         0A000081 System.Collections.IEnumerator::MoveNext
+  00A0 brtrue.s         59
+  00A2 leave.s          174
+  00A4 ldloc.1          
+  00A5 brfalse.s        173
+  00A7 ldloc.1          
+  00A8 callvirt         0A000082 System.IDisposable::Dispose
+  00AD endfinally       
+  00AE ldloc.0          
+  00AF callvirt         0A000076 System.Object::ToString
+  00B4 ret              
+
+METHOD 000083 TOKEN 06000053 DeviceTools.NativeMemoryInfo::ReinitializeMemory
+  0001 call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0006 ldarg.0          
+  0007 callvirt         0A000083 nDeviceCPPExtract.OSAL::ReinitializeMemory
+  000C ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0011 brfalse.s        29
+  0013 ldsfld           04000019 DeviceTools.NativeMemoryInfo::
+  0018 callvirt         06000063 .::
+  001D ret              
+
+METHOD 000084 TOKEN 06000054 DeviceTools.NativeMemoryInfo::PrintAllocatedDump
+  000C ldc.i4.0         
+  000D stloc.0          
+  000E call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0013 callvirt         0A000084 nDeviceCPPExtract.OSAL::get_MemoryDump
+  0018 stloc.1          
+  0019 newobj           0A000028 System.Text.StringBuilder::.ctor
+  001E stloc.2          
+  001F ldc.i4.0         
+  0020 stloc.3          
+  0021 br.s             137
+  0023 ldloc.2          
+  0024 ldc.i4           -707447897
+  0029 call             06000013 . ::
+  002E ldloc.3          
+  002F box              01000042 System.Int32
+  0034 ldloc.1          
+  0035 ldloc.3          
+  0036 ldelem.ref       
+  0037 ldfld            0A000085 .MemoryBlockInfo::Data
+  003C ldlen            
+  003D conv.i4          
+  003E box              01000042 System.Int32
+  0043 ldloc.1          
+  0044 ldloc.3          
+  0045 ldelem.ref       
+  0046 ldfld            0A000086 .MemoryBlockInfo::Address
+  004B box              0100006E System.UIntPtr
+  0050 callvirt         0A000087 System.Text.StringBuilder::AppendFormat
+  0055 pop              
+  0056 ldloc.2          
+  0057 ldloc.1          
+  0058 ldloc.3          
+  0059 ldelem.ref       
+  005A ldfld            0A000085 .MemoryBlockInfo::Data
+  005F ldc.i4.s         16
+  0061 call             06000055 DeviceTools.NativeMemoryInfo::ByteArrayToDump
+  0066 callvirt         0A000088 System.Text.StringBuilder::Append
+  006B pop              
+  006C ldloc.2          
+  006D call             0A00007F System.Environment::get_NewLine
+  0072 callvirt         0A000088 System.Text.StringBuilder::Append
+  0077 pop              
+  0078 ldloc.0          
+  0079 ldloc.1          
+  007A ldloc.3          
+  007B ldelem.ref       
+  007C ldfld            0A000085 .MemoryBlockInfo::Data
+  0081 ldlen            
+  0082 conv.i4          
+  0083 add              
+  0084 stloc.0          
+  0085 ldloc.3          
+  0086 ldc.i4.1         
+  0087 add              
+  0088 stloc.3          
+  0089 ldloc.3          
+  008A ldloc.1          
+  008B ldlen            
+  008C conv.i4          
+  008D blt.s            35
+  008F ldloc.2          
+  0090 ldc.i4           -707447812
+  0095 call             06000013 . ::
+  009A ldloc.0          
+  009B box              01000042 System.Int32
+  00A0 call             0A00007F System.Environment::get_NewLine
+  00A5 callvirt         0A000089 System.Text.StringBuilder::AppendFormat
+  00AA pop              
+  00AB ldloc.2          
+  00AC callvirt         0A000076 System.Object::ToString
+  00B1 ret              
+
+METHOD 000085 TOKEN 06000055 DeviceTools.NativeMemoryInfo::ByteArrayToDump
+  000C ldarg.0          
+  000D brtrue.s         31
+  000F ldc.i4           -707447840
+  0014 call             06000013 . ::
+  0019 newobj           0A00008A System.ArgumentNullException::.ctor
+  001E throw            
+  001F ldarg.1          
+  0020 ldc.i4.0         
+  0021 bgt.s            51
+  0023 ldc.i4           -707447843
+  0028 call             06000013 . ::
+  002D newobj           0A00008B System.ArgumentOutOfRangeException::.ctor
+  0032 throw            
+  0033 ldc.i4           1251
+  0038 call             0A00008C System.Text.Encoding::GetEncoding
+  003D stloc.s          local(0x000A)
+  003F newobj           0A000028 System.Text.StringBuilder::.ctor
+  0044 stloc.1          
+  0045 ldarg.0          
+  0046 ldlen            
+  0047 conv.i4          
+  0048 ldarg.1          
+  0049 div              
+  004A stloc.s          local(0x0005)
+  004C ldarg.0          
+  004D ldlen            
+  004E conv.i4          
+  004F ldarg.1          
+  0050 rem              
+  0051 ldc.i4.0         
+  0052 ble.s            90
+  0054 ldloc.s          local(0x0005)
+  0056 ldc.i4.1         
+  0057 add              
+  0058 stloc.s          local(0x0005)
+  005A ldc.i4.0         
+  005B stloc.2          
+  005C br               317
+  0061 ldloc.2          
+  0062 ldarg.1          
+  0063 mul              
+  0064 stloc.s          local(0x0006)
+  0066 ldloc.s          local(0x0006)
+  0068 ldarg.1          
+  0069 add              
+  006A stloc.s          local(0x0009)
+  006C ldarg.0          
+  006D ldlen            
+  006E conv.i4          
+  006F ldloc.s          local(0x0009)
+  0071 call             0A00008D System.Math::Min
+  0076 stloc.s          local(0x0007)
+  0078 ldloc.s          local(0x0006)
+  007A stloc.3          
+  007B br.s             194
+  007D ldc.i4           -707447862
+  0082 call             06000013 . ::
+  0087 ldarg.0          
+  0088 ldloc.3          
+  0089 ldelem.u1        
+  008A box              01000023 System.Byte
+  008F call             0A00001E System.String::Format
+  0094 stloc.s          local(0x0004)
+  0096 br.s             171
+  0098 ldc.i4           -707447867
+  009D call             06000013 . ::
+  00A2 ldloc.s          local(0x0004)
+  00A4 call             0A00008E System.String::Concat
+  00A9 stloc.s          local(0x0004)
+  00AB ldloc.s          local(0x0004)
+  00AD callvirt         0A00008F System.String::get_Length
+  00B2 ldc.i4.3         
+  00B3 blt.s            152
+  00B5 ldloc.1          
+  00B6 ldloc.s          local(0x0004)
+  00B8 callvirt         0A000088 System.Text.StringBuilder::Append
+  00BD pop              
+  00BE ldloc.3          
+  00BF ldc.i4.1         
+  00C0 add              
+  00C1 stloc.3          
+  00C2 ldloc.3          
+  00C3 ldloc.s          local(0x0007)
+  00C5 blt.s            125
+  00C7 ldc.i4.0         
+  00C8 stloc.s          local(0x0008)
+  00CA br.s             227
+  00CC ldloc.1          
+  00CD ldc.i4           -707448771
+  00D2 call             06000013 . ::
+  00D7 callvirt         0A000088 System.Text.StringBuilder::Append
+  00DC pop              
+  00DD ldloc.s          local(0x0008)
+  00DF ldc.i4.1         
+  00E0 add              
+  00E1 stloc.s          local(0x0008)
+  00E3 ldloc.s          local(0x0008)
+  00E5 ldloc.s          local(0x0009)
+  00E7 ldarg.0          
+  00E8 ldlen            
+  00E9 conv.i4          
+  00EA sub              
+  00EB blt.s            204
+  00ED ldloc.s          local(0x0006)
+  00EF stloc.0          
+  00F0 br.s             289
+  00F2 ldloc.1          
+  00F3 ldarg.0          
+  00F4 ldloc.0          
+  00F5 ldelem.u1        
+  00F6 ldc.i4.s         33
+  00F8 blt.s            269
+  00FA ldarg.0          
+  00FB ldloc.0          
+  00FC ldelem.u1        
+  00FD ldc.i4.s         126
+  00FF bgt.s            269
+  0101 ldloc.s          local(0x000A)
+  0103 ldarg.0          
+  0104 ldloc.0          
+  0105 ldc.i4.1         
+  0106 callvirt         0A000030 System.Text.Encoding::GetString
+  010B br.s             279
+  010D ldc.i4           -707447937
+  0112 call             06000013 . ::
+  0117 callvirt         0A000088 System.Text.StringBuilder::Append
+  011C pop              
+  011D ldloc.0          
+  011E ldc.i4.1         
+  011F add              
+  0120 stloc.0          
+  0121 ldloc.0          
+  0122 ldloc.s          local(0x0007)
+  0124 blt.s            242
+  0126 ldloc.s          local(0x0007)
+  0128 ldarg.0          
+  0129 ldlen            
+  012A conv.i4          
+  012B beq.s            313
+  012D ldloc.1          
+  012E call             0A00007F System.Environment::get_NewLine
+  0133 callvirt         0A000088 System.Text.StringBuilder::Append
+  0138 pop              
+  0139 ldloc.2          
+  013A ldc.i4.1         
+  013B add              
+  013C stloc.2          
+  013D ldloc.2          
+  013E ldloc.s          local(0x0005)
+  0140 blt              97
+  0145 ldloc.1          
+  0146 callvirt         0A000076 System.Object::ToString
+  014B ret              
+
+METHOD 000086 TOKEN 06000056 DeviceTools.NativeMemoryInfo::get_Description
+  0001 ldarg.0          
+  0002 ldfld            0400001A DeviceTools.NativeMemoryInfo::
+  0007 ret              
+
+METHOD 000087 TOKEN 06000057 DeviceTools.NativeMemoryInfo::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400001A DeviceTools.NativeMemoryInfo::
+  0008 ret              
+
+METHOD 000088 TOKEN 06000058 DeviceTools.NativeMemoryInfo::get_TotalSize
+  0001 ldarg.0          
+  0002 ldfld            0400001B DeviceTools.NativeMemoryInfo::
+  0007 ret              
+
+METHOD 000089 TOKEN 06000059 DeviceTools.NativeMemoryInfo::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400001B DeviceTools.NativeMemoryInfo::
+  0008 ret              
+
+METHOD 000090 TOKEN 0600005A DeviceTools.NativeMemoryInfo::get_Allocated
+  0001 ldarg.0          
+  0002 ldfld            0400001C DeviceTools.NativeMemoryInfo::
+  0007 ret              
+
+METHOD 000091 TOKEN 0600005B DeviceTools.NativeMemoryInfo::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400001C DeviceTools.NativeMemoryInfo::
+  0008 ret              
+
+METHOD 000092 TOKEN 0600005C DeviceTools.NativeMemoryInfo::get_Free
+  0001 ldarg.0          
+  0002 ldfld            0400001D DeviceTools.NativeMemoryInfo::
+  0007 ret              
+
+METHOD 000093 TOKEN 0600005D DeviceTools.NativeMemoryInfo::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400001D DeviceTools.NativeMemoryInfo::
+  0008 ret              
+
+METHOD 000094 TOKEN 0600005E .::.ctor
+  000C ldarg.0          
+  000D call             0A00001F System.Object::.ctor
+  0012 call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0017 dup              
+  0018 ldfld            0A000090 nDeviceCPPExtract.OSAL::AllocMemoryEvent
+  001D ldarg.0          
+  001E ldftn            06000064 .::
+  0024 newobj           0A000091 .MemoryHookProc::.ctor
+  0029 call             0A000092 System.Delegate::Combine
+  002E castclass        01000074 .MemoryHookProc
+  0033 stfld            0A000090 nDeviceCPPExtract.OSAL::AllocMemoryEvent
+  0038 call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  003D dup              
+  003E ldfld            0A000093 nDeviceCPPExtract.OSAL::FreeMemoryEvent
+  0043 ldarg.0          
+  0044 ldftn            06000065 .::
+  004A newobj           0A000091 .MemoryHookProc::.ctor
+  004F call             0A000092 System.Delegate::Combine
+  0054 castclass        01000074 .MemoryHookProc
+  0059 stfld            0A000093 nDeviceCPPExtract.OSAL::FreeMemoryEvent
+  005E ldarg.0          
+  005F newobj           0A000094 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::.ctor
+  0064 stfld            0400001E .::
+  0069 ldarg.0          
+  006A ldc.i4.1         
+  006B stfld            0400001F .::
+  0070 ret              
+
+METHOD 000095 TOKEN 0600005F .::
+  0001 ldarg.0          
+  0002 ldfld            04000020 .::
+  0007 ret              
+
+METHOD 000096 TOKEN 06000060 .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000020 .::
+  0008 ret              
+
+METHOD 000097 TOKEN 06000061 .::
+  000C ldarg.0          
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.1          
+  0010 ldloc.0          
+  0011 ldloca.s         local(0x0001)
+  0013 call             0A000025 System.Threading.Monitor::Enter
+  0018 ldarg.0          
+  0019 ldfld            0400001E .::
+  001E callvirt         0A000095 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::get_Keys
+  0023 stloc.2          
+  0024 leave.s          48
+  0026 ldloc.1          
+  0027 brfalse.s        47
+  0029 ldloc.0          
+  002A call             0A00002E System.Threading.Monitor::Exit
+  002F endfinally       
+  0030 ldloc.2          
+  0031 ret              
+
+METHOD 000098 TOKEN 06000062 .::
+  000C ldarg.0          
+  000D stloc.1          
+  000E ldc.i4.0         
+  000F stloc.2          
+  0010 ldloc.1          
+  0011 ldloca.s         local(0x0002)
+  0013 call             0A000025 System.Threading.Monitor::Enter
+  0018 ldarg.0          
+  0019 ldfld            0400001E .::
+  001E ldarg.1          
+  001F ldloca.s         local(0x0000)
+  0021 callvirt         0A000096 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::TryGetValue
+  0026 brfalse.s        44
+  0028 ldloc.0          
+  0029 stloc.3          
+  002A leave.s          61
+  002C leave.s          59
+  002E ldloc.2          
+  002F brfalse          58
+  0034 ldloc.1          
+  0035 call             0A00002E System.Threading.Monitor::Exit
+  003A endfinally       
+  003B ldnull           
+  003C ret              
+  003D ldloc.3          
+  003E ret              
+
+METHOD 000099 TOKEN 06000063 .::
+  000C ldarg.0          
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.1          
+  0010 ldloc.0          
+  0011 ldloca.s         local(0x0001)
+  0013 call             0A000025 System.Threading.Monitor::Enter
+  0018 ldarg.0          
+  0019 ldc.i4.0         
+  001A call             06000060 .::
+  001F ldarg.0          
+  0020 ldfld            0400001E .::
+  0025 callvirt         0A000097 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::Clear
+  002A leave.s          54
+  002C ldloc.1          
+  002D brfalse.s        53
+  002F ldloc.0          
+  0030 call             0A00002E System.Threading.Monitor::Exit
+  0035 endfinally       
+  0036 ret              
+
+METHOD 000100 TOKEN 06000064 .::
+  000C ldarg.0          
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.1          
+  0010 ldloc.0          
+  0011 ldloca.s         local(0x0001)
+  0013 call             0A000025 System.Threading.Monitor::Enter
+  0018 ldarg.0          
+  0019 call             0600005F .::
+  001E stloc.3          
+  001F ldarg.0          
+  0020 ldloc.3          
+  0021 ldc.i4.1         
+  0022 add              
+  0023 call             06000060 .::
+  0028 ldarg.0          
+  0029 ldfld            0400001E .::
+  002E ldarg.1          
+  002F ldloca.s         local(0x0002)
+  0031 callvirt         0A000096 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::TryGetValue
+  0036 brtrue.s         81
+  0038 ldarg.0          
+  0039 call             0600005F .::
+  003E newobj           06000067 .::.ctor
+  0043 stloc.2          
+  0044 ldarg.0          
+  0045 ldfld            0400001E .::
+  004A ldarg.1          
+  004B ldloc.2          
+  004C callvirt         0A000098 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::Add
+  0051 ldloc.2          
+  0052 ldarg.0          
+  0053 call             0600005F .::
+  0058 callvirt         0600006C .::
+  005D leave.s          105
+  005F ldloc.1          
+  0060 brfalse.s        104
+  0062 ldloc.0          
+  0063 call             0A00002E System.Threading.Monitor::Exit
+  0068 endfinally       
+  0069 ret              
+
+METHOD 000101 TOKEN 06000065 .::
+  000C ldarg.0          
+  000D stloc.0          
+  000E ldc.i4.0         
+  000F stloc.1          
+  0010 ldloc.0          
+  0011 ldloca.s         local(0x0001)
+  0013 call             0A000025 System.Threading.Monitor::Enter
+  0018 ldarg.0          
+  0019 ldfld            0400001E .::
+  001E ldarg.1          
+  001F callvirt         0A000099 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::ContainsKey
+  0024 brfalse.s        55
+  0026 ldarg.0          
+  0027 ldfld            0400001E .::
+  002C ldarg.1          
+  002D callvirt         0A00009A <dnfile.mdtable.TypeSpecRow object at 0x106797230>::get_Item
+  0032 callvirt         0600006D .::Dispose
+  0037 leave.s          70
+  0039 ldloc.1          
+  003A brfalse          69
+  003F ldloc.0          
+  0040 call             0A00002E System.Threading.Monitor::Exit
+  0045 endfinally       
+  0046 ret              
+
+METHOD 000102 TOKEN 06000066 .::Dispose
+  000C ldarg.0          
+  000D ldfld            0400001F .::
+  0012 brtrue.s         21
+  0014 ret              
+  0015 ldarg.0          
+  0016 ldc.i4.0         
+  0017 stfld            0400001F .::
+  001C call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0021 dup              
+  0022 ldfld            0A000090 nDeviceCPPExtract.OSAL::AllocMemoryEvent
+  0027 ldarg.0          
+  0028 ldftn            06000064 .::
+  002E newobj           0A000091 .MemoryHookProc::.ctor
+  0033 call             0A00009B System.Delegate::Remove
+  0038 castclass        01000074 .MemoryHookProc
+  003D stfld            0A000090 nDeviceCPPExtract.OSAL::AllocMemoryEvent
+  0042 call             0A000077 nDeviceCPPExtract.OSAL::get_Instance
+  0047 dup              
+  0048 ldfld            0A000093 nDeviceCPPExtract.OSAL::FreeMemoryEvent
+  004D ldarg.0          
+  004E ldftn            06000065 .::
+  0054 newobj           0A000091 .MemoryHookProc::.ctor
+  0059 call             0A00009B System.Delegate::Remove
+  005E castclass        01000074 .MemoryHookProc
+  0063 stfld            0A000093 nDeviceCPPExtract.OSAL::FreeMemoryEvent
+  0068 ldarg.0          
+  0069 ldfld            0400001E .::
+  006E callvirt         0A000097 <dnfile.mdtable.TypeSpecRow object at 0x106797230>::Clear
+  0073 ret              
+
+METHOD 000103 TOKEN 06000067 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ldarg.0          
+  0008 ldarg.1          
+  0009 stfld            04000021 .::
+  000E ldarg.0          
+  000F ldarg.1          
+  0010 call             06000069 .::
+  0015 ret              
+
+METHOD 000104 TOKEN 06000068 .::
+  0001 ldarg.0          
+  0002 ldfld            04000022 .::
+  0007 ret              
+
+METHOD 000105 TOKEN 06000069 .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000022 .::
+  0008 ret              
+
+METHOD 000106 TOKEN 0600006A .::
+  0001 ldarg.0          
+  0002 ldfld            04000023 .::
+  0007 ret              
+
+METHOD 000107 TOKEN 0600006B .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000023 .::
+  0008 ret              
+
+METHOD 000108 TOKEN 0600006C .::
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 call             06000069 .::
+  0008 ldarg.0          
+  0009 ldc.i4.0         
+  000A call             0600006B .::
+  000F ret              
+
+METHOD 000109 TOKEN 0600006D .::Dispose
+  0001 ldarg.0          
+  0002 ldc.i4.1         
+  0003 call             0600006B .::
+  0008 ret              
+
+METHOD 000110 TOKEN 0600006E DeviceWork.EventReadArg::.ctor
+  0001 ldarg.0          
+  0002 call             0A00009C System.EventArgs::.ctor
+  0007 ret              
+
+METHOD 000111 TOKEN 0600006F DeviceWork.EventReadArg::get_resultcurrent
+  0001 ldarg.0          
+  0002 ldfld            04000024 DeviceWork.EventReadArg::
+  0007 ret              
+
+METHOD 000112 TOKEN 06000070 DeviceWork.EventReadArg::set_resultcurrent
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000024 DeviceWork.EventReadArg::
+  0008 ret              
+
+METHOD 000113 TOKEN 06000071 DeviceWork.EventReadArg::get_resultarhiv
+  0001 ldarg.0          
+  0002 ldfld            04000025 DeviceWork.EventReadArg::
+  0007 ret              
+
+METHOD 000114 TOKEN 06000072 DeviceWork.EventReadArg::set_resultarhiv
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000025 DeviceWork.EventReadArg::
+  0008 ret              
+
+METHOD 000115 TOKEN 06000073 DeviceWork.EventReadArg::get_resultjournals
+  0001 ldarg.0          
+  0002 ldfld            04000026 DeviceWork.EventReadArg::
+  0007 ret              
+
+METHOD 000116 TOKEN 06000074 DeviceWork.EventReadArg::set_resultjournals
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000026 DeviceWork.EventReadArg::
+  0008 ret              
+
+METHOD 000117 TOKEN 06000075 DeviceWork.EventReadArg::get_IsAborted
+  0001 ldarg.0          
+  0002 ldfld            04000027 DeviceWork.EventReadArg::
+  0007 ret              
+
+METHOD 000118 TOKEN 06000076 DeviceWork.EventReadArg::set_IsAborted
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000027 DeviceWork.EventReadArg::
+  0008 ret              
+
+METHOD 000119 TOKEN 06000077 DeviceWork.EventReadArg::get_ErrorCode
+  0001 ldarg.0          
+  0002 ldfld            04000028 DeviceWork.EventReadArg::
+  0007 ret              
+
+METHOD 000120 TOKEN 06000078 DeviceWork.EventReadArg::set_ErrorCode
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            04000028 DeviceWork.EventReadArg::
+  0008 ret              
+
+METHOD 000121 TOKEN 06000079 DeviceWork.NativeAssemlyResolver::.cctor
+  0001 newobj           0A00009D <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::.ctor
+  0006 stsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  000B ret              
+
+METHOD 000122 TOKEN 0600007A DeviceWork.NativeAssemlyResolver::Activate
+  000C ldarg.0          
+  000D brtrue.s         31
+  000F ldc.i4           -707448789
+  0014 call             06000013 . ::
+  0019 newobj           0A00008A System.ArgumentNullException::.ctor
+  001E throw            
+  001F ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0024 stloc.0          
+  0025 ldc.i4.0         
+  0026 stloc.1          
+  0027 ldloc.0          
+  0028 ldloca.s         local(0x0001)
+  002A call             0A000025 System.Threading.Monitor::Enter
+  002F ldsfld           04000029 DeviceWork.NativeAssemlyResolver::
+  0034 brfalse.s        58
+  0036 ldc.i4.0         
+  0037 stloc.2          
+  0038 leave.s          150
+  003A ldarg.0          
+  003B callvirt         0A00009E System.String::Trim
+  0040 stsfld           04000029 DeviceWork.NativeAssemlyResolver::
+  0045 ldarg.1          
+  0046 dup              
+  0047 brtrue.s         79
+  0049 pop              
+  004A call             0A00009F System.AppDomain::get_CurrentDomain
+  004F stsfld           0400002A DeviceWork.NativeAssemlyResolver::
+  0054 ldsfld           0400002A DeviceWork.NativeAssemlyResolver::
+  0059 ldnull           
+  005A ldftn            0600007F DeviceWork.NativeAssemlyResolver::
+  0060 newobj           0A0000A0 System.ResolveEventHandler::.ctor
+  0065 callvirt         0A0000A1 System.AppDomain::add_AssemblyResolve
+  006A leave.s          118
+  006C ldloc.1          
+  006D brfalse.s        117
+  006F ldloc.0          
+  0070 call             0A00002E System.Threading.Monitor::Exit
+  0075 endfinally       
+  0076 ldc.i4.0         
+  0077 ldc.i4           -707448800
+  007C call             06000013 . ::
+  0081 ldc.i4.1         
+  0082 newarr           01000048 System.Object
+  0087 dup              
+  0088 ldc.i4.0         
+  0089 call             0600007D DeviceWork.NativeAssemlyResolver::
+  008E stelem.ref       
+  008F call             0600007E DeviceWork.NativeAssemlyResolver::
+  0094 ldc.i4.1         
+  0095 ret              
+  0096 ldloc.2          
+  0097 ret              
+
+METHOD 000123 TOKEN 0600007B DeviceWork.NativeAssemlyResolver::AddAssembly
+  0001 ldarg.0          
+  0002 ldsfld           0A0000A2 System.String::Empty
+  0007 ldsfld           0A0000A2 System.String::Empty
+  000C call             0600007C DeviceWork.NativeAssemlyResolver::AddAssembly
+  0011 ret              
+
+METHOD 000124 TOKEN 0600007C DeviceWork.NativeAssemlyResolver::AddAssembly
+  000C ldarg.1          
+  000D dup              
+  000E brtrue.s         22
+  0010 pop              
+  0011 ldsfld           0A0000A2 System.String::Empty
+  0016 starg.s          argument(0x0001)
+  0018 ldarg.2          
+  0019 dup              
+  001A brtrue.s         34
+  001C pop              
+  001D ldsfld           0A0000A2 System.String::Empty
+  0022 starg.s          argument(0x0002)
+  0024 ldarg.0          
+  0025 dup              
+  0026 brtrue.s         46
+  0028 pop              
+  0029 ldsfld           0A0000A2 System.String::Empty
+  002E starg.s          argument(0x0000)
+  0030 ldarg.0          
+  0031 callvirt         0A00008F System.String::get_Length
+  0036 brfalse.s        76
+  0038 ldarg.1          
+  0039 callvirt         0A00008F System.String::get_Length
+  003E ldc.i4.0         
+  003F ceq              
+  0041 ldarg.2          
+  0042 callvirt         0A00008F System.String::get_Length
+  0047 ldc.i4.0         
+  0048 ceq              
+  004A beq.s            82
+  004C newobj           0A0000A3 System.ArgumentException::.ctor
+  0051 throw            
+  0052 ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0057 stloc.0          
+  0058 ldc.i4.0         
+  0059 stloc.1          
+  005A ldloc.0          
+  005B ldloca.s         local(0x0001)
+  005D call             0A000025 System.Threading.Monitor::Enter
+  0062 newobj           06000080 .::.ctor
+  0067 dup              
+  0068 ldarg.1          
+  0069 callvirt         0A00009E System.String::Trim
+  006E stfld            0400002C .::
+  0073 dup              
+  0074 ldarg.2          
+  0075 callvirt         0A00009E System.String::Trim
+  007A stfld            0400002D .::
+  007F stloc.2          
+  0080 ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0085 ldarg.0          
+  0086 callvirt         0A0000A4 <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::ContainsKey
+  008B brfalse.s        155
+  008D ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0092 ldarg.0          
+  0093 ldloc.2          
+  0094 callvirt         0A0000A5 <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::set_Item
+  0099 leave.s          179
+  009B ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  00A0 ldarg.0          
+  00A1 ldloc.2          
+  00A2 callvirt         0A0000A6 <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::Add
+  00A7 leave.s          179
+  00A9 ldloc.1          
+  00AA brfalse.s        178
+  00AC ldloc.0          
+  00AD call             0A00002E System.Threading.Monitor::Exit
+  00B2 endfinally       
+  00B3 ldc.i4.0         
+  00B4 ldc.i4           -707448826
+  00B9 call             06000013 . ::
+  00BE ldc.i4.1         
+  00BF newarr           01000048 System.Object
+  00C4 dup              
+  00C5 ldc.i4.0         
+  00C6 ldarg.0          
+  00C7 stelem.ref       
+  00C8 call             0600007E DeviceWork.NativeAssemlyResolver::
+  00CD ret              
+
+METHOD 000125 TOKEN 0600007D DeviceWork.NativeAssemlyResolver::
+  0001 ldsfld           0400002A DeviceWork.NativeAssemlyResolver::
+  0006 callvirt         0A0000A7 System.AppDomain::get_BaseDirectory
+  000B ldsfld           04000029 DeviceWork.NativeAssemlyResolver::
+  0010 call             0A00008E System.String::Concat
+  0015 ret              
+
+METHOD 000126 TOKEN 0600007E DeviceWork.NativeAssemlyResolver::
+  000C ldc.i4           -707448735
+  0011 call             06000013 . ::
+  0016 ldtoken          0200001F DeviceWork.NativeAssemlyResolver
+  001B call             0A00001A System.Type::GetTypeFromHandle
+  0020 callvirt         0A0000A8 System.Reflection.MemberInfo::get_Name
+  0025 ldarg.1          
+  0026 ldarg.2          
+  0027 call             0A0000A9 System.String::Format
+  002C call             0A0000AA System.String::Format
+  0031 stloc.0          
+  0032 ldarg.0          
+  0033 brfalse.s        60
+  0035 ldloc.0          
+  0036 call             0A0000AB Logging.Logger::Error
+  003B ret              
+  003C ldloc.0          
+  003D call             0A0000AC Logging.Logger::Info
+  0042 ret              
+
+METHOD 000127 TOKEN 0600007F DeviceWork.NativeAssemlyResolver::
+  000C ldarg.1          
+  000D callvirt         0A0000AD System.ResolveEventArgs::get_Name
+  0012 stloc.0          
+  0013 ldloc.0          
+  0014 ldc.i4.s         44
+  0016 callvirt         0A0000AE System.String::IndexOf
+  001B stloc.s          local(0x0005)
+  001D ldloc.s          local(0x0005)
+  001F ldc.i4.0         
+  0020 ble.s            44
+  0022 ldloc.0          
+  0023 ldc.i4.0         
+  0024 ldloc.s          local(0x0005)
+  0026 callvirt         0A00006C System.String::Substring
+  002B stloc.0          
+  002C ldnull           
+  002D stloc.1          
+  002E ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0033 stloc.s          local(0x0006)
+  0035 ldc.i4.0         
+  0036 stloc.s          local(0x0007)
+  0038 ldloc.s          local(0x0006)
+  003A ldloca.s         local(0x0007)
+  003C call             0A000025 System.Threading.Monitor::Enter
+  0041 ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  0046 callvirt         0A0000AF <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::get_Keys
+  004B callvirt         0A0000B0 <dnfile.mdtable.TypeSpecRow object at 0x106797350>::GetEnumerator
+  0050 stloc.s          local(0x000A)
+  0052 br               230
+  0057 ldloca.s         local(0x000A)
+  0059 call             0A0000B1 <dnfile.mdtable.TypeSpecRow object at 0x1067973e0>::get_Current
+  005E stloc.2          
+  005F ldloc.0          
+  0060 ldloc.2          
+  0061 callvirt         0A000065 System.String::IndexOf
+  0066 brtrue.s         230
+  0068 ldsfld           0400002B DeviceWork.NativeAssemlyResolver::
+  006D ldloc.2          
+  006E callvirt         0A0000B2 <dnfile.mdtable.TypeSpecRow object at 0x1067972c0>::get_Item
+  0073 stloc.3          
+  0074 call             0600007D DeviceWork.NativeAssemlyResolver::
+  0079 newobj           0A0000B3 System.Text.StringBuilder::.ctor
+  007E stloc.s          local(0x0004)
+  0080 ldloc.3          
+  0081 ldfld            0400002C .::
+  0086 call             0A0000B4 System.String::IsNullOrEmpty
+  008B brfalse.s        191
+  008D ldloc.s          local(0x0004)
+  008F ldc.i4           -707448751
+  0094 call             06000013 . ::
+  0099 call             0A0000B5 System.Environment::get_Is64BitProcess
+  009E brtrue.s         172
+  00A0 ldc.i4           -707448762
+  00A5 call             06000013 . ::
+  00AA br.s             182
+  00AC ldc.i4           -707448643
+  00B1 call             06000013 . ::
+  00B6 ldloc.2          
+  00B7 callvirt         0A000089 System.Text.StringBuilder::AppendFormat
+  00BC pop              
+  00BD br.s             220
+  00BF ldloc.s          local(0x0004)
+  00C1 call             0A0000B5 System.Environment::get_Is64BitProcess
+  00C6 brtrue.s         208
+  00C8 ldloc.3          
+  00C9 ldfld            0400002C .::
+  00CE br.s             214
+  00D0 ldloc.3          
+  00D1 ldfld            0400002D .::
+  00D6 callvirt         0A000088 System.Text.StringBuilder::Append
+  00DB pop              
+  00DC ldloc.s          local(0x0004)
+  00DE callvirt         0A000076 System.Object::ToString
+  00E3 stloc.1          
+  00E4 leave.s          270
+  00E6 ldloca.s         local(0x000A)
+  00E8 call             0A0000B6 <dnfile.mdtable.TypeSpecRow object at 0x1067973e0>::MoveNext
+  00ED brtrue           87
+  00F2 leave.s          270
+  00F4 ldloca.s         local(0x000A)
+  00F6 constrained.     1B00000A <dnfile.mdtable.TypeSpecRow object at 0x1067973e0>
+  00FC callvirt         0A000082 System.IDisposable::Dispose
+  0101 endfinally       
+  0102 ldloc.s          local(0x0007)
+  0104 brfalse.s        269
+  0106 ldloc.s          local(0x0006)
+  0108 call             0A00002E System.Threading.Monitor::Exit
+  010D endfinally       
+  010E ldloc.1          
+  010F brtrue.s         337
+  0111 ldloc.0          
+  0112 ldc.i4           -707448652
+  0117 call             06000013 . ::
+  011C callvirt         0A0000B7 System.String::EndsWith
+  0121 brtrue.s         335
+  0123 ldloc.0          
+  0124 ldc.i4           -707448677
+  0129 call             06000013 . ::
+  012E callvirt         0A0000B7 System.String::EndsWith
+  0133 brtrue.s         335
+  0135 ldc.i4.1         
+  0136 ldc.i4           -707448688
+  013B call             06000013 . ::
+  0140 ldc.i4.1         
+  0141 newarr           01000048 System.Object
+  0146 dup              
+  0147 ldc.i4.0         
+  0148 ldloc.0          
+  0149 stelem.ref       
+  014A call             0600007E DeviceWork.NativeAssemlyResolver::
+  014F ldnull           
+  0150 ret              
+  0151 ldc.i4.0         
+  0152 ldc.i4           -707448593
+  0157 call             06000013 . ::
+  015C ldc.i4.2         
+  015D newarr           01000048 System.Object
+  0162 dup              
+  0163 ldc.i4.0         
+  0164 ldloc.0          
+  0165 stelem.ref       
+  0166 dup              
+  0167 ldc.i4.1         
+  0168 ldloc.1          
+  0169 stelem.ref       
+  016A call             0600007E DeviceWork.NativeAssemlyResolver::
+  016F ldloc.1          
+  0170 call             0A0000B8 System.Reflection.Assembly::UnsafeLoadFrom
+  0175 stloc.s          local(0x0008)
+  0177 leave.s          426
+  0179 stloc.s          local(0x0009)
+  017B ldc.i4.1         
+  017C ldc.i4           -707448518
+  0181 call             06000013 . ::
+  0186 ldc.i4.1         
+  0187 newarr           01000048 System.Object
+  018C dup              
+  018D ldc.i4.0         
+  018E ldloc.0          
+  018F stelem.ref       
+  0190 call             0600007E DeviceWork.NativeAssemlyResolver::
+  0195 ldloc.s          local(0x0009)
+  0197 ldc.i4           -707448553
+  019C call             06000013 . ::
+  01A1 call             0A0000B9 Logging.Logger::Error
+  01A6 leave.s          424
+  01A8 ldnull           
+  01A9 ret              
+  01AA ldloc.s          local(0x0008)
+  01AC ret              
+
+METHOD 000128 TOKEN 06000080 .::.ctor
+  0001 ldarg.0          
+  0002 call             0A00001F System.Object::.ctor
+  0007 ret              
+
+METHOD 000129 TOKEN 06000081 DeviceWork.ThreadRead::.ctor
+  000C ldarg.0          
+  000D call             0A00001F System.Object::.ctor
+  0012 ldarg.0          
+  0013 ldarg.0          
+  0014 ldfld            04000033 DeviceWork.ThreadRead::
+  0019 ldarg.0          
+  001A ldftn            0600008B DeviceWork.ThreadRead::
+  0020 newobj           0A0000BA System.Threading.ThreadStart::.ctor
+  0025 call             0A000092 System.Delegate::Combine
+  002A castclass        01000067 System.Threading.ThreadStart
+  002F stfld            04000033 DeviceWork.ThreadRead::
+  0034 ldarg.0          
+  0035 ldarg.0          
+  0036 ldfld            04000034 DeviceWork.ThreadRead::
+  003B ldarg.0          
+  003C ldftn            06000089 DeviceWork.ThreadRead::
+  0042 newobj           0A0000BA System.Threading.ThreadStart::.ctor
+  0047 call             0A000092 System.Delegate::Combine
+  004C castclass        01000067 System.Threading.ThreadStart
+  0051 stfld            04000034 DeviceWork.ThreadRead::
+  0056 ldarg.0          
+  0057 ldarg.0          
+  0058 ldfld            04000036 DeviceWork.ThreadRead:: 
+  005D ldarg.0          
+  005E ldftn            0600008C DeviceWork.ThreadRead::
+  0064 newobj           0A0000BA System.Threading.ThreadStart::.ctor
+  0069 call             0A000092 System.Delegate::Combine
+  006E castclass        01000067 System.Threading.ThreadStart
+  0073 stfld            04000036 DeviceWork.ThreadRead:: 
+  0078 ldarg.0          
+  0079 ldarg.0          
+  007A ldfld            04000035 DeviceWork.ThreadRead:: 
+  007F ldarg.0          
+  0080 ldftn            0600008A DeviceWork.ThreadRead::
+  0086 newobj           0A0000BA System.Threading.ThreadStart::.ctor
+  008B call             0A000092 System.Delegate::Combine
+  0090 castclass        01000067 System.Threading.ThreadStart
+  0095 stfld            04000035 DeviceWork.ThreadRead:: 
+  009A ldarg.0          
+  009B ldarg.0          
+  009C ldfld            04000037 DeviceWork.ThreadRead:: 
+  00A1 ldarg.0          
+  00A2 ldftn            0600008D DeviceWork.ThreadRead::
+  00A8 newobj           0A0000BA System.Threading.ThreadStart::.ctor
+  00AD call             0A000092 System.Delegate::Combine
+  00B2 castclass        01000067 System.Threading.ThreadStart
+  00B7 stfld            04000037 DeviceWork.ThreadRead:: 
+  00BC ret              
+
+METHOD 000130 TOKEN 06000082 DeviceWork.ThreadRead::StartRead
+  0001 ldarg.0          
+  0002 ldarg.3          
+  0003 ldarg.1          
+  0004 call             06000040 DeviceTools.DeviceInitializer::Init
+  0009 stfld            0400002E DeviceWork.ThreadRead::
+  000E ldarg.0          
+  000F ldfld            0400002E DeviceWork.ThreadRead::
+  0014 ldarg.3          
+  0015 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  001A ldarg.0          
+  001B ldarg.1          
+  001C ldarg.2          
+  001D ldarg.0          
+  001E ldfld            0400002E DeviceWork.ThreadRead::
+  0023 call             06000083 DeviceWork.ThreadRead::StartRead
+  0028 ret              
+
+METHOD 000131 TOKEN 06000083 DeviceWork.ThreadRead::StartRead
+  000C ldarg.0          
+  000D ldarg.3          
+  000E stfld            0400002E DeviceWork.ThreadRead::
+  0013 ldarg.1          
+  0014 ldarg.0          
+  0015 ldfld            0400002E DeviceWork.ThreadRead::
+  001A dup              
+  001B ldvirtftn        0A000071 DeviceWork.DeviceBase::FindE
+  0021 newobj           0A0000BB SerialTepl.FindEnd::.ctor
+  0026 callvirt         0A0000BC SerialTepl.IConnectorSerial::set_FindE
+  002B ldarg.0          
+  002C ldfld            0400002E DeviceWork.ThreadRead::
+  0031 ldarg.1          
+  0032 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  0037 ldarg.0          
+  0038 ldarg.2          
+  0039 stfld            0400002F DeviceWork.ThreadRead::
+  003E ldarg.2          
+  003F brtrue.s         66
+  0041 ret              
+  0042 ldarg.0          
+  0043 ldarg.0          
+  0044 ldfld            04000033 DeviceWork.ThreadRead::
+  0049 newobj           0A0000BD System.Threading.Thread::.ctor
+  004E stfld            04000032 DeviceWork.ThreadRead::
+  0053 ldarg.0          
+  0054 ldfld            04000032 DeviceWork.ThreadRead::
+  0059 call             0A000020 System.Threading.Thread::get_CurrentThread
+  005E callvirt         0A0000BE System.Threading.Thread::get_CurrentCulture
+  0063 callvirt         0A0000BF System.Threading.Thread::set_CurrentCulture
+  0068 ldarg.0          
+  0069 ldfld            04000032 DeviceWork.ThreadRead::
+  006E call             0A000020 System.Threading.Thread::get_CurrentThread
+  0073 callvirt         0A0000C0 System.Threading.Thread::get_CurrentUICulture
+  0078 callvirt         0A0000C1 System.Threading.Thread::set_CurrentUICulture
+  007D ldarg.0          
+  007E ldfld            04000032 DeviceWork.ThreadRead::
+  0083 callvirt         0A0000C2 System.Threading.Thread::Start
+  0088 ret              
+
+METHOD 000132 TOKEN 06000084 DeviceWork.ThreadRead::StartReadArhiv
+  000C ldarg.0          
+  000D ldarg.3          
+  000E ldarg.1          
+  000F call             06000040 DeviceTools.DeviceInitializer::Init
+  0014 stfld            0400002E DeviceWork.ThreadRead::
+  0019 ldarg.1          
+  001A ldarg.0          
+  001B ldfld            0400002E DeviceWork.ThreadRead::
+  0020 dup              
+  0021 ldvirtftn        0A000071 DeviceWork.DeviceBase::FindE
+  0027 newobj           0A0000BB SerialTepl.FindEnd::.ctor
+  002C callvirt         0A0000BC SerialTepl.IConnectorSerial::set_FindE
+  0031 ldarg.0          
+  0032 ldfld            0400002E DeviceWork.ThreadRead::
+  0037 ldarg.1          
+  0038 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  003D ldarg.0          
+  003E ldfld            0400002E DeviceWork.ThreadRead::
+  0043 ldarg.3          
+  0044 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  0049 ldarg.0          
+  004A ldarg.2          
+  004B stfld            04000030 DeviceWork.ThreadRead::
+  0050 ldarg.0          
+  0051 ldarg.0          
+  0052 ldfld            04000036 DeviceWork.ThreadRead:: 
+  0057 newobj           0A0000BD System.Threading.Thread::.ctor
+  005C stfld            04000032 DeviceWork.ThreadRead::
+  0061 ldarg.0          
+  0062 ldfld            04000032 DeviceWork.ThreadRead::
+  0067 call             0A000020 System.Threading.Thread::get_CurrentThread
+  006C callvirt         0A0000BE System.Threading.Thread::get_CurrentCulture
+  0071 callvirt         0A0000BF System.Threading.Thread::set_CurrentCulture
+  0076 ldarg.0          
+  0077 ldfld            04000032 DeviceWork.ThreadRead::
+  007C call             0A000020 System.Threading.Thread::get_CurrentThread
+  0081 callvirt         0A0000C0 System.Threading.Thread::get_CurrentUICulture
+  0086 callvirt         0A0000C1 System.Threading.Thread::set_CurrentUICulture
+  008B ldarg.0          
+  008C ldfld            04000032 DeviceWork.ThreadRead::
+  0091 callvirt         0A0000C2 System.Threading.Thread::Start
+  0096 ret              
+
+METHOD 000133 TOKEN 06000085 DeviceWork.ThreadRead::StartReadJournal
+  000C ldarg.0          
+  000D ldarg.3          
+  000E ldarg.1          
+  000F call             06000040 DeviceTools.DeviceInitializer::Init
+  0014 stfld            0400002E DeviceWork.ThreadRead::
+  0019 ldarg.1          
+  001A ldarg.0          
+  001B ldfld            0400002E DeviceWork.ThreadRead::
+  0020 dup              
+  0021 ldvirtftn        0A000071 DeviceWork.DeviceBase::FindE
+  0027 newobj           0A0000BB SerialTepl.FindEnd::.ctor
+  002C callvirt         0A0000BC SerialTepl.IConnectorSerial::set_FindE
+  0031 ldarg.0          
+  0032 ldfld            0400002E DeviceWork.ThreadRead::
+  0037 ldarg.1          
+  0038 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  003D ldarg.0          
+  003E ldfld            0400002E DeviceWork.ThreadRead::
+  0043 ldarg.3          
+  0044 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  0049 ldarg.0          
+  004A ldarg.2          
+  004B stfld            04000031 DeviceWork.ThreadRead::
+  0050 ldarg.0          
+  0051 ldarg.0          
+  0052 ldfld            04000037 DeviceWork.ThreadRead:: 
+  0057 newobj           0A0000BD System.Threading.Thread::.ctor
+  005C stfld            04000032 DeviceWork.ThreadRead::
+  0061 ldarg.0          
+  0062 ldfld            04000032 DeviceWork.ThreadRead::
+  0067 call             0A000020 System.Threading.Thread::get_CurrentThread
+  006C callvirt         0A0000BE System.Threading.Thread::get_CurrentCulture
+  0071 callvirt         0A0000BF System.Threading.Thread::set_CurrentCulture
+  0076 ldarg.0          
+  0077 ldfld            04000032 DeviceWork.ThreadRead::
+  007C call             0A000020 System.Threading.Thread::get_CurrentThread
+  0081 callvirt         0A0000C0 System.Threading.Thread::get_CurrentUICulture
+  0086 callvirt         0A0000C1 System.Threading.Thread::set_CurrentUICulture
+  008B ldarg.0          
+  008C ldfld            04000032 DeviceWork.ThreadRead::
+  0091 callvirt         0A0000C2 System.Threading.Thread::Start
+  0096 ret              
+
+METHOD 000134 TOKEN 06000086 DeviceWork.ThreadRead::StartWrite
+  000C ldarg.0          
+  000D ldarg.3          
+  000E ldarg.1          
+  000F call             06000040 DeviceTools.DeviceInitializer::Init
+  0014 stfld            0400002E DeviceWork.ThreadRead::
+  0019 ldarg.1          
+  001A ldarg.0          
+  001B ldfld            0400002E DeviceWork.ThreadRead::
+  0020 dup              
+  0021 ldvirtftn        0A000071 DeviceWork.DeviceBase::FindE
+  0027 newobj           0A0000BB SerialTepl.FindEnd::.ctor
+  002C callvirt         0A0000BC SerialTepl.IConnectorSerial::set_FindE
+  0031 ldarg.0          
+  0032 ldfld            0400002E DeviceWork.ThreadRead::
+  0037 ldarg.1          
+  0038 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  003D ldarg.0          
+  003E ldfld            0400002E DeviceWork.ThreadRead::
+  0043 ldarg.3          
+  0044 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  0049 ldarg.0          
+  004A ldarg.2          
+  004B stfld            0400002F DeviceWork.ThreadRead::
+  0050 ldarg.0          
+  0051 ldarg.0          
+  0052 ldfld            04000034 DeviceWork.ThreadRead::
+  0057 newobj           0A0000BD System.Threading.Thread::.ctor
+  005C stfld            04000032 DeviceWork.ThreadRead::
+  0061 ldarg.0          
+  0062 ldfld            04000032 DeviceWork.ThreadRead::
+  0067 call             0A000020 System.Threading.Thread::get_CurrentThread
+  006C callvirt         0A0000BE System.Threading.Thread::get_CurrentCulture
+  0071 callvirt         0A0000BF System.Threading.Thread::set_CurrentCulture
+  0076 ldarg.0          
+  0077 ldfld            04000032 DeviceWork.ThreadRead::
+  007C call             0A000020 System.Threading.Thread::get_CurrentThread
+  0081 callvirt         0A0000C0 System.Threading.Thread::get_CurrentUICulture
+  0086 callvirt         0A0000C1 System.Threading.Thread::set_CurrentUICulture
+  008B ldarg.0          
+  008C ldfld            04000032 DeviceWork.ThreadRead::
+  0091 callvirt         0A0000C2 System.Threading.Thread::Start
+  0096 ret              
+
+METHOD 000135 TOKEN 06000087 DeviceWork.ThreadRead::StartTimeArhivCorrect
+  000C ldarg.0          
+  000D ldarg.s          argument(0x0005)
+  000F ldarg.1          
+  0010 call             06000040 DeviceTools.DeviceInitializer::Init
+  0015 stfld            0400002E DeviceWork.ThreadRead::
+  001A ldarg.1          
+  001B ldarg.0          
+  001C ldfld            0400002E DeviceWork.ThreadRead::
+  0021 dup              
+  0022 ldvirtftn        0A000071 DeviceWork.DeviceBase::FindE
+  0028 newobj           0A0000BB SerialTepl.FindEnd::.ctor
+  002D callvirt         0A0000BC SerialTepl.IConnectorSerial::set_FindE
+  0032 ldarg.0          
+  0033 ldfld            0400002E DeviceWork.ThreadRead::
+  0038 ldarg.1          
+  0039 callvirt         0A000062 DeviceWork.DeviceBase::set_ComPort
+  003E ldarg.0          
+  003F ldfld            0400002E DeviceWork.ThreadRead::
+  0044 ldarg.s          argument(0x0005)
+  0046 callvirt         0A000074 DeviceWork.DeviceBase::set_Model
+  004B ldarg.0          
+  004C ldarg.s          argument(0x0004)
+  004E stfld            0400002F DeviceWork.ThreadRead::
+  0053 ldarg.0          
+  0054 ldarg.2          
+  0055 stfld            04000038 DeviceWork.ThreadRead::StartTimeCorrect
+  005A ldarg.0          
+  005B ldarg.s          argument(0x0006)
+  005D stfld            0400003A DeviceWork.ThreadRead::StepTime
+  0062 ldarg.0          
+  0063 ldarg.3          
+  0064 stfld            04000039 DeviceWork.ThreadRead::TimeSleep
+  0069 ldarg.0          
+  006A ldarg.0          
+  006B ldfld            04000035 DeviceWork.ThreadRead:: 
+  0070 newobj           0A0000BD System.Threading.Thread::.ctor
+  0075 stfld            04000032 DeviceWork.ThreadRead::
+  007A ldarg.0          
+  007B ldfld            04000032 DeviceWork.ThreadRead::
+  0080 call             0A000020 System.Threading.Thread::get_CurrentThread
+  0085 callvirt         0A0000BE System.Threading.Thread::get_CurrentCulture
+  008A callvirt         0A0000BF System.Threading.Thread::set_CurrentCulture
+  008F ldarg.0          
+  0090 ldfld            04000032 DeviceWork.ThreadRead::
+  0095 call             0A000020 System.Threading.Thread::get_CurrentThread
+  009A callvirt         0A0000C0 System.Threading.Thread::get_CurrentUICulture
+  009F callvirt         0A0000C1 System.Threading.Thread::set_CurrentUICulture
+  00A4 ldarg.0          
+  00A5 ldfld            04000032 DeviceWork.ThreadRead::
+  00AA callvirt         0A0000C2 System.Threading.Thread::Start
+  00AF ret              
+
+METHOD 000136 TOKEN 06000088 DeviceWork.ThreadRead::Stop
+  0001 ldarg.0          
+  0002 ldfld            04000032 DeviceWork.ThreadRead::
+  0007 brfalse.s        48
+  0009 ldarg.0          
+  000A ldfld            04000032 DeviceWork.ThreadRead::
+  000F callvirt         0A0000C3 System.Threading.Thread::get_ThreadState
+  0014 brfalse.s        37
+  0016 ldarg.0          
+  0017 ldfld            04000032 DeviceWork.ThreadRead::
+  001C callvirt         0A0000C3 System.Threading.Thread::get_ThreadState
+  0021 ldc.i4.s         32
+  0023 bne.un.s         48
+  0025 ldarg.0          
+  0026 ldfld            04000032 DeviceWork.ThreadRead::
+  002B callvirt         0A0000C4 System.Threading.Thread::Abort
+  0030 ret              
+
+METHOD 000137 TOKEN 06000089 DeviceWork.ThreadRead::
+  000C newobj           0600006E DeviceWork.EventReadArg::.ctor
+  0011 dup              
+  0012 ldarg.0          
+  0013 ldfld            0400002F DeviceWork.ThreadRead::
+  0018 callvirt         06000070 DeviceWork.EventReadArg::set_resultcurrent
+  001D stloc.0          
+  001E ldarg.0          
+  001F ldfld            0400002E DeviceWork.ThreadRead::
+  0024 ldarg.0          
+  0025 ldfld            0400002F DeviceWork.ThreadRead::
+  002A callvirt         0A0000C5 DeviceWork.DeviceBase::NewCurrPars
+  002F stloc.1          
+  0030 ldloc.0          
+  0031 ldc.i4.0         
+  0032 callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  0037 ldloc.0          
+  0038 ldc.i4.0         
+  0039 callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  003E ldloc.0          
+  003F brfalse.s        149
+  0041 ldc.i4.0         
+  0042 stloc.2          
+  0043 br.s             125
+  0045 ldarg.0          
+  0046 ldfld            0400002F DeviceWork.ThreadRead::
+  004B ldloc.2          
+  004C ldelem.ref       
+  004D ldfld            0A00006F DeviceWork.ParamVal::val
+  0052 ldloc.1          
+  0053 ldloc.2          
+  0054 ldelem.ref       
+  0055 ldfld            0A000068 DeviceWork.ParametrValue::Time
+  005A stfld            0A000068 DeviceWork.ParametrValue::Time
+  005F ldarg.0          
+  0060 ldfld            0400002F DeviceWork.ThreadRead::
+  0065 ldloc.2          
+  0066 ldelem.ref       
+  0067 ldfld            0A00006F DeviceWork.ParamVal::val
+  006C ldloc.1          
+  006D ldloc.2          
+  006E ldelem.ref       
+  006F ldfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0074 stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0079 ldloc.2          
+  007A ldc.i4.1         
+  007B add              
+  007C stloc.2          
+  007D ldloc.2          
+  007E ldloc.1          
+  007F ldlen            
+  0080 conv.i4          
+  0081 blt.s            69
+  0083 ldarg.0          
+  0084 call             06000090 DeviceWork.ThreadRead::get_OnWriteCurrent
+  0089 ldarg.0          
+  008A ldfld            0400002E DeviceWork.ThreadRead::
+  008F ldloc.0          
+  0090 callvirt         0A0000C6 System.EventHandler::Invoke
+  0095 leave.s          210
+  0097 pop              
+  0098 ldloc.0          
+  0099 ldc.i4.1         
+  009A callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  009F ldarg.0          
+  00A0 call             06000090 DeviceWork.ThreadRead::get_OnWriteCurrent
+  00A5 ldarg.0          
+  00A6 ldfld            0400002E DeviceWork.ThreadRead::
+  00AB ldloc.0          
+  00AC callvirt         0A0000C6 System.EventHandler::Invoke
+  00B1 leave.s          210
+  00B3 pop              
+  00B4 ldloc.0          
+  00B5 ldc.i4.1         
+  00B6 callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  00BB ldarg.0          
+  00BC call             06000090 DeviceWork.ThreadRead::get_OnWriteCurrent
+  00C1 ldarg.0          
+  00C2 ldfld            0400002E DeviceWork.ThreadRead::
+  00C7 ldloc.0          
+  00C8 callvirt         0A0000C6 System.EventHandler::Invoke
+  00CD leave            210
+  00D2 ret              
+
+METHOD 000138 TOKEN 0600008A DeviceWork.ThreadRead::
+  000C ldarg.0          
+  000D ldfld            04000038 DeviceWork.ThreadRead::StartTimeCorrect
+  0012 stloc.0          
+  0013 ldarg.0          
+  0014 ldfld            0400002F DeviceWork.ThreadRead::
+  0019 ldc.i4.0         
+  001A ldelem.ref       
+  001B ldfld            0A00006F DeviceWork.ParamVal::val
+  0020 ldloc.0          
+  0021 box              01000030 System.DateTime
+  0026 stfld            0A0000C7 DeviceWork.ParametrValue::Value
+  002B ldarg.0          
+  002C call             06000089 DeviceWork.ThreadRead::
+  0031 ldarg.0          
+  0032 ldfld            0400002F DeviceWork.ThreadRead::
+  0037 ldc.i4.0         
+  0038 ldelem.ref       
+  0039 ldfld            0A00006F DeviceWork.ParamVal::val
+  003E ldfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0043 ldc.i4           192
+  0048 bne.un.s         200
+  004A ldarg.0          
+  004B ldfld            04000039 DeviceWork.ThreadRead::TimeSleep
+  0050 ldc.i4           1000
+  0055 mul              
+  0056 call             0A0000C8 System.Threading.Thread::Sleep
+  005B ldarg.0          
+  005C ldfld            0400003A DeviceWork.ThreadRead::StepTime
+  0061 stloc.1          
+  0062 ldloc.1          
+  0063 switch           [118, 137, 156]
+  0074 br.s             167
+  0076 ldloca.s         local(0x0000)
+  0078 ldc.r8           1.0
+  0081 call             0A0000C9 System.DateTime::AddHours
+  0086 stloc.0          
+  0087 br.s             184
+  0089 ldloca.s         local(0x0000)
+  008B ldc.r8           1.0
+  0094 call             0A000018 System.DateTime::AddDays
+  0099 stloc.0          
+  009A br.s             184
+  009C ldloca.s         local(0x0000)
+  009E ldc.i4.1         
+  009F call             0A0000CA System.DateTime::AddMonths
+  00A4 stloc.0          
+  00A5 br.s             184
+  00A7 ldloca.s         local(0x0000)
+  00A9 ldc.r8           1.0
+  00B2 call             0A0000C9 System.DateTime::AddHours
+  00B7 stloc.0          
+  00B8 ldloc.0          
+  00B9 call             0A000067 System.DateTime::get_Now
+  00BE call             0A000019 System.DateTime::op_LessThan
+  00C3 brtrue           19
+  00C8 ldarg.0          
+  00C9 ldfld            0400002F DeviceWork.ThreadRead::
+  00CE ldc.i4.0         
+  00CF ldelem.ref       
+  00D0 ldfld            0A00006F DeviceWork.ParamVal::val
+  00D5 call             0A000067 System.DateTime::get_Now
+  00DA box              01000030 System.DateTime
+  00DF stfld            0A0000C7 DeviceWork.ParametrValue::Value
+  00E4 ldarg.0          
+  00E5 call             06000089 DeviceWork.ThreadRead::
+  00EA ret              
+
+METHOD 000139 TOKEN 0600008B DeviceWork.ThreadRead::
+  000C newobj           0600006E DeviceWork.EventReadArg::.ctor
+  0011 dup              
+  0012 ldarg.0          
+  0013 ldfld            0400002F DeviceWork.ThreadRead::
+  0018 callvirt         06000070 DeviceWork.EventReadArg::set_resultcurrent
+  001D stloc.0          
+  001E ldarg.0          
+  001F ldfld            0400002E DeviceWork.ThreadRead::
+  0024 callvirt         0A000073 DeviceWork.DeviceBase::get_Model
+  0029 ldc.i4           424
+  002E bne.un           583
+  0033 newobj           0A0000CB <dnfile.mdtable.TypeSpecRow object at 0x106797470>::.ctor
+  0038 stloc.1          
+  0039 newobj           0A0000CB <dnfile.mdtable.TypeSpecRow object at 0x106797470>::.ctor
+  003E stloc.2          
+  003F newobj           0A0000CB <dnfile.mdtable.TypeSpecRow object at 0x106797470>::.ctor
+  0044 stloc.3          
+  0045 ldarg.0          
+  0046 ldfld            0400002F DeviceWork.ThreadRead::
+  004B stloc.s          local(0x0004)
+  004D ldc.i4.0         
+  004E stloc.s          local(0x0005)
+  0050 br.s             201
+  0052 ldloc.s          local(0x0004)
+  0054 ldloc.s          local(0x0005)
+  0056 ldelem.ref       
+  0057 stloc.s          local(0x0006)
+  0059 ldloc.s          local(0x0006)
+  005B ldfld            0A0000CC DeviceWork.ParamVal::NameP2
+  0060 ldc.i4           -707447937
+  0065 call             06000013 . ::
+  006A call             0A0000CD System.String::ToCharArray
+  006F callvirt         0A0000CE System.String::Split
+  0074 stloc.s          local(0x0007)
+  0076 ldloc.s          local(0x0007)
+  0078 ldc.i4.0         
+  0079 ldelem.ref       
+  007A ldc.i4           -707448570
+  007F call             06000013 . ::
+  0084 callvirt         0A000065 System.String::IndexOf
+  0089 brtrue.s         187
+  008B ldc.i4.0         
+  008C stloc.s          local(0x0008)
+  008E ldloc.s          local(0x0007)
+  0090 ldc.i4.0         
+  0091 ldelem.ref       
+  0092 ldc.i4.1         
+  0093 callvirt         0A00006A System.String::Substring
+  0098 ldloca.s         local(0x0008)
+  009A call             0A0000CF System.Int32::TryParse
+  009F brfalse.s        195
+  00A1 ldloc.s          local(0x0008)
+  00A3 ldc.i4.s         11
+  00A5 bge.s            177
+  00A7 ldloc.1          
+  00A8 ldloc.s          local(0x0006)
+  00AA callvirt         0A0000D0 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::Add
+  00AF br.s             195
+  00B1 ldloc.2          
+  00B2 ldloc.s          local(0x0006)
+  00B4 callvirt         0A0000D0 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::Add
+  00B9 br.s             195
+  00BB ldloc.3          
+  00BC ldloc.s          local(0x0006)
+  00BE callvirt         0A0000D0 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::Add
+  00C3 ldloc.s          local(0x0005)
+  00C5 ldc.i4.1         
+  00C6 add              
+  00C7 stloc.s          local(0x0005)
+  00C9 ldloc.s          local(0x0005)
+  00CB ldloc.s          local(0x0004)
+  00CD ldlen            
+  00CE conv.i4          
+  00CF blt              82
+  00D4 ldarg.0          
+  00D5 ldfld            0400002E DeviceWork.ThreadRead::
+  00DA ldloc.1          
+  00DB callvirt         0A0000D1 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::ToArray
+  00E0 callvirt         0A000070 DeviceWork.DeviceBase::GetCurrPars
+  00E5 ldloc.1          
+  00E6 callvirt         0A0000D2 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Count
+  00EB ldc.i4.0         
+  00EC ble              434
+  00F1 ldloc.1          
+  00F2 ldc.i4.0         
+  00F3 callvirt         0A0000D3 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Item
+  00F8 ldfld            0A00006F DeviceWork.ParamVal::val
+  00FD ldfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0102 ldc.i4.s         12
+  0104 bne.un           434
+  0109 ldloc.2          
+  010A callvirt         0A0000D4 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::GetEnumerator
+  010F stloc.s          local(0x0009)
+  0111 br.s             323
+  0113 ldloca.s         local(0x0009)
+  0115 call             0A0000D5 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::get_Current
+  011A newobj           0A000066 DeviceWork.ParametrValue::.ctor
+  011F dup              
+  0120 ldloc.1          
+  0121 ldc.i4.0         
+  0122 callvirt         0A0000D3 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Item
+  0127 ldfld            0A00006F DeviceWork.ParamVal::val
+  012C ldfld            0A000068 DeviceWork.ParametrValue::Time
+  0131 stfld            0A000068 DeviceWork.ParametrValue::Time
+  0136 dup              
+  0137 ldc.i4.s         12
+  0139 stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  013E stfld            0A00006F DeviceWork.ParamVal::val
+  0143 ldloca.s         local(0x0009)
+  0145 call             0A0000D6 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::MoveNext
+  014A brtrue.s         275
+  014C leave.s          348
+  014E ldloca.s         local(0x0009)
+  0150 constrained.     1B00000C <dnfile.mdtable.TypeSpecRow object at 0x106797500>
+  0156 callvirt         0A000082 System.IDisposable::Dispose
+  015B endfinally       
+  015C ldloc.3          
+  015D callvirt         0A0000D4 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::GetEnumerator
+  0162 stloc.s          local(0x0009)
+  0164 br.s             406
+  0166 ldloca.s         local(0x0009)
+  0168 call             0A0000D5 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::get_Current
+  016D newobj           0A000066 DeviceWork.ParametrValue::.ctor
+  0172 dup              
+  0173 ldloc.1          
+  0174 ldc.i4.0         
+  0175 callvirt         0A0000D3 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Item
+  017A ldfld            0A00006F DeviceWork.ParamVal::val
+  017F ldfld            0A000068 DeviceWork.ParametrValue::Time
+  0184 stfld            0A000068 DeviceWork.ParametrValue::Time
+  0189 dup              
+  018A ldc.i4.s         12
+  018C stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0191 stfld            0A00006F DeviceWork.ParamVal::val
+  0196 ldloca.s         local(0x0009)
+  0198 call             0A0000D6 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::MoveNext
+  019D brtrue.s         358
+  019F leave            600
+  01A4 ldloca.s         local(0x0009)
+  01A6 constrained.     1B00000C <dnfile.mdtable.TypeSpecRow object at 0x106797500>
+  01AC callvirt         0A000082 System.IDisposable::Dispose
+  01B1 endfinally       
+  01B2 ldarg.0          
+  01B3 ldfld            0400002E DeviceWork.ThreadRead::
+  01B8 ldloc.2          
+  01B9 callvirt         0A0000D1 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::ToArray
+  01BE callvirt         0A000070 DeviceWork.DeviceBase::GetCurrPars
+  01C3 ldloc.2          
+  01C4 callvirt         0A0000D2 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Count
+  01C9 ldc.i4.0         
+  01CA ble.s            564
+  01CC ldloc.2          
+  01CD ldc.i4.0         
+  01CE callvirt         0A0000D3 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Item
+  01D3 ldfld            0A00006F DeviceWork.ParamVal::val
+  01D8 ldfld            0A000069 DeviceWork.ParametrValue::Qualit
+  01DD ldc.i4.s         12
+  01DF bne.un.s         564
+  01E1 ldloc.3          
+  01E2 callvirt         0A0000D4 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::GetEnumerator
+  01E7 stloc.s          local(0x0009)
+  01E9 br.s             539
+  01EB ldloca.s         local(0x0009)
+  01ED call             0A0000D5 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::get_Current
+  01F2 newobj           0A000066 DeviceWork.ParametrValue::.ctor
+  01F7 dup              
+  01F8 ldloc.2          
+  01F9 ldc.i4.0         
+  01FA callvirt         0A0000D3 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::get_Item
+  01FF ldfld            0A00006F DeviceWork.ParamVal::val
+  0204 ldfld            0A000068 DeviceWork.ParametrValue::Time
+  0209 stfld            0A000068 DeviceWork.ParametrValue::Time
+  020E dup              
+  020F ldc.i4.s         12
+  0211 stfld            0A000069 DeviceWork.ParametrValue::Qualit
+  0216 stfld            0A00006F DeviceWork.ParamVal::val
+  021B ldloca.s         local(0x0009)
+  021D call             0A0000D6 <dnfile.mdtable.TypeSpecRow object at 0x106797500>::MoveNext
+  0222 brtrue.s         491
+  0224 leave.s          600
+  0226 ldloca.s         local(0x0009)
+  0228 constrained.     1B00000C <dnfile.mdtable.TypeSpecRow object at 0x106797500>
+  022E callvirt         0A000082 System.IDisposable::Dispose
+  0233 endfinally       
+  0234 ldarg.0          
+  0235 ldfld            0400002E DeviceWork.ThreadRead::
+  023A ldloc.3          
+  023B callvirt         0A0000D1 <dnfile.mdtable.TypeSpecRow object at 0x106797470>::ToArray
+  0240 callvirt         0A000070 DeviceWork.DeviceBase::GetCurrPars
+  0245 br.s             600
+  0247 ldarg.0          
+  0248 ldfld            0400002E DeviceWork.ThreadRead::
+  024D ldarg.0          
+  024E ldfld            0400002F DeviceWork.ThreadRead::
+  0253 callvirt         0A000070 DeviceWork.DeviceBase::GetCurrPars
+  0258 ldloc.0          
+  0259 ldc.i4.0         
+  025A callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  025F ldloc.0          
+  0260 ldc.i4.0         
+  0261 callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  0266 ldloc.0          
+  0267 brfalse.s        635
+  0269 ldarg.0          
+  026A call             0600008E DeviceWork.ThreadRead::get_OnReadedCurrent
+  026F ldarg.0          
+  0270 ldfld            0400002E DeviceWork.ThreadRead::
+  0275 ldloc.0          
+  0276 callvirt         0A0000C6 System.EventHandler::Invoke
+  027B leave.s          693
+  027D pop              
+  027E ldloc.0          
+  027F ldc.i4.1         
+  0280 callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  0285 ldarg.0          
+  0286 call             0600008E DeviceWork.ThreadRead::get_OnReadedCurrent
+  028B ldarg.0          
+  028C ldfld            0400002E DeviceWork.ThreadRead::
+  0291 ldloc.0          
+  0292 callvirt         0A0000C6 System.EventHandler::Invoke
+  0297 leave.s          693
+  0299 pop              
+  029A ldloc.0          
+  029B ldc.i4.1         
+  029C callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  02A1 ldarg.0          
+  02A2 call             0600008E DeviceWork.ThreadRead::get_OnReadedCurrent
+  02A7 ldarg.0          
+  02A8 ldfld            0400002E DeviceWork.ThreadRead::
+  02AD ldloc.0          
+  02AE callvirt         0A0000C6 System.EventHandler::Invoke
+  02B3 leave.s          693
+  02B5 ret              
+
+METHOD 000140 TOKEN 0600008C DeviceWork.ThreadRead::
+  000C newobj           0600006E DeviceWork.EventReadArg::.ctor
+  0011 dup              
+  0012 ldarg.0          
+  0013 ldfld            04000030 DeviceWork.ThreadRead::
+  0018 callvirt         06000072 DeviceWork.EventReadArg::set_resultarhiv
+  001D stloc.1          
+  001E ldarg.0          
+  001F ldfld            0400002E DeviceWork.ThreadRead::
+  0024 ldarg.0          
+  0025 ldfld            04000030 DeviceWork.ThreadRead::
+  002A callvirt         0A0000D7 DeviceWork.DeviceBase::GetArhPars
+  002F ldc.i4.0         
+  0030 stloc.2          
+  0031 newobj           0A0000D8 <dnfile.mdtable.TypeSpecRow object at 0x106797590>::.ctor
+  0036 stloc.s          local(0x0005)
+  0038 ldarg.0          
+  0039 ldfld            04000030 DeviceWork.ThreadRead::
+  003E stloc.s          local(0x0009)
+  0040 ldc.i4.0         
+  0041 stloc.s          local(0x0006)
+  0043 br               572
+  0048 ldloc.s          local(0x0009)
+  004A ldloc.s          local(0x0006)
+  004C ldelem.ref       
+  004D stloc.s          local(0x000A)
+  004F newobj           0A0000D9 DeviceWork.ParamValArh::.ctor
+  0054 stloc.0          
+  0055 ldloc.s          local(0x0005)
+  0057 ldloc.0          
+  0058 callvirt         0A0000DA <dnfile.mdtable.TypeSpecRow object at 0x106797590>::Add
+  005D ldloc.s          local(0x000A)
+  005F ldfld            0A0000DB DeviceWork.ParamValArh::vals
+  0064 isinst           01000025 System.Collections.ArrayList
+  0069 stloc.s          local(0x0007)
+  006B ldloc.s          local(0x0007)
+  006D brfalse          566
+  0072 ldloc.s          local(0x0007)
+  0074 callvirt         0A0000DC System.Collections.ArrayList::get_Count
+  0079 ldc.i4.0         
+  007A ble              566
+  007F ldloc.s          local(0x0007)
+  0081 ldloc.s          local(0x0007)
+  0083 callvirt         0A0000DC System.Collections.ArrayList::get_Count
+  0088 ldc.i4.1         
+  0089 sub              
+  008A callvirt         0A0000DD System.Collections.ArrayList::get_Item
+  008F castclass        01000009 DeviceWork.ParametrValue
+  0094 stloc.3          
+  0095 ldarg.0          
+  0096 ldfld            04000030 DeviceWork.ThreadRead::
+  009B ldc.i4.0         
+  009C ldelem.ref       
+  009D ldfld            0A0000DE DeviceWork.ParamValArh::DateEnd
+  00A2 call             0A000067 System.DateTime::get_Now
+  00A7 call             0A000017 System.DateTime::op_GreaterThan
+  00AC brfalse.s        192
+  00AE ldarg.0          
+  00AF ldfld            04000030 DeviceWork.ThreadRead::
+  00B4 ldc.i4.0         
+  00B5 ldelem.ref       
+  00B6 call             0A000067 System.DateTime::get_Now
+  00BB stfld            0A0000DE DeviceWork.ParamValArh::DateEnd
+  00C0 ldarg.0          
+  00C1 ldfld            04000030 DeviceWork.ThreadRead::
+  00C6 ldc.i4.0         
+  00C7 ldelem.ref       
+  00C8 ldfld            0A0000DE DeviceWork.ParamValArh::DateEnd
+  00CD ldloc.3          
+  00CE ldfld            0A000068 DeviceWork.ParametrValue::Time
+  00D3 call             0A0000DF System.DateTime::op_Subtraction
+  00D8 stloc.s          local(0x000C)
+  00DA ldarg.0          
+  00DB ldfld            04000030 DeviceWork.ThreadRead::
+  00E0 ldc.i4.0         
+  00E1 ldelem.ref       
+  00E2 ldfld            0A0000E0 DeviceWork.ParamValArh::NameP3
+  00E7 call             0A0000E1 System.Int32::Parse
+  00EC stloc.s          local(0x000B)
+  00EE ldloc.s          local(0x000B)
+  00F0 ldc.i4.1         
+  00F1 sub              
+  00F2 switch           [268, 322, 373, 457]
+  0107 br               566
+  010C ldloca.s         local(0x000C)
+  010E call             0A0000E2 System.TimeSpan::get_TotalHours
+  0113 ldc.r8           1.0
+  011C blt              566
+  0121 ldc.i4.1         
+  0122 stloc.2          
+  0123 ldloc.0          
+  0124 ldloc.3          
+  0125 ldflda           0A000068 DeviceWork.ParametrValue::Time
+  012A ldc.r8           1.0
+  0133 call             0A0000E3 System.DateTime::AddSeconds
+  0138 stfld            0A0000E4 DeviceWork.ParamValArh::DateStart
+  013D br               496
+  0142 ldloca.s         local(0x000C)
+  0144 call             0A0000E5 System.TimeSpan::get_TotalDays
+  0149 ldc.r8           1.0
+  0152 blt              566
+  0157 ldc.i4.1         
+  0158 stloc.2          
+  0159 ldloc.0          
+  015A ldloc.3          
+  015B ldflda           0A000068 DeviceWork.ParametrValue::Time
+  0160 ldc.r8           1.0
+  0169 call             0A0000E3 System.DateTime::AddSeconds
+  016E stfld            0A0000E4 DeviceWork.ParamValArh::DateStart
+  0173 br.s             496
+  0175 ldloca.s         local(0x000C)
+  0177 call             0A0000E5 System.TimeSpan::get_TotalDays
+  017C ldarg.0          
+  017D ldfld            04000030 DeviceWork.ThreadRead::
+  0182 ldc.i4.0         
+  0183 ldelem.ref       
+  0184 ldflda           0A0000DE DeviceWork.ParamValArh::DateEnd
+  0189 call             0A0000E6 System.DateTime::get_Year
+  018E ldarg.0          
+  018F ldfld            04000030 DeviceWork.ThreadRead::
+  0194 ldc.i4.0         
+  0195 ldelem.ref       
+  0196 ldflda           0A0000DE DeviceWork.ParamValArh::DateEnd
+  019B call             0A0000E7 System.DateTime::get_Month
+  01A0 call             0A0000E8 System.DateTime::DaysInMonth
+  01A5 conv.r8          
+  01A6 blt              566
+  01AB ldc.i4.1         
+  01AC stloc.2          
+  01AD ldloc.0          
+  01AE ldloc.3          
+  01AF ldflda           0A000068 DeviceWork.ParametrValue::Time
+  01B4 ldc.r8           1.0
+  01BD call             0A0000E3 System.DateTime::AddSeconds
+  01C2 stfld            0A0000E4 DeviceWork.ParamValArh::DateStart
+  01C7 br.s             496
+  01C9 ldloca.s         local(0x000C)
+  01CB call             0A0000E9 System.TimeSpan::get_Minutes
+  01D0 ldc.i4.s         30
+  01D2 blt.s            566
+  01D4 ldc.i4.1         
+  01D5 stloc.2          
+  01D6 ldloc.0          
+  01D7 ldloc.3          
+  01D8 ldflda           0A000068 DeviceWork.ParametrValue::Time
+  01DD ldc.r8           1.0
+  01E6 call             0A0000E3 System.DateTime::AddSeconds
+  01EB stfld            0A0000E4 DeviceWork.ParamValArh::DateStart
+  01F0 ldloc.0          
+  01F1 ldarg.0          
+  01F2 ldfld            04000030 DeviceWork.ThreadRead::
+  01F7 ldc.i4.0         
+  01F8 ldelem.ref       
+  01F9 ldfld            0A0000DE DeviceWork.ParamValArh::DateEnd
+  01FE stfld            0A0000DE DeviceWork.ParamValArh::DateEnd
+  0203 ldloc.0          
+  0204 ldarg.0          
+  0205 ldfld            04000030 DeviceWork.ThreadRead::
+  020A ldc.i4.0         
+  020B ldelem.ref       
+  020C ldfld            0A0000EA DeviceWork.ParamValArh::NameP1
+  0211 stfld            0A0000EA DeviceWork.ParamValArh::NameP1
+  0216 ldloc.0          
+  0217 ldloc.s          local(0x000A)
+  0219 ldfld            0A0000EB DeviceWork.ParamValArh::NameP2
+  021E stfld            0A0000EB DeviceWork.ParamValArh::NameP2
+  0223 ldloc.0          
+  0224 ldarg.0          
+  0225 ldfld            04000030 DeviceWork.ThreadRead::
+  022A ldc.i4.0         
+  022B ldelem.ref       
+  022C ldfld            0A0000E0 DeviceWork.ParamValArh::NameP3
+  0231 stfld            0A0000E0 DeviceWork.ParamValArh::NameP3
+  0236 ldloc.s          local(0x0006)
+  0238 ldc.i4.1         
+  0239 add              
+  023A stloc.s          local(0x0006)
+  023C ldloc.s          local(0x0006)
+  023E ldloc.s          local(0x0009)
+  0240 ldlen            
+  0241 conv.i4          
+  0242 blt              72
+  0247 ldloc.2          
+  0248 brfalse.s        691
+  024A ldarg.0          
+  024B ldfld            0400002E DeviceWork.ThreadRead::
+  0250 ldloc.s          local(0x0005)
+  0252 callvirt         0A0000EC <dnfile.mdtable.TypeSpecRow object at 0x106797590>::ToArray
+  0257 callvirt         0A0000D7 DeviceWork.DeviceBase::GetArhPars
+  025C ldc.i4.0         
+  025D stloc.2          
+  025E ldc.i4.0         
+  025F stloc.s          local(0x0004)
+  0261 br.s             680
+  0263 ldloc.s          local(0x0005)
+  0265 ldloc.s          local(0x0004)
+  0267 callvirt         0A0000ED <dnfile.mdtable.TypeSpecRow object at 0x106797590>::get_Item
+  026C ldfld            0A0000DB DeviceWork.ParamValArh::vals
+  0271 isinst           01000025 System.Collections.ArrayList
+  0276 stloc.s          local(0x0008)
+  0278 ldloc.s          local(0x0008)
+  027A brfalse.s        674
+  027C ldarg.0          
+  027D ldfld            04000030 DeviceWork.ThreadRead::
+  0282 ldloc.s          local(0x0004)
+  0284 ldelem.ref       
+  0285 ldfld            0A0000DB DeviceWork.ParamValArh::vals
+  028A castclass        01000025 System.Collections.ArrayList
+  028F ldloc.s          local(0x0008)
+  0291 callvirt         0A0000EE System.Collections.ArrayList::AddRange
+  0296 ldloc.s          local(0x0008)
+  0298 callvirt         0A0000DC System.Collections.ArrayList::get_Count
+  029D ldc.i4.0         
+  029E ble.s            674
+  02A0 ldc.i4.1         
+  02A1 stloc.2          
+  02A2 ldloc.s          local(0x0004)
+  02A4 ldc.i4.1         
+  02A5 add              
+  02A6 stloc.s          local(0x0004)
+  02A8 ldloc.s          local(0x0004)
+  02AA ldloc.s          local(0x0005)
+  02AC callvirt         0A0000EF <dnfile.mdtable.TypeSpecRow object at 0x106797590>::get_Count
+  02B1 blt.s            611
+  02B3 ldloc.2          
+  02B4 brtrue           47
+  02B9 ldloc.1          
+  02BA ldc.i4.0         
+  02BB callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  02C0 ldloc.1          
+  02C1 ldc.i4.0         
+  02C2 callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  02C7 ldloc.1          
+  02C8 brfalse.s        732
+  02CA ldarg.0          
+  02CB call             06000092 DeviceWork.ThreadRead::get_OnReadArhiv
+  02D0 ldarg.0          
+  02D1 ldfld            0400002E DeviceWork.ThreadRead::
+  02D6 ldloc.1          
+  02D7 callvirt         0A0000C6 System.EventHandler::Invoke
+  02DC leave.s          804
+  02DE pop              
+  02DF ldloc.1          
+  02E0 ldc.i4.1         
+  02E1 callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  02E6 ldarg.0          
+  02E7 call             06000092 DeviceWork.ThreadRead::get_OnReadArhiv
+  02EC ldarg.0          
+  02ED ldfld            0400002E DeviceWork.ThreadRead::
+  02F2 ldloc.1          
+  02F3 callvirt         0A0000C6 System.EventHandler::Invoke
+  02F8 leave.s          804
+  02FA ldc.i4           -707448450
+  02FF call             06000013 . ::
+  0304 call             0A0000B9 Logging.Logger::Error
+  0309 ldloc.1          
+  030A ldc.i4.1         
+  030B callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  0310 ldarg.0          
+  0311 call             06000092 DeviceWork.ThreadRead::get_OnReadArhiv
+  0316 ldarg.0          
+  0317 ldfld            0400002E DeviceWork.ThreadRead::
+  031C ldloc.1          
+  031D callvirt         0A0000C6 System.EventHandler::Invoke
+  0322 leave.s          804
+  0324 ret              
+
+METHOD 000141 TOKEN 0600008D DeviceWork.ThreadRead::
+  000C newobj           0600006E DeviceWork.EventReadArg::.ctor
+  0011 dup              
+  0012 ldarg.0          
+  0013 ldfld            04000031 DeviceWork.ThreadRead::
+  0018 callvirt         06000074 DeviceWork.EventReadArg::set_resultjournals
+  001D stloc.0          
+  001E ldarg.0          
+  001F ldfld            04000031 DeviceWork.ThreadRead::
+  0024 stloc.1          
+  0025 ldc.i4.0         
+  0026 stloc.2          
+  0027 br.s             61
+  0029 ldloc.1          
+  002A ldloc.2          
+  002B ldelem.ref       
+  002C stloc.3          
+  002D ldarg.0          
+  002E ldfld            0400002E DeviceWork.ThreadRead::
+  0033 ldloc.3          
+  0034 callvirt         0A0000F0 DeviceWork.DeviceBase::GetJournalData
+  0039 ldloc.2          
+  003A ldc.i4.1         
+  003B add              
+  003C stloc.2          
+  003D ldloc.2          
+  003E ldloc.1          
+  003F ldlen            
+  0040 conv.i4          
+  0041 blt.s            41
+  0043 ldloc.0          
+  0044 ldc.i4.0         
+  0045 callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  004A ldloc.0          
+  004B ldc.i4.0         
+  004C callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  0051 ldloc.0          
+  0052 brfalse.s        102
+  0054 ldarg.0          
+  0055 call             06000094 DeviceWork.ThreadRead::get_OnReadJournal
+  005A ldarg.0          
+  005B ldfld            0400002E DeviceWork.ThreadRead::
+  0060 ldloc.0          
+  0061 callvirt         0A0000C6 System.EventHandler::Invoke
+  0066 leave.s          177
+  0068 pop              
+  0069 ldloc.0          
+  006A ldc.i4.1         
+  006B callvirt         06000076 DeviceWork.EventReadArg::set_IsAborted
+  0070 ldarg.0          
+  0071 call             06000094 DeviceWork.ThreadRead::get_OnReadJournal
+  0076 ldarg.0          
+  0077 ldfld            0400002E DeviceWork.ThreadRead::
+  007C ldloc.0          
+  007D callvirt         0A0000C6 System.EventHandler::Invoke
+  0082 leave.s          177
+  0084 ldc.i4           -707448399
+  0089 call             06000013 . ::
+  008E call             0A0000B9 Logging.Logger::Error
+  0093 ldloc.0          
+  0094 ldc.i4.1         
+  0095 callvirt         06000078 DeviceWork.EventReadArg::set_ErrorCode
+  009A ldarg.0          
+  009B call             06000094 DeviceWork.ThreadRead::get_OnReadJournal
+  00A0 ldarg.0          
+  00A1 ldfld            0400002E DeviceWork.ThreadRead::
+  00A6 ldloc.0          
+  00A7 callvirt         0A0000C6 System.EventHandler::Invoke
+  00AC leave            177
+  00B1 ret              
+
+METHOD 000142 TOKEN 0600008E DeviceWork.ThreadRead::get_OnReadedCurrent
+  0001 ldarg.0          
+  0002 ldfld            0400003B DeviceWork.ThreadRead:: 
+  0007 ret              
+
+METHOD 000143 TOKEN 0600008F DeviceWork.ThreadRead::set_OnReadedCurrent
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400003B DeviceWork.ThreadRead:: 
+  0008 ret              
+
+METHOD 000144 TOKEN 06000090 DeviceWork.ThreadRead::get_OnWriteCurrent
+  0001 ldarg.0          
+  0002 ldfld            0400003C DeviceWork.ThreadRead:: 
+  0007 ret              
+
+METHOD 000145 TOKEN 06000091 DeviceWork.ThreadRead::set_OnWriteCurrent
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400003C DeviceWork.ThreadRead:: 
+  0008 ret              
+
+METHOD 000146 TOKEN 06000092 DeviceWork.ThreadRead::get_OnReadArhiv
+  0001 ldarg.0          
+  0002 ldfld            0400003D DeviceWork.ThreadRead:: 
+  0007 ret              
+
+METHOD 000147 TOKEN 06000093 DeviceWork.ThreadRead::set_OnReadArhiv
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400003D DeviceWork.ThreadRead:: 
+  0008 ret              
+
+METHOD 000148 TOKEN 06000094 DeviceWork.ThreadRead::get_OnReadJournal
+  0001 ldarg.0          
+  0002 ldfld            0400003E DeviceWork.ThreadRead:: 
+  0007 ret              
+
+METHOD 000149 TOKEN 06000095 DeviceWork.ThreadRead::set_OnReadJournal
+  0001 ldarg.0          
+  0002 ldarg.1          
+  0003 stfld            0400003E DeviceWork.ThreadRead:: 
+  0008 ret              

@@ -1,0 +1,173 @@
+.<Module>: .cctor, f0659e5905454a5e99b9752afc78b700
+.: , , , , , , 
+. :    
+. : .cctor, , , , , 
+.: 
+.: .ctor, , , , , , , 
+.: .ctor, .ctor, .ctor, , , , 
+. :   
+. : 
+.: , , , , , 
+.: .ctor, , 
+.: .ctor, 
+. : 
+. : .cctor, , , , 
+.: .ctor, , 
+. : .ctor, 
+.: , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.:   
+. : , , 
+.: 
+.: .ctor,   ,   ,   ,   ,   ,   ,   
+. : 
+.: 
+.: 
+.: 
+.: 
+.: GetEnumerator
+. : .ctor, , , , 
+.:   ,   ,   
+. : .ctor, , , , , 
+PlatformTools.ConfigShared.fmPropertySet: .ctor, .ctor, , , , Dispose, 
+PlatformTools.ConnectInsertDevicesForm: .ctor, Show, , Dispose, 
+.: .cctor, .ctor, 
+.: .ctor, , , 
+PlatformTools.CustomMobileForm: .ctor, .ctor, get_FileName, set_FileName, get_Seccuss, , get_ErrorMessage, CheckFileName, CreateDialog, CreateProcess, ShowDialog, , OnShown, OnClosing, , , Dispose, 
+.TransactionProcess: .ctor, .cctor, get_Connection, , ProcessSQL, ProcessResourceParamters, CheckDateTime, BeforeRun, AfterRun, Run, 
+.: .cctor, .ctor, 
+.ExecuteParameterAction: .ctor, Invoke, BeginInvoke, EndInvoke
+.ProcessInfo: .ctor
+PlatformTools.Export.Dump.ExportDatabaseDump: Execute, ExecuteGui
+.: .ctor, , 
+.Options: .ctor, Check
+PlatformTools.Export.Mobile.ExportMobileForm: .ctor, CheckFileName, CreateDialog, CreateProcess, CheckLicense, ShowDialog, Dispose, 
+.: .cctor, .ctor, 
+.: .ctor, , , Run
+.: .ctor, 
+.: .ctor, 
+.: .ctor, , ToString
+.: .ctor, , ToString
+.: 
+PlatformTools.Export.XML.ExportElectroForm: .ctor, , , Show, Dispose, 
+.: .cctor, .ctor, , , 
+PlatformTools.Import.Excel.Parser: .ctor, add_OnStateChange, remove_OnStateChange, add_OnParseMessage, remove_OnParseMessage, add_OnCacheItemExecute, remove_OnCacheItemExecute, add_OnUnresovedNode, remove_OnUnresovedNode, get_Cache, get_Messages, Start, , BeforeRun, AfterRun, Run
+.: .cctor, .ctor, , , 
+. : .ctor, , 
+. : .ctor, FinallySetup
+.: .ctor, , 
+. : .ctor, , , , FinallySetup
+. : .ctor, , FinallySetup
+.: .ctor, 
+. : .ctor, , 
+. : .ctor, , FinallySetup
+.: .ctor, 
+.: .ctor
+. : .ctor
+. : .ctor, , 
+.: .ctor, 
+. : .ctor, FinallySetup
+. : .ctor
+.: .ctor, , 
+. : .ctor, , , FinallySetup
+.: .ctor, , 
+.: .ctor, 
+. : .ctor, , , , FinallySetup
+.CacheCustomItem: .ctor, get_New, set_New, get_Fake, set_Fake, get_Pattern, FinallySetup
+.CacheItemExecute: .ctor, Invoke, BeginInvoke, EndInvoke
+.MessageLevel: 
+.ParseMessage: .ctor, Invoke, BeginInvoke, EndInvoke
+.StateChange: .ctor, Invoke, BeginInvoke, EndInvoke
+.UnresovedNode: .ctor, Equals, GetHashCode
+.UnresovedNodeType: .ctor, Invoke, BeginInvoke, EndInvoke
+PlatformTools.Import.Excel.PasteDialog: .ctor, .cctor, , , , , , , , Dispose, , , , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, ToString
+PlatformTools.Import.Excel.Pattern: .ctor, .cctor, add_OnUpdateEditor, remove_OnUpdateEditor, , , , , , , , get_Name, set_Name, get_Comment, set_Comment, get_DefaultEqualMax, set_DefaultEqualMax, get_AllowEmptyValues, set_AllowEmptyValues, , , , , , , , , , , , , , , , , 
+.: .cctor, .ctor, 
+. : .ctor, , , , 
+.: .ctor, 
+. : .ctor, .ctor, , 
+.: .ctor, 
+. : .ctor, , 
+.: .ctor, GetPropertyDescriptTaget
+.: .cctor, .ctor, 
+.: .ctor, 
+. : .ctor, GetPropertyDescriptTaget
+.: .ctor, get_Type, set_Type, get_MaxEqual, set_MaxEqual, , , , LoadFromStream, SaveToStream
+. : .ctor
+.: .ctor, 
+.: 
+. : .ctor
+.: .ctor, .ctor, , , get_Type, set_Type, get_MaxEqual, set_MaxEqual, ToString
+.ColumnType: 
+.DataColumn: .ctor, get_Type, set_Type, get_Name, set_Name, get_Content, set_Content, get_Language, set_Language, get_MaxWords, set_MaxWords, get_MaxEqual, set_MaxEqual, get_AutoTrim, set_AutoTrim, get_CorrectValue, set_CorrectValue, get_Width, set_Width, get_UseLast, set_UseLast, LoadFromStream, SaveToStream, ToString
+.ContentLanguage: 
+.ContentType: 
+PlatformTools.Import.Excel.PatternEditor: .ctor, , get_Pattern, set_Pattern, get_ReadOnly, set_ReadOnly, , , , , FixTreeView, , , , , , , , , Dispose, 
+PlatformTools.Import.Mobile.ImportMobileForm: .ctor, CheckFileName, CreateDialog, CreateProcess, ShowDialog, Dispose, 
+.: .ctor, Run, 
+PlatformTools.PlaceComplexEditForm: .ctor, , , , , Dispose, 
+.: .ctor
+PlatformTools.PlaceInsertResourcesForm: .ctor, Show, , Dispose, 
+.: .ctor, , 
+.: .ctor, 
+PlatformTools.PlacePaternEditForm: .ctor, NotInsertChild, CreatePatern, , , , , , , , , , , , , , , Dispose, 
+.: .ctor, 
+PlatformTools.PostgresHelper: .cctor, StripBOM, SaveToDump, SaveToDumpGui, RestoreDump, RestoreFromDump, RestoreFromDumpGui
+.: .ctor, 
+.: .ctor, 
+PlatformTools.Protection.ByteArrayTools: .ctor, ByteArrayToString, StringToByteArray
+PlatformTools.Protection.FileCrypto: EncryptTextToFile, DecryptTextFromFile
+PlatformTools.Protection.IASKUEHASP: .ctor, .cctor, get_Connected, Connect, Close, GetStatusDescription, GetLastStatusDescription, GetInfo, Encrypt, Decrypt, GetMemorySize, ReadAllMemory, WriteMemory, WriteKeyIV, ReadKeyIVFromMemory, GetHostFingerprint, UpdateLicense, GetDEMOLicenseStatus
+.DEMOLicenseStatus: .ctor, .ctor, get_UnInitialized, get_StartDate, get_EndDate, get_Days
+PlatformTools.Protection.MemCrypto: EncryptTextToMemory, DecryptTextFromMemory, EncryptBytesToMemory, DecryptBytesFromMemory
+PlatformTools.Protection.TvhLicense: .ctor, .cctor, , GetCountDevice, ProgramLicensInfo, LoadLicensInfo, isPulsarAllowed, isPulsarDevice, isPulsarTeplDevice, isPulsarElectroDevice, CheckLicense, TestLicense, CheckLiteLicensed, TestAllLicensed, LicenseDescription, StartKillTimer, PrepeaInfoProject, , get_LicenseInfo, , 
+.: MoveNext, SetStateMachine
+PlatformTools.Protection.TvhLicenseDescription: .ctor, get_Hint, , get_Description, 
+PlatformTools.Protection.TvhLicenseInfo: .ctor, .ctor, get_Type, , get_UniversalDeviceCount, , get_Products, , get_Loaded, , , , GetDeviceCount
+.: 
+PlatformTools.Protection.TvhLicenseProducts: .ctor, get_Item, get_LicensedCount
+PlatformTools.Protection.TvhLicenseType: 
+PlatformTools.Protection.TvhProduct: 
+PlatformTools.Protection.TvhSourceTest: 
+PlatformTools.ReaderShared.WindowMessages: 
+.StatusFlags: 
+PlatformTools.SessionTransponder: .ctor, .ctor, get_Name, , get_State, set_State, get_Running, add_ConnectionError, remove_ConnectionError, add_DatabaseBusy, remove_DatabaseBusy, add_DatabaseFree, remove_DatabaseFree, add_DatabaseBusyChanged, remove_DatabaseBusyChanged, add_StateRequired, remove_StateRequired, GetLocalIPv4, , , , , , , Initialize, TextBoxBinding, Dispose, , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, , , , , , , , , , 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.: .ctor, 
+.DatabaseBusyEventArgs: .ctor
+.SessionInfo: ToString
+.States: 
+PlatformTools.TaskBrowser: .ctor, .cctor, add_UpdateControls, remove_UpdateControls, Ready, Suspend, Resume, ShowTasks, OnParentChanged, , , , , , , , , , , , , , , , , , Dispose, 
+.: .ctor, , 
+. : .ctor, .cctor, BeforeRun, AfterRun,   
+.: .ctor, 
+. : .ctor, AfterRun, Run,    
+.: .ctor, 
+.: .ctor, 
+.: .ctor
+.: .ctor, BeforeRun, AfterRun, 
+.: .ctor,   , Run, BeforeRun
+PlatformTools.TvhApplication: .ctor
+PlatformTools.TvhStartArgs: .ctor, get_Item, SafeGetInt, SafeGetBool
+PlatformTools.UiNodeConfig: .ctor, .ctor, .ctor, .cctor, get_nod, get_ControlView, set_ControlView, get_ConnectMode, set_ConnectMode, get_MainTree, set_MainTree, , , , , Add, CheckAsyncNodeActions, CheckSort, DiscoveryTree, HideChilds, ShowChilds, IncludeEvents, ExcludeEvents, , , , , SetIcons, 
+.: .cctor, .ctor, 
+.: .ctor
+.: .ctor
+.Options: 
+PlatformTools.UspdUploadForm: .ctor, , , , , Show, ShowFirmware, ShowStructure, ShowStructureVersion, Dispose, 
+.: .ctor, , , , , , , , 
+.: .ctor, 
+.: .ctor, 
