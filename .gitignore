@@ -1,6 +1,7 @@
 # Локальное окружение и временные результаты.
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 .venv/
 venv/
 .DS_Store
