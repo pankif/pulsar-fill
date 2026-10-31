@@ -1,0 +1,19 @@
+Bundled components
+
+CPython 3.12.10 for Windows amd64, official python.org embedded distribution
+and Tcl/Tk payload from the matching official installer.
+License: runtime/LICENSE.txt and licenses/Python-LICENSE.txt.
+Original distribution hashes and URLs: runtime-provenance.json.
+
+Tcl/Tk: licenses/Tcl-license.terms and licenses/Tk-license.terms.
+zlib 1.3.1: licenses/zlib-LICENSE.txt.
+
+openpyxl 3.1.5 and et_xmlfile 2.0.0, MIT licenses:
+licenses/openpyxl-LICENCE.rst and licenses/et_xmlfile-LICENCE.rst.
+Distribution metadata and license files are also preserved under
+runtime/Lib/site-packages/*dist-info/.
+
+Go standard library linked into PulsarLoader.exe:
+licenses/Go-LICENSE.txt.
+
+No TestAll executables or vendor driver binaries are bundled.
